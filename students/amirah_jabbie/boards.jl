@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.46
+# v0.20.1
 
 using Markdown
 using InteractiveUtils
@@ -40,6 +40,16 @@ board(
 	"https://link.excalidraw.com/readonly/vPw2e2IOWrneBAGdKw5C",
 )
 
+# ╔═╡ bb1fc084-ceb1-4916-ada7-5f8d8afabbfe
+board(
+	"2024-10-23",
+	md"""### Static transformations
+	!!! note "Topics"
+		* Translations, rotations, and reflections
+	""",
+	"https://link.excalidraw.com/readonly/rTpKZetYaxnNAvSrCFVj",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝")
 
@@ -58,7 +68,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.0"
+julia_version = "1.11.1"
 manifest_format = "2.0"
 project_hash = "65877c43b0e7adba5f4c93d8d0c98988bb337300"
 
@@ -338,6 +348,7 @@ version = "17.4.0+2"
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
+# ╟─bb1fc084-ceb1-4916-ada7-5f8d8afabbfe
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
