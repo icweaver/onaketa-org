@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.0
+# v0.20.1
 
 using Markdown
 using InteractiveUtils
@@ -50,6 +50,17 @@ board(
 		* Commutative property
 	""",
 	"https://link.excalidraw.com/readonly/BKfq8lX0Rq90z4TuJJEd?darkMode=true",
+)
+
+# ╔═╡ ed56ddd0-da2e-4265-b77c-0026f36bd0d8
+board(
+	"2024-10-24",
+	md"""### Simplyfing expressions
+	!!! note "Topics"
+		* Using the grid method to multiply two decimals
+		* Adding and subtracting postive/negative terms
+	""",
+	"https://link.excalidraw.com/readonly/1I6FLEshg78ponmkTld0?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -351,6 +362,7 @@ version = "17.4.0+2"
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─21ef1d34-663b-4c59-8f9d-ac4e3f2ca2a1
+# ╟─ed56ddd0-da2e-4265-b77c-0026f36bd0d8
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
