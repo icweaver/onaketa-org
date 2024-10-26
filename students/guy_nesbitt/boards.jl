@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.0
+# v0.20.1
 
 using Markdown
 using InteractiveUtils
@@ -51,6 +51,17 @@ board(
 	"https://link.excalidraw.com/readonly/c38e0q868BqFr6PRCy0B?darkMode=true",
 )
 
+# ╔═╡ f3d5f539-fc5f-4c9b-ba6b-a09e17678cda
+board(
+	"2024-10-25",
+	md"""### Comparing linear equations
+	!!! note "Topics"
+		* Re-writing point-slope and slope-intercept form in standard form
+		* Introduction to linear inequalities [sample problems here](https://tutorial.math.lamar.edu/Solutions/Alg/SolveLinearInequalities/Prob4.aspx)
+	""",
+	"https://link.excalidraw.com/readonly/c7bhZQHsx8lb90q8CrgP?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝")
 
@@ -69,7 +80,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.0"
+julia_version = "1.11.1"
 manifest_format = "2.0"
 project_hash = "65877c43b0e7adba5f4c93d8d0c98988bb337300"
 
@@ -350,6 +361,7 @@ version = "17.4.0+2"
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─2943fbc4-ff83-42b0-9dc5-fe2704353b71
+# ╟─f3d5f539-fc5f-4c9b-ba6b-a09e17678cda
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
