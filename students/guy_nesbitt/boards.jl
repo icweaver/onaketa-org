@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.1
+# v0.20.3
 
 using Markdown
 using InteractiveUtils
@@ -60,6 +60,17 @@ board(
 		* Introduction to linear inequalities [sample problems here](https://tutorial.math.lamar.edu/Solutions/Alg/SolveLinearInequalities/Prob4.aspx)
 	""",
 	"https://link.excalidraw.com/readonly/c7bhZQHsx8lb90q8CrgP?darkMode=true",
+)
+
+# ╔═╡ edf5080a-1c99-469b-a924-d102970d785d
+board(
+	"2024-10-30 🎃",
+	md"""### Lines of best fit
+	!!! note "Topics"
+		* Linear correlation (negative, positive, none)
+		* Graphing lines of best fit
+	""",
+	"https://link.excalidraw.com/readonly/NcMKl3DOCTVimwYAUNyr?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -362,6 +373,7 @@ version = "17.4.0+2"
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─2943fbc4-ff83-42b0-9dc5-fe2704353b71
 # ╟─f3d5f539-fc5f-4c9b-ba6b-a09e17678cda
+# ╟─edf5080a-1c99-469b-a924-d102970d785d
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
