@@ -1,17 +1,19 @@
 ### A Pluto.jl notebook ###
-# v0.20.0
+# v0.20.3
 
 using Markdown
 using InteractiveUtils
 
 # This Pluto notebook uses @bind for interactivity. When running this notebook outside of Pluto, the following 'mock version' of @bind gives bound variables a default value (instead of an error).
 macro bind(def, element)
+    #! format: off
     quote
         local iv = try Base.loaded_modules[Base.PkgId(Base.UUID("6e696c72-6542-2067-7265-42206c756150"), "AbstractPlutoDingetjes")].Bonds.initial_value catch; b -> missing; end
         local el = $(esc(element))
         global $(esc(def)) = Core.applicable(Base.get, el) ? Base.get(el) : iv(el)
         el
     end
+    #! format: on
 end
 
 # ╔═╡ a1ca2645-efe9-4472-a70b-c5a4989c9400
@@ -100,7 +102,7 @@ function tpl_pdf(p)
 	#set text(font: "TeX Gyre Schola")
 	
 	#align(center)[
-	  #image("./figures/logo.png", width: 50%)
+	  #image("../fig/logo.png", width: 50%)
 	  #link("https://www.onaketa.org")[onaketa.org] |
 	  #link("mailto:info@onaketa.org")
 	]
@@ -158,8 +160,7 @@ if !any(isempty, (person.name, person.email))
 
 	mkpath("./pdfs")
 	ppath = "pdfs/$(fname).pdf"
-	cmd = TypstCommand(["compile", "$(spath)", "$(ppath)"])
-	run(cmd)
+	typst("c --root .. $(spath) $(ppath)")
 
 	@debug "Report generated for $(ppath)"
 
@@ -177,7 +178,7 @@ Typstry = "f0ed7684-a786-439e-b1e3-3b82803b501e"
 [compat]
 CommonMark = "~0.8.12"
 PlutoUI = "~0.7.55"
-Typstry = "~0.3.0"
+Typstry = "~0.4.0"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
@@ -186,7 +187,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.11.1"
 manifest_format = "2.0"
-project_hash = "7460fad13ed4f15377a19dfc84c921a4ffe3e9d2"
+project_hash = "f197ea23abc46dd46a3eb41d2717717e23c89cd5"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -451,15 +452,15 @@ version = "0.1.9"
 
 [[deps.Typst_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "OpenSSL_jll"]
-git-tree-sha1 = "c3c64ad08e0ae043ad618d177fcfdf2abf9563f0"
+git-tree-sha1 = "988981daf9778ee96526b9dbb60fa084c5d277ff"
 uuid = "eb4b1da6-20f6-5c66-9826-fdb8ad410d0e"
-version = "0.11.1+0"
+version = "0.12.0+0"
 
 [[deps.Typstry]]
-deps = ["Artifacts", "Dates", "PrecompileTools", "Typst_jll"]
-git-tree-sha1 = "d776a7c704a5a4c56209dd8734dce854728ea9ce"
+deps = ["Artifacts", "Dates", "PrecompileTools", "Preferences", "Typst_jll"]
+git-tree-sha1 = "d94d222beb03d4a5e40875759c9a82c7da6945ef"
 uuid = "f0ed7684-a786-439e-b1e3-3b82803b501e"
-version = "0.3.0"
+version = "0.4.0"
 
     [deps.Typstry.extensions]
     LaTeXStringsExtension = "LaTeXStrings"
