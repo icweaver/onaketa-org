@@ -28,14 +28,26 @@ begin
 	using Typstry, PDFmerger
 end
 
+# ╔═╡ b974e204-7993-4ec3-8a86-1faa02a98d00
+using HypertextLiteral: @htl
+
 # ╔═╡ 51a8d7aa-e9b2-4e1e-9223-934b5fd826f3
 md"""
 # Timesheets ⌛
 
-In this notebook we import timesheet data and generate a monthly report for each team member around the given date:
-
-$(@bind pay_date confirm(DatePicker(; default=today())))
+In this notebook we import timesheet data and generate a monthly report for each team member for the given date:
 """
+
+# ╔═╡ 7fa487aa-24f8-4e8a-bf8e-e3a36a162308
+@bind pay_date_str @htl """
+	<input type=month value=$(Dates.format(today(), "Y-m"))>
+"""
+
+# ╔═╡ a45a1e6c-fdf9-4066-9907-04f93e5d9dee
+# $(@bind pay_date confirm(DatePicker(; default=today())))
+
+# ╔═╡ eb264d25-fd07-4399-9b3c-f138f47b1249
+pay_date = Date(pay_date_str);
 
 # ╔═╡ cede75ac-35a3-4764-a356-f5421fb25792
 md"""
@@ -48,25 +60,17 @@ md"""
 """
 
 # ╔═╡ 618d232b-d236-40a9-8ee1-5983934d325f
-df = CSV.read("data/timesheet_session_logs.csv", DataFrame; missingstring=["Other"]);
+df = let
+	df0 = CSV.read("data/timesheet_session_logs.csv", DataFrame)
+	pay_yearmonth = yearmonth(pay_date)
+	@transform! df0 :ym = yearmonth.(:date)
+	@rsubset! df0 :ym == pay_yearmonth
+end
 
 # ╔═╡ 60f0c785-63fa-40f5-999f-b4d606d7e8d6
 gdf = @chain df begin
-	# Group by tutor, year, and month
-	@rtransform begin
-		# $[:y, :m, :d] = yearmonthday(:date)
-		:y = year(:date)
-		:m = month(:date)
-		:d = day(:date)
-		# :student_name = coalesce(:student_name, :student_name_other)
-	end
 	sort([:date, :"Submitted at"])
-	groupby([:team_member, :y, :m]; sort=true)
-	
-	# Select given year, month
-	filter(_) do sdf
-		first(sdf).y == year(pay_date) && first(sdf).m == month(pay_date)
-	end
+	groupby(:team_member; sort=true)
 end;
 
 # ╔═╡ 36d83011-39d2-4690-825a-d10d1e0dcf8b
@@ -78,13 +82,16 @@ md"""
 """
 
 # ╔═╡ 9c8fa7f6-4517-4f03-8190-2dd554768cc8
-function rate(cat)
-	if cat ∈ ("Tutor Coordinator", "Social Media and Outreach Coordinator")
-		40.00
-	else
-		35.00
-	end
-end
+# function rate(cat)
+# 	if cat ∈ ("Tutor Coordinator", "Social Media and Outreach Coordinator")
+# 		40.00
+# 	else
+# 		35.00
+# 	end
+# end
+
+# ╔═╡ 813073f3-7d50-4f83-af02-cfd6366a046c
+names(df)
 
 # ╔═╡ 922bbe02-738d-496b-ba93-82a51e700c21
 r2(x) = @sprintf("%.2f", x)
@@ -98,7 +105,7 @@ function write_summary(df)
 	indent = ""
 	for  row ∈ eachrow(df)
 		write(io,
-			"$(indent)[$(row.category)], [$(r2(row.hours))], [$(r2(row.rate))], [$(r2(row.pay))],\n"
+			"$(indent)[$(row.category)], [$(r2(row.hours))], [$(r2(row.rate))], [$(r2(row.pay_total))],\n"
 		)
 		indent = "\t\t\t"
 	end
@@ -118,7 +125,7 @@ end
 
 # ╔═╡ 4f5c0918-29f1-4702-8e07-8f4a148e5a55
 function report_src(df_summary, df_log, member, pay_year, pay_month)
-	pay_total = sum(df_summary.pay)
+	pay_total = sum(df_summary.pay_total)
 	
 	"""
 	#set page(margin: 0.5in)
@@ -160,11 +167,14 @@ end
 function generate_report(member, df_log, pay_year, pay_month)
 	df_summary = @chain df_log begin
 		groupby(:category)
-		@combine :hours = sum(:hours)
-		@rtransform begin
-			:rate = rate(:category)
-			:pay = rate(:category) * :hours
+		@combine begin
+				:hours = sum(:hours)
+				:pay_total = sum(:pay_total)
 		end
+		# @rtransform begin
+		# 	:rate = rate(:category)
+		# 	:pay = rate(:category) * :hours
+		# end
 	end
 	
 	report = report_src(df_summary, df_log, member, pay_year, pay_month)
@@ -177,8 +187,9 @@ function generate_report(member, df_log, pay_year, pay_month)
 	
 	mkpath("./pdfs")
 	ppath = "pdfs/$(fname).pdf"
-	cmd = TypstCommand(["compile", "$(spath)", "$(ppath)"])
-	run(cmd)
+	# cmd = TypstCommand(["compile", "$(spath)", "$(ppath)"])
+	typst("c $(spath) $(ppath)")
+	# run(cmd)
 
 	@debug "Report generated for $(member) $(pay_year) $(pay_month)"
 end
@@ -201,6 +212,7 @@ PLUTO_PROJECT_TOML_CONTENTS = """
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 PDFmerger = "3beb2ed1-af7d-458f-b727-6e9beb3586c0"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -209,6 +221,7 @@ Typstry = "f0ed7684-a786-439e-b1e3-3b82803b501e"
 [compat]
 CSV = "~0.10.14"
 DataFramesMeta = "~0.15.3"
+HypertextLiteral = "~0.9.5"
 PDFmerger = "~0.3.2"
 PlutoUI = "~0.7.60"
 Typstry = "~0.4.0"
@@ -220,7 +233,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.11.1"
 manifest_format = "2.0"
-project_hash = "c6bb8d0497f589fcb70d532ce9f57021ab9745ab"
+project_hash = "e3a979a80d4214e66d7423e42921c7562010db08"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -955,21 +968,26 @@ version = "17.4.0+2"
 
 # ╔═╡ Cell order:
 # ╟─51a8d7aa-e9b2-4e1e-9223-934b5fd826f3
+# ╟─7fa487aa-24f8-4e8a-bf8e-e3a36a162308
+# ╠═a45a1e6c-fdf9-4066-9907-04f93e5d9dee
+# ╠═eb264d25-fd07-4399-9b3c-f138f47b1249
 # ╟─cede75ac-35a3-4764-a356-f5421fb25792
 # ╟─54453326-0746-4546-8526-2971956b9991
 # ╟─db3d661f-1623-4c9a-9d52-70f37f9c528d
 # ╠═618d232b-d236-40a9-8ee1-5983934d325f
 # ╠═60f0c785-63fa-40f5-999f-b4d606d7e8d6
-# ╟─36d83011-39d2-4690-825a-d10d1e0dcf8b
+# ╠═36d83011-39d2-4690-825a-d10d1e0dcf8b
 # ╟─04497d9f-1e83-4fdf-a15c-537cade5db57
-# ╟─9c8fa7f6-4517-4f03-8190-2dd554768cc8
-# ╟─184bece7-c9d7-4c32-9fbf-be19221369c6
-# ╟─4f5c0918-29f1-4702-8e07-8f4a148e5a55
-# ╟─c4116830-9bd3-11ee-1039-135c5ef7c31d
-# ╟─c8e52fd2-3856-4ace-8bef-94161da14587
-# ╟─922bbe02-738d-496b-ba93-82a51e700c21
-# ╟─62172ef1-b56b-4f5d-ad6a-3b36e142fb2e
+# ╠═9c8fa7f6-4517-4f03-8190-2dd554768cc8
+# ╠═813073f3-7d50-4f83-af02-cfd6366a046c
+# ╠═184bece7-c9d7-4c32-9fbf-be19221369c6
+# ╠═4f5c0918-29f1-4702-8e07-8f4a148e5a55
+# ╠═c4116830-9bd3-11ee-1039-135c5ef7c31d
+# ╠═c8e52fd2-3856-4ace-8bef-94161da14587
+# ╠═922bbe02-738d-496b-ba93-82a51e700c21
+# ╠═62172ef1-b56b-4f5d-ad6a-3b36e142fb2e
 # ╠═14b94f98-d03f-4b46-b608-e0d9b7dc22cf
 # ╠═454d5a84-3f1d-4789-bfe9-a45a21ed202f
+# ╠═b974e204-7993-4ec3-8a86-1faa02a98d00
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
