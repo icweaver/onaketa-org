@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.1
+# v0.20.3
 
 using Markdown
 using InteractiveUtils
@@ -61,6 +61,17 @@ board(
 		* Adding and subtracting postive/negative terms
 	""",
 	"https://link.excalidraw.com/readonly/1I6FLEshg78ponmkTld0?darkMode=true",
+)
+
+# ╔═╡ bd7f61ac-7bfa-46cb-841a-7fb2ae0e2a02
+board(
+	"2024-10-31 🎃",
+	md"""### Simplyfing expressions and equations
+	!!! note "Topics"
+		* Distribution method
+		* Isolating the variable
+	""",
+	"https://link.excalidraw.com/readonly/SjCSKHJHE3K3wZ0WpAL1?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -363,6 +374,7 @@ version = "17.4.0+2"
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─21ef1d34-663b-4c59-8f9d-ac4e3f2ca2a1
 # ╟─ed56ddd0-da2e-4265-b77c-0026f36bd0d8
+# ╟─bd7f61ac-7bfa-46cb-841a-7fb2ae0e2a02
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
