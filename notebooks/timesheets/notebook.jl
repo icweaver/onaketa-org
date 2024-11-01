@@ -43,9 +43,6 @@ In this notebook we import timesheet data and generate a monthly report for each
 	<input type=month value=$(Dates.format(today(), "Y-m"))>
 """
 
-# ╔═╡ a45a1e6c-fdf9-4066-9907-04f93e5d9dee
-# $(@bind pay_date confirm(DatePicker(; default=today())))
-
 # ╔═╡ eb264d25-fd07-4399-9b3c-f138f47b1249
 pay_date = Date(pay_date_str);
 
@@ -81,18 +78,6 @@ md"""
 # Notebook setup 🔧
 """
 
-# ╔═╡ 9c8fa7f6-4517-4f03-8190-2dd554768cc8
-# function rate(cat)
-# 	if cat ∈ ("Tutor Coordinator", "Social Media and Outreach Coordinator")
-# 		40.00
-# 	else
-# 		35.00
-# 	end
-# end
-
-# ╔═╡ 813073f3-7d50-4f83-af02-cfd6366a046c
-names(df)
-
 # ╔═╡ 922bbe02-738d-496b-ba93-82a51e700c21
 r2(x) = @sprintf("%.2f", x)
 
@@ -105,7 +90,7 @@ function write_summary(df)
 	indent = ""
 	for  row ∈ eachrow(df)
 		write(io,
-			"$(indent)[$(row.category)], [$(r2(row.hours))], [$(r2(row.rate))], [$(r2(row.pay_total))],\n"
+			"$(indent)[$(row.category)], [$(r2(row.hours))], [$(r2(row.rate))], [$(r2(row.pay))],\n"
 		)
 		indent = "\t\t\t"
 	end
@@ -125,7 +110,7 @@ end
 
 # ╔═╡ 4f5c0918-29f1-4702-8e07-8f4a148e5a55
 function report_src(df_summary, df_log, member, pay_year, pay_month)
-	pay_total = sum(df_summary.pay_total)
+	pay = sum(df_summary.pay)
 	
 	"""
 	#set page(margin: 0.5in)
@@ -135,7 +120,7 @@ function report_src(df_summary, df_log, member, pay_year, pay_month)
 		[
 			= $(member)\\
 			*Pay period:* $(pay_year) $(pay_month)\\
-			#text(rgb("#ec008c"))[*Total (USD): $(r2(pay_total))*]
+			#text(rgb("#ec008c"))[*Total (USD): $(r2(pay))*]
 			
 			#table(
 				columns: 4,
@@ -144,7 +129,7 @@ function report_src(df_summary, df_log, member, pay_year, pay_month)
 				[*Category*], [*Hours*], [*Rate*], [*Pay*],
 				$(write_summary(df_summary))\t\t)
 		],
-		[#image("fig/logo.png")],
+		[#image("../fig/logo.png")],
 	)
 	
 	#table(
@@ -166,30 +151,25 @@ end
 # ╔═╡ 184bece7-c9d7-4c32-9fbf-be19221369c6
 function generate_report(member, df_log, pay_year, pay_month)
 	df_summary = @chain df_log begin
-		groupby(:category)
+		@groupby :category
 		@combine begin
-				:hours = sum(:hours)
-				:pay_total = sum(:pay_total)
+			:hours = sum(:hours)
+			:pay = sum(:pay)
+			:rate = maximum(:rate)
 		end
-		# @rtransform begin
-		# 	:rate = rate(:category)
-		# 	:pay = rate(:category) * :hours
-		# end
 	end
 	
 	report = report_src(df_summary, df_log, member, pay_year, pay_month)
 	
-	mkpath("./src")
+	mkpath("src")
 	name = replace(member, " "=>"")
 	fname = "pay_summary_$(pay_year)_$(pay_month)_$(name)"
 	spath = "src/$(fname).typ"
 	write(spath, report)
 	
-	mkpath("./pdfs")
+	mkpath("pdfs")
 	ppath = "pdfs/$(fname).pdf"
-	# cmd = TypstCommand(["compile", "$(spath)", "$(ppath)"])
-	typst("c $(spath) $(ppath)")
-	# run(cmd)
+	typst("c --root .. $(spath) $(ppath)")
 
 	@debug "Report generated for $(member) $(pay_year) $(pay_month)"
 end
@@ -969,7 +949,6 @@ version = "17.4.0+2"
 # ╔═╡ Cell order:
 # ╟─51a8d7aa-e9b2-4e1e-9223-934b5fd826f3
 # ╟─7fa487aa-24f8-4e8a-bf8e-e3a36a162308
-# ╠═a45a1e6c-fdf9-4066-9907-04f93e5d9dee
 # ╠═eb264d25-fd07-4399-9b3c-f138f47b1249
 # ╟─cede75ac-35a3-4764-a356-f5421fb25792
 # ╟─54453326-0746-4546-8526-2971956b9991
@@ -978,14 +957,12 @@ version = "17.4.0+2"
 # ╠═60f0c785-63fa-40f5-999f-b4d606d7e8d6
 # ╠═36d83011-39d2-4690-825a-d10d1e0dcf8b
 # ╟─04497d9f-1e83-4fdf-a15c-537cade5db57
-# ╠═9c8fa7f6-4517-4f03-8190-2dd554768cc8
-# ╠═813073f3-7d50-4f83-af02-cfd6366a046c
-# ╠═184bece7-c9d7-4c32-9fbf-be19221369c6
-# ╠═4f5c0918-29f1-4702-8e07-8f4a148e5a55
-# ╠═c4116830-9bd3-11ee-1039-135c5ef7c31d
-# ╠═c8e52fd2-3856-4ace-8bef-94161da14587
-# ╠═922bbe02-738d-496b-ba93-82a51e700c21
-# ╠═62172ef1-b56b-4f5d-ad6a-3b36e142fb2e
+# ╟─184bece7-c9d7-4c32-9fbf-be19221369c6
+# ╟─4f5c0918-29f1-4702-8e07-8f4a148e5a55
+# ╟─c4116830-9bd3-11ee-1039-135c5ef7c31d
+# ╟─c8e52fd2-3856-4ace-8bef-94161da14587
+# ╟─922bbe02-738d-496b-ba93-82a51e700c21
+# ╟─62172ef1-b56b-4f5d-ad6a-3b36e142fb2e
 # ╠═14b94f98-d03f-4b46-b608-e0d9b7dc22cf
 # ╠═454d5a84-3f1d-4789-bfe9-a45a21ed202f
 # ╠═b974e204-7993-4ec3-8a86-1faa02a98d00
