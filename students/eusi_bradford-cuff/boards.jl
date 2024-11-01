@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.1
+# v0.20.3
 
 using Markdown
 using InteractiveUtils
@@ -61,6 +61,17 @@ board(
 		* Rule-of-thumb: Highest degree gives us the maximum possible number of real and/or complex roots. Factoring and checking the multiplicity gives us the final number
 	""",
 	"https://link.excalidraw.com/readonly/d2JIO7EywsT99tU80gwj?darkMode=true",
+)
+
+# ╔═╡ 7a9e137a-274e-4506-967d-bef5d238b298
+board(
+	"2024-10-31 🎃",
+	md"""### Composing functions
+	!!! note "Topics"
+		* Adding, subtracting, multiplying, dividing, and evaluating functions at other functions
+		* Evaluating and graphing inverse functions
+	""",
+	"https://link.excalidraw.com/readonly/E1MJWVf6bxr9BoSvKo1H?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -363,6 +374,7 @@ version = "17.4.0+2"
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─7027b50c-47f1-4fb6-b202-e7e76ab52886
 # ╟─a64bacb2-4651-46a1-9b7c-294523e7cdc6
+# ╟─7a9e137a-274e-4506-967d-bef5d238b298
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
