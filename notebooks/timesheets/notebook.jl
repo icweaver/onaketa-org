@@ -1,17 +1,19 @@
 ### A Pluto.jl notebook ###
-# v0.20.1
+# v0.20.3
 
 using Markdown
 using InteractiveUtils
 
 # This Pluto notebook uses @bind for interactivity. When running this notebook outside of Pluto, the following 'mock version' of @bind gives bound variables a default value (instead of an error).
 macro bind(def, element)
+    #! format: off
     quote
         local iv = try Base.loaded_modules[Base.PkgId(Base.UUID("6e696c72-6542-2067-7265-42206c756150"), "AbstractPlutoDingetjes")].Bonds.initial_value catch; b -> missing; end
         local el = $(esc(element))
         global $(esc(def)) = Core.applicable(Base.get, el) ? Base.get(el) : iv(el)
         el
     end
+    #! format: on
 end
 
 # ╔═╡ 454d5a84-3f1d-4789-bfe9-a45a21ed202f
@@ -52,8 +54,11 @@ df = CSV.read("data/timesheet_session_logs.csv", DataFrame; missingstring=["Othe
 gdf = @chain df begin
 	# Group by tutor, year, and month
 	@rtransform begin
-		$[:y, :m, :d] = yearmonthday(:date)
-		:student_name = coalesce(:student_name, :student_name_other)
+		# $[:y, :m, :d] = yearmonthday(:date)
+		:y = year(:date)
+		:m = month(:date)
+		:d = day(:date)
+		# :student_name = coalesce(:student_name, :student_name_other)
 	end
 	sort([:date, :"Submitted at"])
 	groupby([:team_member, :y, :m]; sort=true)
@@ -132,7 +137,7 @@ function report_src(df_summary, df_log, member, pay_year, pay_month)
 				[*Category*], [*Hours*], [*Rate*], [*Pay*],
 				$(write_summary(df_summary))\t\t)
 		],
-		[#image("figures/logo.png")],
+		[#image("fig/logo.png")],
 	)
 	
 	#table(
@@ -206,7 +211,7 @@ CSV = "~0.10.14"
 DataFramesMeta = "~0.15.3"
 PDFmerger = "~0.3.2"
 PlutoUI = "~0.7.60"
-Typstry = "~0.3.0"
+Typstry = "~0.4.0"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
@@ -215,7 +220,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.11.1"
 manifest_format = "2.0"
-project_hash = "cfd374524e2cbb8f0c165ae1face22ca33d947a9"
+project_hash = "c6bb8d0497f589fcb70d532ce9f57021ab9745ab"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -513,21 +518,21 @@ version = "3.2.2+1"
 
 [[deps.Libgcrypt_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libgpg_error_jll"]
-git-tree-sha1 = "9fd170c4bbfd8b935fdc5f8b7aa33532c991a673"
+git-tree-sha1 = "8be878062e0ffa2c3f67bb58a595375eda5de80b"
 uuid = "d4300ac3-e22c-5743-9152-c294e39db1e4"
-version = "1.8.11+0"
+version = "1.11.0+0"
 
 [[deps.Libgpg_error_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "fbb1f2bef882392312feb1ede3615ddc1e9b99ed"
+git-tree-sha1 = "c6ce1e19f3aec9b59186bdf06cdf3c4fc5f5f3e6"
 uuid = "7add5ba3-2f88-524e-9cd5-f83b8a55f7b8"
-version = "1.49.0+0"
+version = "1.50.0+0"
 
 [[deps.Libiconv_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "f9557a255370125b405568f9767d6d195822a175"
+git-tree-sha1 = "61dfdba58e585066d8bce214c5a51eaa0539f269"
 uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
-version = "1.17.0+0"
+version = "1.17.0+1"
 
 [[deps.Libmount_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
@@ -714,9 +719,9 @@ version = "0.7.0"
 
 [[deps.SentinelArrays]]
 deps = ["Dates", "Random"]
-git-tree-sha1 = "ff11acffdb082493657550959d4feb4b6149e73a"
+git-tree-sha1 = "305becf8af67eae1dbc912ee9097f00aeeabb8d5"
 uuid = "91c51154-3ec4-41a3-a24f-3f23e20d615c"
-version = "1.4.5"
+version = "1.4.6"
 
 [[deps.Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
@@ -795,15 +800,15 @@ version = "0.1.9"
 
 [[deps.Typst_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "OpenSSL_jll"]
-git-tree-sha1 = "c3c64ad08e0ae043ad618d177fcfdf2abf9563f0"
+git-tree-sha1 = "988981daf9778ee96526b9dbb60fa084c5d277ff"
 uuid = "eb4b1da6-20f6-5c66-9826-fdb8ad410d0e"
-version = "0.11.1+0"
+version = "0.12.0+0"
 
 [[deps.Typstry]]
-deps = ["Artifacts", "Dates", "PrecompileTools", "Typst_jll"]
-git-tree-sha1 = "d776a7c704a5a4c56209dd8734dce854728ea9ce"
+deps = ["Artifacts", "Dates", "PrecompileTools", "Preferences", "Typst_jll"]
+git-tree-sha1 = "d94d222beb03d4a5e40875759c9a82c7da6945ef"
 uuid = "f0ed7684-a786-439e-b1e3-3b82803b501e"
-version = "0.3.0"
+version = "0.4.0"
 weakdeps = ["LaTeXStrings", "Markdown"]
 
     [deps.Typstry.extensions]
@@ -851,9 +856,9 @@ version = "1.6.1"
 
 [[deps.XML2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libiconv_jll", "Zlib_jll"]
-git-tree-sha1 = "1165b0443d0eca63ac1e32b8c0eb69ed2f4f8127"
+git-tree-sha1 = "6a451c6f33a176150f315726eba8b92fbfdb9ae7"
 uuid = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
-version = "2.13.3+0"
+version = "2.13.4+0"
 
 [[deps.XSLT_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libgcrypt_jll", "Libgpg_error_jll", "Libiconv_jll", "XML2_jll", "Zlib_jll"]
@@ -863,9 +868,9 @@ version = "1.1.41+0"
 
 [[deps.XZ_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "ac88fb95ae6447c8dda6a5503f3bafd496ae8632"
+git-tree-sha1 = "15e637a697345f6743674f1322beefbc5dcd5cfc"
 uuid = "ffd25f8a-64ca-5728-b0f7-c24cf3aae800"
-version = "5.4.6+0"
+version = "5.6.3+0"
 
 [[deps.Xorg_libX11_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Xorg_libxcb_jll", "Xorg_xtrans_jll"]
@@ -958,10 +963,10 @@ version = "17.4.0+2"
 # ╟─36d83011-39d2-4690-825a-d10d1e0dcf8b
 # ╟─04497d9f-1e83-4fdf-a15c-537cade5db57
 # ╟─9c8fa7f6-4517-4f03-8190-2dd554768cc8
-# ╠═184bece7-c9d7-4c32-9fbf-be19221369c6
-# ╠═4f5c0918-29f1-4702-8e07-8f4a148e5a55
-# ╠═c4116830-9bd3-11ee-1039-135c5ef7c31d
-# ╠═c8e52fd2-3856-4ace-8bef-94161da14587
+# ╟─184bece7-c9d7-4c32-9fbf-be19221369c6
+# ╟─4f5c0918-29f1-4702-8e07-8f4a148e5a55
+# ╟─c4116830-9bd3-11ee-1039-135c5ef7c31d
+# ╟─c8e52fd2-3856-4ace-8bef-94161da14587
 # ╟─922bbe02-738d-496b-ba93-82a51e700c21
 # ╟─62172ef1-b56b-4f5d-ad6a-3b36e142fb2e
 # ╠═14b94f98-d03f-4b46-b608-e0d9b7dc22cf
