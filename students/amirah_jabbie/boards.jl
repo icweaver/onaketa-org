@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.1
+# v0.20.3
 
 using Markdown
 using InteractiveUtils
@@ -17,7 +17,7 @@ Below are some boards from our sessions. Click and drag to move around, and hold
 
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
-<iframe src="$(url)" width="100%" height=400 style="border: none;"></iframe>
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
 """;
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
