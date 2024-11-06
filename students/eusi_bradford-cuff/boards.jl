@@ -22,7 +22,7 @@ iframe(url) = @htl """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url) = md"""
-## $(date)
+# $(date)
 
 $(description)
 
@@ -32,8 +32,8 @@ $(iframe(url))
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
-	md"""### Polynomials
-	!!! note "Topics"
+	md"""###### `polynomials`
+	!!! note "Summary"
 		* Basic algebraic operations on monomials
 		* Multiplication and long division with polynomials
 	""",
@@ -43,8 +43,8 @@ board(
 # ╔═╡ 7027b50c-47f1-4fb6-b202-e7e76ab52886
 board(
 	"2024-10-16",
-	md"""### Quadratics
-	!!! note "Topics"
+	md"""###### `factoring` `quadratics`
+	!!! note "Summary"
 		* Solving quadratic equations (factoring, completing the square, quadratic formula)
 		* Word problems (physics, finance)
 	""",
@@ -54,8 +54,8 @@ board(
 # ╔═╡ a64bacb2-4651-46a1-9b7c-294523e7cdc6
 board(
 	"2024-10-23",
-	md"""### Determining roots
-	!!! note "Topics"
+	md"""###### `real/complex roots` `factoring`
+	!!! note "Summary"
 		* Real and complex roots
 		* Multiplicity
 		* Rule-of-thumb: Highest degree gives us the maximum possible number of real and/or complex roots. Factoring and checking the multiplicity gives us the final number
@@ -66,8 +66,8 @@ board(
 # ╔═╡ 7a9e137a-274e-4506-967d-bef5d238b298
 board(
 	"2024-10-31 🎃",
-	md"""### Composing functions
-	!!! note "Topics"
+	md"""###### `function composition` `inverse functions`
+	!!! note "Summary"
 		* Adding, subtracting, multiplying, dividing, and evaluating functions at other functions
 		* Evaluating and graphing inverse functions
 	""",
@@ -75,7 +75,16 @@ board(
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="Boards 📝")
+TableOfContents(; title="Boards 📝", depth=6, indent=false)
+
+# ╔═╡ a7e2c94d-075f-4547-8cca-86b1c49be95c
+@htl """
+<style>
+pluto-output.rich_output code {
+  background-color: light-dark(wheat, grey);
+}
+</style>
+"""
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -378,6 +387,7 @@ version = "17.4.0+2"
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
+# ╟─a7e2c94d-075f-4547-8cca-86b1c49be95c
 # ╟─1dedaa68-4f52-471a-ab41-c04ebbd793ca
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002

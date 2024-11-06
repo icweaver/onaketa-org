@@ -22,7 +22,7 @@ iframe(url) = @htl """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url) = md"""
-## $(date)
+# $(date)
 
 $(description)
 
@@ -32,8 +32,8 @@ $(iframe(url))
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
-	md"""### Linear equations
-	!!! note "Topics"
+	md"""###### `distance` `perpendicular lines`
+	!!! note "Summary"
 		* Distance between two points
 		* Equation for perpendicular lines
 	""",
@@ -43,15 +43,28 @@ board(
 # ╔═╡ bb1fc084-ceb1-4916-ada7-5f8d8afabbfe
 board(
 	"2024-10-23",
-	md"""### Static transformations
-	!!! note "Topics"
-		* Translations, rotations, and reflections
+	md"""###### `transformations`
+	!!! note "Summary"
+		We explore applying the following static transformations (no stretching or shrinking) to a graph:
+	
+		* translations
+		* rotations
+		* reflections
 	""",
 	"https://link.excalidraw.com/readonly/rTpKZetYaxnNAvSrCFVj",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="Boards 📝")
+TableOfContents(; title="Boards 📝", depth=6, indent=false)
+
+# ╔═╡ 2ecbcbaa-da3a-4d46-ad3d-87c98f7ddd47
+@htl """
+<style>
+pluto-output.rich_output code {
+  background-color: light-dark(wheat, grey);
+}
+</style>
+"""
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -352,6 +365,7 @@ version = "17.4.0+2"
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
+# ╟─2ecbcbaa-da3a-4d46-ad3d-87c98f7ddd47
 # ╟─1dedaa68-4f52-471a-ab41-c04ebbd793ca
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002

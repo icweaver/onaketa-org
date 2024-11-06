@@ -28,7 +28,7 @@ iframe(url) = @htl """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url) = md"""
-## $(date)
+# $(date)
 
 $(description)
 
@@ -60,16 +60,24 @@ board(
 board(
 	"2024-11-04",
 	md"""
-	### Chemistry: counting statistics
+	### `Avogadro's number` `molar mass`
 	!!! note "Topics"
-		* Avogadro's number
-		* Molar mass
+		We explore some different ways to count things in Chemistry.
 	""",
 	"https://link.excalidraw.com/readonly/O7iUR0RbVhYILcfO5PqK?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="Boards 📝")
+TableOfContents(; title="Boards 📝", depth=6, indent=false)
+
+# ╔═╡ 4a70b5f4-5188-44db-a6d5-34edbad0499e
+@htl """
+<style>
+pluto-output.rich_output code {
+  background-color: light-dark(wheat, grey);
+}
+</style>
+"""
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -373,6 +381,7 @@ version = "17.4.0+2"
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
+# ╟─4a70b5f4-5188-44db-a6d5-34edbad0499e
 # ╟─1dedaa68-4f52-471a-ab41-c04ebbd793ca
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002

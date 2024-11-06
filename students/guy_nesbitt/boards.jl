@@ -22,7 +22,7 @@ iframe(url) = @htl """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url) = md"""
-## $(date)
+# $(date)
 
 $(description)
 
@@ -32,8 +32,8 @@ $(iframe(url))
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
-	md"""### Graphing linear equations
-	!!! note "Topics"
+	md"""###### `x-y intercepts` `slope-intercept`
+	!!! note "Summary"
 		* Identifying x and y intercepts
 		* Applying slope-intercept form: ``y = mx+ b``
 	""",
@@ -43,7 +43,7 @@ board(
 # ╔═╡ 2943fbc4-ff83-42b0-9dc5-fe2704353b71
 board(
 	"2024-10-16",
-	md"""### Graphing linear equations
+	md"""###### `point-slope` `slope-intercept`
 	!!! note "Topics"
 		* Applying point-slope form: ``(y-y_1) = m(x-x_1)``
 		* Applying slope-intercept form: ``y = mx+ b``
@@ -54,8 +54,8 @@ board(
 # ╔═╡ f3d5f539-fc5f-4c9b-ba6b-a09e17678cda
 board(
 	"2024-10-25",
-	md"""### Comparing linear equations
-	!!! note "Topics"
+	md"""###### `point-slope` `slope-intercept` `standard form` `inequalities`
+	!!! note "Summary"
 		* Re-writing point-slope and slope-intercept form in standard form
 		* Introduction to linear inequalities [sample problems here](https://tutorial.math.lamar.edu/Solutions/Alg/SolveLinearInequalities/Prob4.aspx)
 	""",
@@ -65,8 +65,8 @@ board(
 # ╔═╡ edf5080a-1c99-469b-a924-d102970d785d
 board(
 	"2024-10-30 🎃",
-	md"""### Lines of best fit
-	!!! note "Topics"
+	md"""###### `correlation` `line of best fit`
+	!!! note "Summary"
 		* Linear correlation (negative, positive, none)
 		* Graphing lines of best fit
 	""",
@@ -74,7 +74,16 @@ board(
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="Boards 📝")
+TableOfContents(; title="Boards 📝", depth=6, indent=false)
+
+# ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
+@htl """
+<style>
+pluto-output.rich_output code {
+  background-color: light-dark(wheat, grey);
+}
+</style>
+"""
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -377,6 +386,7 @@ version = "17.4.0+2"
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
+# ╟─cabd7532-3705-4caf-82a5-12f9fd5a47f2
 # ╟─1dedaa68-4f52-471a-ab41-c04ebbd793ca
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
