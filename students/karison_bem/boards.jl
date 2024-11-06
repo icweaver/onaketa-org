@@ -22,7 +22,7 @@ iframe(url) = @htl """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url) = md"""
-## $(date)
+# $(date)
 
 $(description)
 
@@ -32,10 +32,9 @@ $(iframe(url))
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-10",
-	md"""### Simplifying expressions
-	!!! note "Topics"
-		* Negative numbers
-		* Combining like terms
+	md"""###### `negative numbers` `combining terms`
+	!!! note "Summary"
+		Simplifying expressions that can involve negative numbers and multiple terms
 	""",
 	"https://link.excalidraw.com/readonly/Kr1gHyMtiswNvGpXXwgb?darkMode=true",
 )
@@ -43,11 +42,9 @@ board(
 # ╔═╡ 21ef1d34-663b-4c59-8f9d-ac4e3f2ca2a1
 board(
 	"2024-10-17",
-	md"""### Simplifying expressions
-	!!! note "Topics"
-		* Distributive property
-		* Associative property
-		* Commutative property
+	md"""###### `distributive` `associative` `commutative`
+	!!! note "Summary"
+		We explore different algebraic properties used to simplify expressions.
 	""",
 	"https://link.excalidraw.com/readonly/BKfq8lX0Rq90z4TuJJEd?darkMode=true",
 )
@@ -55,8 +52,8 @@ board(
 # ╔═╡ ed56ddd0-da2e-4265-b77c-0026f36bd0d8
 board(
 	"2024-10-24",
-	md"""### Simplyfing expressions
-	!!! note "Topics"
+	md"""###### `grid method` `addition` `subtraction`
+	!!! note "Summary"
 		* Using the grid method to multiply two decimals
 		* Adding and subtracting postive/negative terms
 	""",
@@ -66,16 +63,26 @@ board(
 # ╔═╡ bd7f61ac-7bfa-46cb-841a-7fb2ae0e2a02
 board(
 	"2024-10-31 🎃",
-	md"""### Simplyfing expressions and equations
-	!!! note "Topics"
-		* Distribution method
-		* Isolating the variable
+	md"""
+	###### `Distribution method` `Isolating the variable`
+
+	!!! note "Summary"
+		Solving linear equations with a single variable.
 	""",
 	"https://link.excalidraw.com/readonly/SjCSKHJHE3K3wZ0WpAL1?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="Boards 📝")
+TableOfContents(; title="Boards 📝", depth=6, indent=false)
+
+# ╔═╡ 5ecb5211-157c-4a3f-ac7b-eee9ed356e0f
+@htl """
+<style>
+pluto-output.rich_output code {
+  background-color: light-dark(wheat, grey);
+}
+</style>
+"""
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -378,6 +385,7 @@ version = "17.4.0+2"
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
+# ╟─5ecb5211-157c-4a3f-ac7b-eee9ed356e0f
 # ╟─1dedaa68-4f52-471a-ab41-c04ebbd793ca
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
