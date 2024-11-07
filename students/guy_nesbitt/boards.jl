@@ -44,7 +44,7 @@ board(
 board(
 	"2024-10-16",
 	md"""###### `point-slope` `slope-intercept`
-	!!! note "Topics"
+	!!! note "Summary"
 		* Applying point-slope form: ``(y-y_1) = m(x-x_1)``
 		* Applying slope-intercept form: ``y = mx+ b``
 	""",
@@ -71,6 +71,17 @@ board(
 		* Graphing lines of best fit
 	""",
 	"https://link.excalidraw.com/readonly/NcMKl3DOCTVimwYAUNyr?darkMode=true",
+)
+
+# ╔═╡ 96d0a11b-5632-4d91-b30f-dbe6e8291f61
+board(
+	"2024-11-06",
+	md"""###### `factoring` `quadratics` `inequalities`
+	!!! note "Summary"
+		* Solving linear and quadratic linear equations
+		* Evaluating inequlities at proposed solutions
+	""",
+	"https://link.excalidraw.com/readonly/vxFCKW5nUfuUlIyfQ0LO?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -383,6 +394,7 @@ version = "17.4.0+2"
 # ╟─2943fbc4-ff83-42b0-9dc5-fe2704353b71
 # ╟─f3d5f539-fc5f-4c9b-ba6b-a09e17678cda
 # ╟─edf5080a-1c99-469b-a924-d102970d785d
+# ╟─96d0a11b-5632-4d91-b30f-dbe6e8291f61
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
