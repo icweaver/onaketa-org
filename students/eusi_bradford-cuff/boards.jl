@@ -74,6 +74,16 @@ board(
 	"https://link.excalidraw.com/readonly/E1MJWVf6bxr9BoSvKo1H?darkMode=true",
 )
 
+# ╔═╡ 8a2dadd7-4d0f-4dbe-ad23-828620e8bdac
+board(
+	"2024-11-07",
+	md"""###### `radicals`
+	!!! note "Summary"
+		We review HW #26 and take a closer look at problem #63
+	""",
+	"https://link.excalidraw.com/readonly/QQ3sq9Zt2vjhiEOoTnGr?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -384,6 +394,7 @@ version = "17.4.0+2"
 # ╟─7027b50c-47f1-4fb6-b202-e7e76ab52886
 # ╟─a64bacb2-4651-46a1-9b7c-294523e7cdc6
 # ╟─7a9e137a-274e-4506-967d-bef5d238b298
+# ╟─8a2dadd7-4d0f-4dbe-ad23-828620e8bdac
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
