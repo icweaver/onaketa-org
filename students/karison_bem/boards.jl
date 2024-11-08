@@ -72,6 +72,18 @@ board(
 	"https://link.excalidraw.com/readonly/SjCSKHJHE3K3wZ0WpAL1?darkMode=true",
 )
 
+# ╔═╡ 92ba7a4a-d442-4dd4-8d6d-60f56d713c10
+board(
+	"2024-11-07",
+	md"""
+	###### `Isolating the variable` `nested fractions` `reciprocals`
+
+	!!! note "Summary"
+		Solving linear equations with a single variable. These equations can include fractions, decimals, and negative numbers. We explore how to deal with fractions by working with their flipped version (reciprocal).
+	""",
+	"https://link.excalidraw.com/readonly/2z0J3r9bGnEAKZBcVzGb?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -382,6 +394,7 @@ version = "17.4.0+2"
 # ╟─21ef1d34-663b-4c59-8f9d-ac4e3f2ca2a1
 # ╟─ed56ddd0-da2e-4265-b77c-0026f36bd0d8
 # ╟─bd7f61ac-7bfa-46cb-841a-7fb2ae0e2a02
+# ╟─92ba7a4a-d442-4dd4-8d6d-60f56d713c10
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
