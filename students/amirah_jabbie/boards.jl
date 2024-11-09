@@ -54,6 +54,16 @@ board(
 	"https://link.excalidraw.com/readonly/rTpKZetYaxnNAvSrCFVj",
 )
 
+# ╔═╡ 47645a99-74cd-41db-bc13-0293d54b29f9
+board(
+	"2024-11-08",
+	md"""###### `transformations` `vectors`
+	!!! note "Summary"
+		Applying static transformations to shapes and identifiying generic transformation via vector representation
+	""",
+	"https://link.excalidraw.com/readonly/2oZTXhrksb3IedNTuywP",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -362,6 +372,7 @@ version = "17.4.0+2"
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─bb1fc084-ceb1-4916-ada7-5f8d8afabbfe
+# ╟─47645a99-74cd-41db-bc13-0293d54b29f9
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
