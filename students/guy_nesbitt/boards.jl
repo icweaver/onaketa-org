@@ -84,6 +84,16 @@ board(
 	"https://link.excalidraw.com/readonly/vxFCKW5nUfuUlIyfQ0LO?darkMode=true",
 )
 
+# ╔═╡ c31b909d-310e-4437-9809-66770e3e4134
+board(
+	"2024-11-13",
+	md"""###### `system of equations`
+	!!! note "Summary"
+		Yesterday was a test day, so we got a headstart on the next module: Solving systems of linear equations
+	""",
+	"https://link.excalidraw.com/readonly/hR5TsQOJ04kQyZVE9pts?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -395,6 +405,7 @@ version = "17.4.0+2"
 # ╟─f3d5f539-fc5f-4c9b-ba6b-a09e17678cda
 # ╟─edf5080a-1c99-469b-a924-d102970d785d
 # ╟─96d0a11b-5632-4d91-b30f-dbe6e8291f61
+# ╟─c31b909d-310e-4437-9809-66770e3e4134
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
