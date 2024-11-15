@@ -67,6 +67,17 @@ board(
 	"https://link.excalidraw.com/readonly/O7iUR0RbVhYILcfO5PqK?darkMode=true",
 )
 
+# ╔═╡ 803e5ba3-0e75-4030-abd9-a7178a54de16
+board(
+	"2024-11-14",
+	md"""
+	### `proofs` `similar triangles` `line segments` `transvere lines`
+	!!! note "Topics"
+		Proving line segment and angle congruency for different configurations
+	""",
+	"https://link.excalidraw.com/readonly/G4KdjiI9E4kZ2tFC0sLJ?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -378,6 +389,7 @@ version = "17.4.0+2"
 # ╟─502b9fbc-ee9a-456f-b017-e8f88b53fb3a
 # ╟─863b624d-df61-4127-95d7-eb28c8bd377e
 # ╟─e2c8db5a-3612-4311-ac92-34b38b5afe48
+# ╟─803e5ba3-0e75-4030-abd9-a7178a54de16
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
