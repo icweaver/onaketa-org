@@ -84,6 +84,18 @@ board(
 	"https://link.excalidraw.com/readonly/2z0J3r9bGnEAKZBcVzGb?darkMode=true",
 )
 
+# ╔═╡ 25e0d6b9-c96b-4114-8676-6cd2437bbd31
+board(
+	"2024-11-14",
+	md"""
+	###### `Isolating the variable` `grouping` `order of operations`
+
+	!!! note "Summary"
+		More review on solving linear equations, emphasizing grouping the variable together if it shows up in multiple places.
+	""",
+	"https://link.excalidraw.com/readonly/XRDWcqfXyax4MrYttmYD?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -395,6 +407,7 @@ version = "17.4.0+2"
 # ╟─ed56ddd0-da2e-4265-b77c-0026f36bd0d8
 # ╟─bd7f61ac-7bfa-46cb-841a-7fb2ae0e2a02
 # ╟─92ba7a4a-d442-4dd4-8d6d-60f56d713c10
+# ╟─25e0d6b9-c96b-4114-8676-6cd2437bbd31
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
