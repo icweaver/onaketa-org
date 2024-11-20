@@ -99,7 +99,7 @@ board(
 	"2024-11-20",
 	md"""###### `linear inequalities` `absolute value` `exponential functions`
 	!!! note "Summary"
-		We started with a review of solving linear inequalities involving absolute values. We then got a head start on future material involving raising number to positive and negative integer exponents.
+		We started with a review of [solving linear inequalities](https://tutorial.math.lamar.edu/Classes/Alg/SolveAbsValueIneq.aspx) involving absolute values. We then got a head start on future material involving raising number to positive and negative integer exponents.
 	""",
 	"https://link.excalidraw.com/readonly/ayFD2eZNdvdqskRqE7Mp?darkMode=true",
 )
