@@ -94,6 +94,16 @@ board(
 	"https://link.excalidraw.com/readonly/SptjzNxNMpIKC5EcLFFp?darkMode=true",
 )
 
+# ╔═╡ 8e4940c5-ab84-48cb-bcaa-a6f152892a60
+board(
+	"2024-11-20",
+	md"""###### `radicals` `rationalize`
+	!!! note "Summary"
+		We review simplyfing radicals to prepare for tomorrow's final.
+	""",
+	"https://link.excalidraw.com/readonly/FeH2L9GfyP5O2QMdrHhb?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -406,6 +416,7 @@ version = "17.4.0+2"
 # ╟─7a9e137a-274e-4506-967d-bef5d238b298
 # ╟─8a2dadd7-4d0f-4dbe-ad23-828620e8bdac
 # ╟─1fe7046e-d1b7-47e6-a00b-9575e17f5408
+# ╟─8e4940c5-ab84-48cb-bcaa-a6f152892a60
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
