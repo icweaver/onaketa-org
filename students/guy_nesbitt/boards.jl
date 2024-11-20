@@ -94,6 +94,16 @@ board(
 	"https://link.excalidraw.com/readonly/hR5TsQOJ04kQyZVE9pts?darkMode=true",
 )
 
+# ╔═╡ c56348b3-86ca-40aa-8049-94811acf04ce
+board(
+	"2024-11-20",
+	md"""###### `linear inequalities` `absolute value` `exponential functions`
+	!!! note "Summary"
+		We started with a review of solving linear inequalities involving absolute values. We then got a head start on future material involving raising number to positive and negative integer exponents.
+	""",
+	"https://link.excalidraw.com/readonly/ayFD2eZNdvdqskRqE7Mp?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -406,6 +416,7 @@ version = "17.4.0+2"
 # ╟─edf5080a-1c99-469b-a924-d102970d785d
 # ╟─96d0a11b-5632-4d91-b30f-dbe6e8291f61
 # ╟─c31b909d-310e-4437-9809-66770e3e4134
+# ╟─c56348b3-86ca-40aa-8049-94811acf04ce
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
