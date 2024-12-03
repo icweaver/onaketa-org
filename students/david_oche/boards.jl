@@ -78,6 +78,17 @@ board(
 	"https://link.excalidraw.com/readonly/G4KdjiI9E4kZ2tFC0sLJ?darkMode=true",
 )
 
+# ╔═╡ ba1d2c0d-1a77-4fd4-bb16-81148a62b7bd
+board(
+	"2024-12-02",
+	md"""
+	### `trig functions` `right triangles`
+	!!! note "Topics"
+		Introduced the trigonometric functions: sine ``(\sin\theta)``, cosine ``(\cos\theta)``, and tangent ``(\tan\theta)``
+	""",
+	"https://link.excalidraw.com/readonly/1ZkwlX3qhDj9OM0lgcG9?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -105,7 +116,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.1"
+julia_version = "1.11.2"
 manifest_format = "2.0"
 project_hash = "65877c43b0e7adba5f4c93d8d0c98988bb337300"
 
@@ -390,6 +401,7 @@ version = "17.4.0+2"
 # ╟─863b624d-df61-4127-95d7-eb28c8bd377e
 # ╟─e2c8db5a-3612-4311-ac92-34b38b5afe48
 # ╟─803e5ba3-0e75-4030-abd9-a7178a54de16
+# ╟─ba1d2c0d-1a77-4fd4-bb16-81148a62b7bd
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
