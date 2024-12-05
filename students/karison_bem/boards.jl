@@ -121,7 +121,7 @@ board(
 board(
 	"2024-12-04",
 	md"""
-	###### `Isolating the variable` `grouping`
+	###### `Isolating the variable` `grouping` `inequalities`
 
 	!!! note "Summary"
 		Coninued review on solving linear equations, and introduced linear inequalities.
