@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 1dedaa68-4f52-471a-ab41-c04ebbd793ca
 begin
 	using PlutoUI
-	using HypertextLiteral: @htl
+	using MarkdownLiteral: @mdx
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
@@ -16,17 +16,19 @@ Below are some boards from our sessions. Click and drag to move around, and hold
 """
 
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @htl """
+iframe(url) = @mdx """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
 """;
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url) = md"""
+board(date, description, url_share, url_embed) = @mdx """
 # $(date)
 
 $(description)
 
-$(iframe(url))
+👉🏾 [Link to board]($(url_share))
+
+$(iframe(url_embed))
 """;
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -37,6 +39,7 @@ board(
 		* Basic algebraic operations on monomials
 		* Multiplication and long division with polynomials
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3NrYvKNJ4RL",
 	"https://link.excalidraw.com/readonly/URGLaXU4Icc00hBbedTZ?darkMode=true",
 )
 
@@ -48,6 +51,7 @@ board(
 		* Solving quadratic equations (factoring, completing the square, quadratic formula)
 		* Word problems (physics, finance)
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5NsTVONnG9u",
 	"https://link.excalidraw.com/readonly/allpdQMAfD6zsztxhwlG?darkMode=true",
 )
 
@@ -60,6 +64,7 @@ board(
 		* Multiplicity
 		* Rule-of-thumb: Highest degree gives us the maximum possible number of real and/or complex roots. Factoring and checking the multiplicity gives us the final number
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1F2hXJMqvNh",
 	"https://link.excalidraw.com/readonly/d2JIO7EywsT99tU80gwj?darkMode=true",
 )
 
@@ -71,6 +76,7 @@ board(
 		* Adding, subtracting, multiplying, dividing, and evaluating functions at other functions
 		* Evaluating and graphing inverse functions
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1L1pXBtxc4a",
 	"https://link.excalidraw.com/readonly/E1MJWVf6bxr9BoSvKo1H?darkMode=true",
 )
 
@@ -81,6 +87,7 @@ board(
 	!!! note "Summary"
 		We review HW #26 and take a closer look at problem #63
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3Icuk0L54Jg",
 	"https://link.excalidraw.com/readonly/QQ3sq9Zt2vjhiEOoTnGr?darkMode=true",
 )
 
@@ -91,6 +98,7 @@ board(
 	!!! note "Summary"
 		We review rationalizing fractions involving polynomials with rational exponents to prepare for tomorrow's test.
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9w4BHKRSMzJ",
 	"https://link.excalidraw.com/readonly/SptjzNxNMpIKC5EcLFFp?darkMode=true",
 )
 
@@ -101,14 +109,26 @@ board(
 	!!! note "Summary"
 		We review simplyfing radicals to prepare for tomorrow's final.
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/61tGGD8yZJZ",
 	"https://link.excalidraw.com/readonly/FeH2L9GfyP5O2QMdrHhb?darkMode=true",
+)
+
+# ╔═╡ 85457750-3d6c-406b-9b49-e5ce18c19271
+board(
+	"2024-12-04",
+	md"""###### `logarithms` `properties of logarithms`
+	!!! note "Summary"
+		Ahead in class, got a jump start on product and quotient property of logarithms.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9XnVUjaKzEt",
+	"https://link.excalidraw.com/readonly/5oW7phDuGm1YzwqlWini?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
 # ╔═╡ a7e2c94d-075f-4547-8cca-86b1c49be95c
-@htl """
+@mdx """
 <style>
 pluto-output.rich_output code {
   background-color: light-dark(wheat, grey);
@@ -119,11 +139,11 @@ pluto-output.rich_output code {
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
-HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
+MarkdownLiteral = "736d6165-7244-6769-4267-6b50796e6954"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
-HypertextLiteral = "~0.9.5"
+MarkdownLiteral = "~0.1.1"
 PlutoUI = "~0.7.59"
 """
 
@@ -131,9 +151,9 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.1"
+julia_version = "1.11.2"
 manifest_format = "2.0"
-project_hash = "65877c43b0e7adba5f4c93d8d0c98988bb337300"
+project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -159,10 +179,21 @@ git-tree-sha1 = "b10d0b65641d57b8b4d5e234446582de5047050d"
 uuid = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 version = "0.11.5"
 
+[[deps.CommonMark]]
+deps = ["Crayons", "PrecompileTools"]
+git-tree-sha1 = "3faae67b8899797592335832fccf4b3c80bb04fa"
+uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
+version = "0.8.15"
+
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 version = "1.1.1+0"
+
+[[deps.Crayons]]
+git-tree-sha1 = "249fe38abf76d48563e2f4556bebd215aa317e15"
+uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
+version = "4.1.1"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -260,6 +291,12 @@ version = "0.1.4"
 deps = ["Base64"]
 uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 version = "1.11.0"
+
+[[deps.MarkdownLiteral]]
+deps = ["CommonMark", "HypertextLiteral"]
+git-tree-sha1 = "0d3fa2dd374934b62ee16a4721fe68c418b92899"
+uuid = "736d6165-7244-6769-4267-6b50796e6954"
+version = "0.1.1"
 
 [[deps.MbedTLS_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -417,6 +454,7 @@ version = "17.4.0+2"
 # ╟─8a2dadd7-4d0f-4dbe-ad23-828620e8bdac
 # ╟─1fe7046e-d1b7-47e6-a00b-9575e17f5408
 # ╟─8e4940c5-ab84-48cb-bcaa-a6f152892a60
+# ╟─85457750-3d6c-406b-9b49-e5ce18c19271
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
