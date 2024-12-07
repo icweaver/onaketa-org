@@ -7,26 +7,28 @@ using InteractiveUtils
 # ╔═╡ 1dedaa68-4f52-471a-ab41-c04ebbd793ca
 begin
 	using PlutoUI
-	using HypertextLiteral: @htl
+	using MarkdownLiteral: @mdx
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 md"""
-Below are some boards from our sessions. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
+Below are some boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @htl """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+iframe(url) = @mdx """
+<iframe src="$(url)" width=100% height=800 style="border: none;"></iframe>
 """;
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url) = md"""
+board(date, description, url_share, url_embed) = @mdx """
 # $(date)
 
 $(description)
 
-$(iframe(url))
+👉🏾 [Link to board]($(url_share))
+
+$(iframe(url_embed))
 """;
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -37,6 +39,7 @@ board(
 		* Distance between two points
 		* Equation for perpendicular lines
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1jKALu5LWVi",
 	"https://link.excalidraw.com/readonly/vPw2e2IOWrneBAGdKw5C",
 )
 
@@ -51,6 +54,7 @@ board(
 		* rotations
 		* reflections
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5Sd14bSGTI8",
 	"https://link.excalidraw.com/readonly/rTpKZetYaxnNAvSrCFVj",
 )
 
@@ -61,6 +65,7 @@ board(
 	!!! note "Summary"
 		Applying static transformations to shapes and identifiying generic transformation via vector representation
 	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3b03ySQRCOr",
 	"https://link.excalidraw.com/readonly/2oZTXhrksb3IedNTuywP",
 )
 
@@ -68,8 +73,13 @@ board(
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
 # ╔═╡ 2ecbcbaa-da3a-4d46-ad3d-87c98f7ddd47
-@htl """
+@mdx """
 <style>
+main {
+    max-width: 90%;
+    margin-right: 5% !important;
+}
+
 pluto-output.rich_output code {
   background-color: light-dark(wheat, grey);
 }
@@ -79,11 +89,11 @@ pluto-output.rich_output code {
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
-HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
+MarkdownLiteral = "736d6165-7244-6769-4267-6b50796e6954"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
-HypertextLiteral = "~0.9.5"
+MarkdownLiteral = "~0.1.1"
 PlutoUI = "~0.7.59"
 """
 
@@ -91,9 +101,9 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.1"
+julia_version = "1.11.2"
 manifest_format = "2.0"
-project_hash = "65877c43b0e7adba5f4c93d8d0c98988bb337300"
+project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -119,10 +129,21 @@ git-tree-sha1 = "b10d0b65641d57b8b4d5e234446582de5047050d"
 uuid = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 version = "0.11.5"
 
+[[deps.CommonMark]]
+deps = ["Crayons", "PrecompileTools"]
+git-tree-sha1 = "3faae67b8899797592335832fccf4b3c80bb04fa"
+uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
+version = "0.8.15"
+
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 version = "1.1.1+0"
+
+[[deps.Crayons]]
+git-tree-sha1 = "249fe38abf76d48563e2f4556bebd215aa317e15"
+uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
+version = "4.1.1"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -220,6 +241,12 @@ version = "0.1.4"
 deps = ["Base64"]
 uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 version = "1.11.0"
+
+[[deps.MarkdownLiteral]]
+deps = ["CommonMark", "HypertextLiteral"]
+git-tree-sha1 = "0d3fa2dd374934b62ee16a4721fe68c418b92899"
+uuid = "736d6165-7244-6769-4267-6b50796e6954"
+version = "0.1.1"
 
 [[deps.MbedTLS_jll]]
 deps = ["Artifacts", "Libdl"]

@@ -12,7 +12,7 @@ end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 md"""
-Below are some boards from our sessions. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
+Below are some boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
@@ -130,6 +130,11 @@ TableOfContents(; title="Boards 📝", depth=6, indent=false)
 # ╔═╡ a7e2c94d-075f-4547-8cca-86b1c49be95c
 @mdx """
 <style>
+main {
+    max-width: 90%;
+    margin-right: 5% !important;
+}
+
 pluto-output.rich_output code {
   background-color: light-dark(wheat, grey);
 }
