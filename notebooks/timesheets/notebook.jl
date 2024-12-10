@@ -211,7 +211,7 @@ Typstry = "~0.4.0"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.1"
+julia_version = "1.11.2"
 manifest_format = "2.0"
 project_hash = "e3a979a80d4214e66d7423e42921c7562010db08"
 
@@ -957,7 +957,7 @@ version = "17.4.0+2"
 # ╠═60f0c785-63fa-40f5-999f-b4d606d7e8d6
 # ╠═36d83011-39d2-4690-825a-d10d1e0dcf8b
 # ╟─04497d9f-1e83-4fdf-a15c-537cade5db57
-# ╟─184bece7-c9d7-4c32-9fbf-be19221369c6
+# ╠═184bece7-c9d7-4c32-9fbf-be19221369c6
 # ╟─4f5c0918-29f1-4702-8e07-8f4a148e5a55
 # ╟─c4116830-9bd3-11ee-1039-135c5ef7c31d
 # ╟─c8e52fd2-3856-4ace-8bef-94161da14587
