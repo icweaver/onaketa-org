@@ -106,6 +106,18 @@ board(
 	"https://link.excalidraw.com/readonly/1ZkwlX3qhDj9OM0lgcG9?darkMode=true",
 )
 
+# ╔═╡ 59e16f3f-1e37-4cdb-8a21-826f89ebd282
+board(
+	"2024-12-09",
+	md"""
+	##### `similar triangles` `proofs` `Pythagorean Theorem`
+	!!! note "Summary"
+		Reviewed prooving different triangle relations using similar triangles.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9rXIyx2vKdA",
+	"https://link.excalidraw.com/readonly/PUKNIho0UIuqQScUJfKd?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -441,6 +453,7 @@ version = "17.4.0+2"
 # ╟─e2c8db5a-3612-4311-ac92-34b38b5afe48
 # ╟─803e5ba3-0e75-4030-abd9-a7178a54de16
 # ╟─ba1d2c0d-1a77-4fd4-bb16-81148a62b7bd
+# ╟─59e16f3f-1e37-4cdb-8a21-826f89ebd282
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
