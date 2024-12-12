@@ -124,6 +124,17 @@ board(
 	"https://link.excalidraw.com/readonly/O6YH9o5rsmEuAJJusUHC?darkMode=true",
 )
 
+# ╔═╡ cab0fde6-a502-4318-8e0a-a674f0c7b827
+board(
+	"2024-12-11",
+	md"""###### `system of equations` `lines`,
+	!!! note "Summary"
+		Reviewed systems of equations and graphing lines.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2cZMiGGTbwN",
+	"https://link.excalidraw.com/readonly/Fu3zCnLtJ1UwofvTkOcV?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -460,6 +471,7 @@ version = "17.4.0+2"
 # ╟─c31b909d-310e-4437-9809-66770e3e4134
 # ╟─c56348b3-86ca-40aa-8049-94811acf04ce
 # ╟─d1e93d8e-dae2-4254-ae04-180b4cb29a9a
+# ╟─cab0fde6-a502-4318-8e0a-a674f0c7b827
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

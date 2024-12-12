@@ -124,6 +124,17 @@ board(
 	"https://link.excalidraw.com/readonly/5oW7phDuGm1YzwqlWini?darkMode=true",
 )
 
+# ╔═╡ 66dd1135-7474-4725-8ebd-f67d0091b5e8
+board(
+	"2024-12-11",
+	md"""###### `logarithms` `properties of logarithms`  `common base`
+	!!! note "Summary"
+		Reviewed simplifying equations by using properties of logarithms.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2uF8U6w3lgM",
+	"https://link.excalidraw.com/readonly/bfuka8vwLRvTpGuemwjn?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -460,6 +471,7 @@ version = "17.4.0+2"
 # ╟─1fe7046e-d1b7-47e6-a00b-9575e17f5408
 # ╟─8e4940c5-ab84-48cb-bcaa-a6f152892a60
 # ╟─85457750-3d6c-406b-9b49-e5ce18c19271
+# ╟─66dd1135-7474-4725-8ebd-f67d0091b5e8
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

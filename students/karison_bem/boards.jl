@@ -130,6 +130,19 @@ board(
 	"https://link.excalidraw.com/readonly/uuGWb92WTqKAzUkT9lcq?darkMode=true",
 )
 
+# ╔═╡ 23a35d17-a121-45e9-b92b-46d8017ea99c
+board(
+	"2024-12-11",
+	md"""
+	###### `inequalities`
+
+	!!! note "Summary"
+		Reviewed linear inequalities.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8kP6K7W6YaN",
+	"https://link.excalidraw.com/readonly/8L7mYUrkR5Orxeh3ZjMQ?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -466,6 +479,7 @@ version = "17.4.0+2"
 # ╟─25e0d6b9-c96b-4114-8676-6cd2437bbd31
 # ╟─a1cf75cb-4b2f-492a-8ddd-bbbd29adf7bc
 # ╟─0b16987e-e7e9-464e-b66b-a8353d69b717
+# ╟─23a35d17-a121-45e9-b92b-46d8017ea99c
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
