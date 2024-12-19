@@ -135,6 +135,17 @@ board(
 	"https://link.excalidraw.com/readonly/bfuka8vwLRvTpGuemwjn?darkMode=true",
 )
 
+# ╔═╡ ac60bd8e-ebd3-49bd-9195-2bd1ccdb5e12
+board(
+	"2024-12-18 [FINAL]",
+	md"""###### `exponential decay` `half-life`
+	!!! note "Summary"
+		Reviewed applying logarithms to physical processes.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/A357yyyNq0d",
+	"https://link.excalidraw.com/readonly/H2DgGbSRndMYu0H4aSle?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -472,6 +483,7 @@ version = "17.4.0+2"
 # ╟─8e4940c5-ab84-48cb-bcaa-a6f152892a60
 # ╟─85457750-3d6c-406b-9b49-e5ce18c19271
 # ╟─66dd1135-7474-4725-8ebd-f67d0091b5e8
+# ╟─ac60bd8e-ebd3-49bd-9195-2bd1ccdb5e12
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

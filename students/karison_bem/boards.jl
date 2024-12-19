@@ -143,6 +143,19 @@ board(
 	"https://link.excalidraw.com/readonly/8L7mYUrkR5Orxeh3ZjMQ?darkMode=true",
 )
 
+# ╔═╡ 975938d2-b2de-421b-adb4-59f4597de6f6
+board(
+	"2024-12-18 [FINAL]",
+	md"""
+	###### `ratios`
+
+	!!! note "Summary"
+		Done with final. Got jump start on next unit: ratios.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1x2fCkBKhGX",
+	"https://link.excalidraw.com/readonly/9v2hs4CePP2AYC1WXLoW?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -480,6 +493,7 @@ version = "17.4.0+2"
 # ╟─a1cf75cb-4b2f-492a-8ddd-bbbd29adf7bc
 # ╟─0b16987e-e7e9-464e-b66b-a8353d69b717
 # ╟─23a35d17-a121-45e9-b92b-46d8017ea99c
+# ╟─975938d2-b2de-421b-adb4-59f4597de6f6
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
