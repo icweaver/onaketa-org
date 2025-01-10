@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.3
+# v0.20.4
 
 using Markdown
 using InteractiveUtils
@@ -144,6 +144,17 @@ board(
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/A357yyyNq0d",
 	"https://link.excalidraw.com/readonly/H2DgGbSRndMYu0H4aSle?darkMode=true",
+)
+
+# ╔═╡ 828bd639-cf63-47f3-adcd-741329310e27
+board(
+	"2025-01-09",
+	md"""###### `rational functions`
+	!!! note "Summary"
+		Reviewed simplifying and graphing rational functions.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3uCF3ShNXyh",
+	"https://link.excalidraw.com/readonly/GcS7ZAVYdiBuduJNUvpa?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -484,6 +495,7 @@ version = "17.4.0+2"
 # ╟─85457750-3d6c-406b-9b49-e5ce18c19271
 # ╟─66dd1135-7474-4725-8ebd-f67d0091b5e8
 # ╟─ac60bd8e-ebd3-49bd-9195-2bd1ccdb5e12
+# ╟─828bd639-cf63-47f3-adcd-741329310e27
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
