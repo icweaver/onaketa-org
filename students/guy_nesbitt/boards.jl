@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.3
+# v0.20.4
 
 using Markdown
 using InteractiveUtils
@@ -144,6 +144,17 @@ board(
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/2r5STcDeIkG",
 	"https://link.excalidraw.com/readonly/PFesseoLBpGf9mNwknmW?darkMode=true",
+)
+
+# ╔═╡ 3709bf55-ec40-4c0a-90ba-8cd9fb099fcf
+board(
+	"2025-01-09",
+	md"""###### `exponentials`,
+	!!! note "Summary"
+		Reviewed exponentials
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5iGbY9COgTS",
+	"https://link.excalidraw.com/readonly/5g3ulagQNiuMtgxuZnmV?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -484,6 +495,7 @@ version = "17.4.0+2"
 # ╟─d1e93d8e-dae2-4254-ae04-180b4cb29a9a
 # ╟─cab0fde6-a502-4318-8e0a-a674f0c7b827
 # ╟─c7c2e777-39d1-4f4b-9dd9-2f97f54e1fd1
+# ╟─3709bf55-ec40-4c0a-90ba-8cd9fb099fcf
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
