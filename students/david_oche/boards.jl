@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.3
+# v0.20.4
 
 using Markdown
 using InteractiveUtils
@@ -108,7 +108,7 @@ board(
 
 # ╔═╡ 59e16f3f-1e37-4cdb-8a21-826f89ebd282
 board(
-	"2024-12-09",
+	"2024-12-09 [FINAL]",
 	md"""
 	##### `similar triangles` `proofs` `Pythagorean Theorem`
 	!!! note "Summary"
@@ -116,6 +116,18 @@ board(
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/9rXIyx2vKdA",
 	"https://link.excalidraw.com/readonly/PUKNIho0UIuqQScUJfKd?darkMode=true",
+)
+
+# ╔═╡ 2ef67c72-36bf-4a07-b0bb-87710c254c2c
+board(
+	"2025-01-09",
+	md"""
+	##### `Pythagorean Theorem` `exponentials`
+	!!! note "Summary"
+		Reviewed proofs using properties of right triangles.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/bnFH4igGU",
+	"https://link.excalidraw.com/readonly/VrlaRVR2wOyOUgE4yik6?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -454,6 +466,7 @@ version = "17.4.0+2"
 # ╟─803e5ba3-0e75-4030-abd9-a7178a54de16
 # ╟─ba1d2c0d-1a77-4fd4-bb16-81148a62b7bd
 # ╟─59e16f3f-1e37-4cdb-8a21-826f89ebd282
+# ╟─2ef67c72-36bf-4a07-b0bb-87710c254c2c
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
