@@ -169,6 +169,19 @@ board(
 	"https://link.excalidraw.com/readonly/NFIYE0RGbLb0Gp0vOFvK?darkMode=true",
 )
 
+# ╔═╡ f8eec064-33c3-4dab-9a83-f911cf406669
+board(
+	"2025-01-15",
+	md"""
+	###### `ratio word problems`
+
+	!!! note "Summary"
+		Applying ratios to solving word problems.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8vMMlBGimis",
+	"https://link.excalidraw.com/readonly/ItTGMAnVnATJRqUMVtIh?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -508,6 +521,7 @@ version = "17.4.0+2"
 # ╟─23a35d17-a121-45e9-b92b-46d8017ea99c
 # ╟─975938d2-b2de-421b-adb4-59f4597de6f6
 # ╟─ceb8e8f2-bbfc-4400-b973-39cf128e7cdc
+# ╟─f8eec064-33c3-4dab-9a83-f911cf406669
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
