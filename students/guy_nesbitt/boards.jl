@@ -116,7 +116,7 @@ board(
 # ╔═╡ d1e93d8e-dae2-4254-ae04-180b4cb29a9a
 board(
 	"2024-12-04",
-	md"""###### `system of equations` `power functions`,
+	md"""###### `system of equations` `power functions`
 	!!! note "Summary"
 		We were still ahead in class, so we got a head start on working with power functions.
 	""",
@@ -127,7 +127,7 @@ board(
 # ╔═╡ cab0fde6-a502-4318-8e0a-a674f0c7b827
 board(
 	"2024-12-11",
-	md"""###### `system of equations` `lines`,
+	md"""###### `system of equations` `lines`
 	!!! note "Summary"
 		Reviewed systems of equations and graphing lines.
 	""",
@@ -138,7 +138,7 @@ board(
 # ╔═╡ c7c2e777-39d1-4f4b-9dd9-2f97f54e1fd1
 board(
 	"2024-12-18 [FINAL]",
-	md"""###### `system of equations` `lines`,
+	md"""###### `system of equations` `lines`
 	!!! note "Summary"
 		Continued review of systems of equations and graphing lines for final tomorrow.
 	""",
@@ -149,12 +149,23 @@ board(
 # ╔═╡ 3709bf55-ec40-4c0a-90ba-8cd9fb099fcf
 board(
 	"2025-01-09",
-	md"""###### `exponentials`,
+	md"""###### `exponentials`
 	!!! note "Summary"
 		Reviewed exponentials
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/5iGbY9COgTS",
 	"https://link.excalidraw.com/readonly/5g3ulagQNiuMtgxuZnmV?darkMode=true",
+)
+
+# ╔═╡ ce1761ed-05f2-4cb8-8da0-ed32d5a6efec
+board(
+	"2025-01-16",
+	md"""###### `arithmetic sequences` `geometric sequences`
+	!!! note "Summary"
+		Introduction to arithmetic and geometric sequences
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5xCTyKXyjw6",
+	"https://link.excalidraw.com/readonly/3n1B0sKmTx3Xo4HNXQJH?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -496,6 +507,7 @@ version = "17.4.0+2"
 # ╟─cab0fde6-a502-4318-8e0a-a674f0c7b827
 # ╟─c7c2e777-39d1-4f4b-9dd9-2f97f54e1fd1
 # ╟─3709bf55-ec40-4c0a-90ba-8cd9fb099fcf
+# ╟─ce1761ed-05f2-4cb8-8da0-ed32d5a6efec
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
