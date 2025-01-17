@@ -130,6 +130,18 @@ board(
 	"https://link.excalidraw.com/readonly/VrlaRVR2wOyOUgE4yik6?darkMode=true",
 )
 
+# ╔═╡ f8294d92-a96a-46eb-acec-dddee774a0ea
+board(
+	"2025-01-16",
+	md"""
+	##### `radicals` `exponentials`
+	!!! note "Summary"
+		Reviewed simplifying radical expressions.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/dZrRvC1kZN",
+	"https://link.excalidraw.com/readonly/kRCDv6cbftU4AUW3cW5w?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -467,6 +479,7 @@ version = "17.4.0+2"
 # ╟─ba1d2c0d-1a77-4fd4-bb16-81148a62b7bd
 # ╟─59e16f3f-1e37-4cdb-8a21-826f89ebd282
 # ╟─2ef67c72-36bf-4a07-b0bb-87710c254c2c
+# ╟─f8294d92-a96a-46eb-acec-dddee774a0ea
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
