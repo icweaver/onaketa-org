@@ -157,6 +157,17 @@ board(
 	"https://link.excalidraw.com/readonly/GcS7ZAVYdiBuduJNUvpa?darkMode=true",
 )
 
+# ╔═╡ 3c3e7f45-c5e1-4732-adcd-0099d6e84483
+board(
+	"2025-01-16",
+	md"""###### `rational functions`
+	!!! note "Summary"
+		Continuing review of simplifying and solving equations involving rational expressions.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/64NavL0bCSW",
+	"https://link.excalidraw.com/readonly/ndaxk12i80YlvdzLqTcj?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -495,7 +506,8 @@ version = "17.4.0+2"
 # ╟─85457750-3d6c-406b-9b49-e5ce18c19271
 # ╟─66dd1135-7474-4725-8ebd-f67d0091b5e8
 # ╟─ac60bd8e-ebd3-49bd-9195-2bd1ccdb5e12
-# ╟─828bd639-cf63-47f3-adcd-741329310e27
+# ╠═828bd639-cf63-47f3-adcd-741329310e27
+# ╠═3c3e7f45-c5e1-4732-adcd-0099d6e84483
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
