@@ -182,6 +182,19 @@ board(
 	"https://link.excalidraw.com/readonly/ItTGMAnVnATJRqUMVtIh?darkMode=true",
 )
 
+# ╔═╡ ab2f1191-d529-49a9-8b1d-e43ca883776d
+board(
+	"2025-01-22",
+	md"""
+	###### `ratios`
+
+	!!! note "Summary"
+		Reviewed ratios for upcoming test.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5xJyiA5a3Gs",
+	"https://link.excalidraw.com/readonly/rJaeZuMWxjGi7DGaTeal?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -214,7 +227,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.2"
+julia_version = "1.11.3"
 manifest_format = "2.0"
 project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
 
@@ -522,6 +535,7 @@ version = "17.4.0+2"
 # ╟─975938d2-b2de-421b-adb4-59f4597de6f6
 # ╟─ceb8e8f2-bbfc-4400-b973-39cf128e7cdc
 # ╟─f8eec064-33c3-4dab-9a83-f911cf406669
+# ╟─ab2f1191-d529-49a9-8b1d-e43ca883776d
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

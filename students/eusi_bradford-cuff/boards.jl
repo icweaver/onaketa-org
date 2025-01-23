@@ -168,6 +168,17 @@ board(
 	"https://link.excalidraw.com/readonly/ndaxk12i80YlvdzLqTcj?darkMode=true",
 )
 
+# ╔═╡ 61c8b8a5-6118-421e-bec4-4f88fef1b60b
+board(
+	"2025-01-22",
+	md"""###### `rational functions`
+	!!! note "Summary"
+		Reviewed simplifying rational functions equations and inequalities for test tomorrow.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/7t5C35BlhJM",
+	"https://link.excalidraw.com/readonly/V71oUdR39CoV8BxHbqSC?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -200,7 +211,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.2"
+julia_version = "1.11.3"
 manifest_format = "2.0"
 project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
 
@@ -506,8 +517,9 @@ version = "17.4.0+2"
 # ╟─85457750-3d6c-406b-9b49-e5ce18c19271
 # ╟─66dd1135-7474-4725-8ebd-f67d0091b5e8
 # ╟─ac60bd8e-ebd3-49bd-9195-2bd1ccdb5e12
-# ╠═828bd639-cf63-47f3-adcd-741329310e27
+# ╟─828bd639-cf63-47f3-adcd-741329310e27
 # ╟─3c3e7f45-c5e1-4732-adcd-0099d6e84483
+# ╟─61c8b8a5-6118-421e-bec4-4f88fef1b60b
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
