@@ -154,6 +154,18 @@ board(
 	"https://link.excalidraw.com/readonly/KgeBf1P39SzumeaebI42?darkMode=true",
 )
 
+# ╔═╡ 85b3d00e-357f-49a8-9bb3-d4986b77b493
+board(
+	"2025-01-30",
+	md"""
+	##### `45-45-90` `30-60-90` `trig functions`
+	!!! note "Summary"
+		Continued review of special triangles and their extension to trig functions.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5nWrWPun9H0",
+	"https://link.excalidraw.com/readonly/oagRcznX0IvCCxyVK4Tq?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -493,6 +505,7 @@ version = "17.4.0+2"
 # ╟─2ef67c72-36bf-4a07-b0bb-87710c254c2c
 # ╟─f8294d92-a96a-46eb-acec-dddee774a0ea
 # ╟─0b5ae025-8e1a-4db3-9973-7fcf4744be29
+# ╟─85b3d00e-357f-49a8-9bb3-d4986b77b493
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

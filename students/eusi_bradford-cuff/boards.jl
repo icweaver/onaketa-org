@@ -179,6 +179,17 @@ board(
 	"https://link.excalidraw.com/readonly/V71oUdR39CoV8BxHbqSC?darkMode=true",
 )
 
+# ╔═╡ ecb82c9f-fe63-41cb-b398-484e6db332c3
+board(
+	"2025-01-30",
+	md"""###### `unit circle`
+	!!! note "Summary"
+		Reviewed the unit circle, radians, and special triangles.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2bwRySMJKlT",
+	"https://link.excalidraw.com/readonly/jfsRMbSH5BCiyv0I0fCh?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -520,6 +531,7 @@ version = "17.4.0+2"
 # ╟─828bd639-cf63-47f3-adcd-741329310e27
 # ╟─3c3e7f45-c5e1-4732-adcd-0099d6e84483
 # ╟─61c8b8a5-6118-421e-bec4-4f88fef1b60b
+# ╟─ecb82c9f-fe63-41cb-b398-484e6db332c3
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

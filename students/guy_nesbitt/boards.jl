@@ -179,6 +179,17 @@ board(
 	"https://link.excalidraw.com/readonly/6KNuRDG6FawdUKxbLnXe?darkMode=true",
 )
 
+# ╔═╡ 7ea74ca7-7c13-442d-9f9a-9e3da14452ee
+board(
+	"2025-01-30",
+	md"""###### `systems of equations`
+	!!! note "Summary"
+		Reviewed systems of equations of two variables using the substitution and elimination method. Ended with a quick review of dot plots.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/29CM2Y3LJNo",
+	"https://link.excalidraw.com/readonly/8YeJwc1XbPePVyuojDcl?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -520,6 +531,7 @@ version = "17.4.0+2"
 # ╟─3709bf55-ec40-4c0a-90ba-8cd9fb099fcf
 # ╟─ce1761ed-05f2-4cb8-8da0-ed32d5a6efec
 # ╟─4704a93e-2929-4a8c-9107-f4e7112b24fa
+# ╟─7ea74ca7-7c13-442d-9f9a-9e3da14452ee
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
