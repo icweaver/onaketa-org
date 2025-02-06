@@ -208,6 +208,19 @@ board(
 	"https://link.excalidraw.com/readonly/8WfAKdyZLq4CBjF3HLAi?darkMode=true",
 )
 
+# ╔═╡ b7c4f78c-bb7d-4bd0-9d4d-b404c8b720fd
+board(
+	"2025-02-05",
+	md"""
+	###### `proportions` `graphing`
+
+	!!! note "Summary"
+		Started graphing and interpreting proportional relationships.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8c57mPxzf45",
+	"https://link.excalidraw.com/readonly/KIVGKzulXkpLqIqiezOW?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -550,6 +563,7 @@ version = "17.4.0+2"
 # ╟─f8eec064-33c3-4dab-9a83-f911cf406669
 # ╟─ab2f1191-d529-49a9-8b1d-e43ca883776d
 # ╟─0d8f4068-8f3f-4427-ba4a-dc37ba81694b
+# ╟─b7c4f78c-bb7d-4bd0-9d4d-b404c8b720fd
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
