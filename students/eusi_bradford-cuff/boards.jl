@@ -190,6 +190,17 @@ board(
 	"https://link.excalidraw.com/readonly/jfsRMbSH5BCiyv0I0fCh?darkMode=true",
 )
 
+# ╔═╡ 2c4048ae-8305-4f10-8783-acf961a5b7fd
+board(
+	"2025-02-06",
+	md"""###### `unit circle` `law of sines` `law of cosines`
+	!!! note "Summary"
+		Reviewed the unit circle, and applying the law of sines and cosines to different kinds of triangles.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8nF8UIqsk1U",
+	"https://link.excalidraw.com/readonly/4NSGMvNyMO1De2LaEdU4?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -532,6 +543,7 @@ version = "17.4.0+2"
 # ╟─3c3e7f45-c5e1-4732-adcd-0099d6e84483
 # ╟─61c8b8a5-6118-421e-bec4-4f88fef1b60b
 # ╟─ecb82c9f-fe63-41cb-b398-484e6db332c3
+# ╟─2c4048ae-8305-4f10-8783-acf961a5b7fd
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

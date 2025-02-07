@@ -190,6 +190,17 @@ board(
 	"https://link.excalidraw.com/readonly/8YeJwc1XbPePVyuojDcl?darkMode=true",
 )
 
+# ╔═╡ d9878978-a70c-45e2-aea8-c2b0c03cf244
+board(
+	"2025-02-06",
+	md"""###### `normal distribution` `Z-score` `standard deviation`
+	!!! note "Summary"
+		Reviewed definition of the standard deviation and applying it to computing sample statistics via the Z-score.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3avTOnuNKfO",
+	"https://link.excalidraw.com/readonly/diFSo66OdhkYgvTNba7P?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -532,6 +543,7 @@ version = "17.4.0+2"
 # ╟─ce1761ed-05f2-4cb8-8da0-ed32d5a6efec
 # ╟─4704a93e-2929-4a8c-9107-f4e7112b24fa
 # ╟─7ea74ca7-7c13-442d-9f9a-9e3da14452ee
+# ╟─d9878978-a70c-45e2-aea8-c2b0c03cf244
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
