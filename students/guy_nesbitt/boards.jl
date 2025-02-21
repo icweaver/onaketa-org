@@ -212,6 +212,17 @@ board(
 	"https://link.excalidraw.com/readonly/l0PAMEPxCwiiSfoPVhux?darkMode=true",
 )
 
+# ╔═╡ d39b3a62-d933-4680-93d6-90a6b6e4249a
+board(
+	"2025-02-20",
+	md"""###### `angle algebra`
+	!!! note "Summary"
+		Using algebra to solve angle problems.  Complete online assignment.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1SzCExB1Nh8",
+	"https://link.excalidraw.com/readonly/vloSJBpznUfhPqDz9wWi?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -543,6 +554,7 @@ version = "17.4.0+2"
 # ╟─7ea74ca7-7c13-442d-9f9a-9e3da14452ee
 # ╟─d9878978-a70c-45e2-aea8-c2b0c03cf244
 # ╟─78ad6576-0ce0-4ba8-ba8b-647315f4332f
+# ╟─d39b3a62-d933-4680-93d6-90a6b6e4249a
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

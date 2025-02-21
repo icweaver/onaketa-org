@@ -212,6 +212,17 @@ board(
 	"https://link.excalidraw.com/readonly/8Y4xLxHJHdLNUnaOwMgS?darkMode=true",
 )
 
+# ╔═╡ 24cf3d7d-144a-41c4-9ede-5d6c1c0f866c
+board(
+	"2025-02-20",
+	md"""###### `trig identities`
+	!!! note "Summary"
+		Continued trig identity review for test tomorrow.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4uFGV8ruwwo",
+	"https://link.excalidraw.com/readonly/Y3aZuAJqdo7bMVkatodV?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -543,6 +554,7 @@ version = "17.4.0+2"
 # ╟─ecb82c9f-fe63-41cb-b398-484e6db332c3
 # ╟─2c4048ae-8305-4f10-8783-acf961a5b7fd
 # ╟─00b23b75-0750-48e3-b706-5308d5dc5ac6
+# ╟─24cf3d7d-144a-41c4-9ede-5d6c1c0f866c
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
