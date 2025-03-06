@@ -260,6 +260,19 @@ board(
 	"https://link.excalidraw.com/readonly/I1jz439JjtGpjFUKeapg?darkMode=true",
 )
 
+# ╔═╡ 7486e969-e403-4e1f-a867-742a4423ee5c
+board(
+	"2025-03-05",
+	md"""
+	###### `percentages` `mean-median-mode`
+
+	!!! note "Summary"
+		Reviewed percentages, then got a head start on new material: probability and statistics.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3jWnf8FbH8",
+	"https://link.excalidraw.com/readonly/YZVEZ2KLxJ4Wvm3j0rDu?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -606,6 +619,7 @@ version = "17.4.0+2"
 # ╟─3cf666ea-f114-4957-9c38-c32d3ea57a7b
 # ╟─e37ef3ac-675d-41b8-9d3e-43e78a894a79
 # ╟─3ece1762-4db4-45ac-a3f9-662a9a5e8e2e
+# ╟─7486e969-e403-4e1f-a867-742a4423ee5c
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

@@ -45,6 +45,42 @@ md"""
 Rate how much you agree with following statements about your assigned tutor.
 """
 
+# ╔═╡ 334320f5-1684-4e03-a927-a4469a7ece1d
+sentiment_mat(df, sentiment_levels) = stack(
+	[
+		count.(==(sentiment), eachcol(df))
+		for sentiment in sentiment_levels
+	]; dims=1
+)
+
+# ╔═╡ c5a8cc4d-a1a1-4c78-a888-4b7f83e9ff14
+function sentiment_plot(df, sentiment_levels)
+	Z = sentiment_mat(df, sentiment_levels)
+	
+	fig, ax, hm = heatmap(Z)
+
+	ax.xticks = (eachindex(sentiment_levels), sentiment_levels)
+	prompts = names(df)
+	ax.yticks = (eachindex(prompts), prompts)
+	ax.yreversed = true
+	
+	# Colorbar(fig[1, 2], hm; label=rich("Number of responses"))
+	
+	N_responses = sum(@view(Z[:, 1]))
+	for (coord, val) in pairs(Z)
+		sentiment_percent = round(Int, 100 * val / N_responses)
+		txt = "$(val) ($(sentiment_percent) %)"
+		txtcolor = sentiment_percent < 50 ? :black : :white
+		text!(ax, txt; color=txtcolor, position=Tuple(coord), align=(:center, :center), justification=:center)
+	end
+
+	colsize!(fig.layout, 1, Aspect(1, 1.7))
+	resize_to_layout!(fig)
+	# resize!(fig.scene, (800, 1100))
+
+	fig
+end
+
 # ╔═╡ 22781208-ab90-4008-81df-73f01b4aeaf3
 md"""
 ## Grade improvement
@@ -154,8 +190,25 @@ df = @rsubset df_all year(:"Submitted at") == program_year;
 # ╔═╡ 0da528e1-22fe-4d6b-849c-df0f10e98dce
 df_sentiment_student = @select df $(r"(The|this) student");
 
+# ╔═╡ fce91ac8-699a-43d5-8db9-d9ead8fe9c2f
+df_sentiment_student_selected = @select df_sentiment_student begin
+	:"The student's grade in the class improved."
+	:"The student has developed a more positive attitude towards math and/or science."
+	:"The student is better prepared to learn in school as a result of the Onaketa tutoring program."
+end
+
 # ╔═╡ c0165c11-76c4-436d-bb30-ff2b76638a22
 df_sentiment_tutor = @select df $(r"(The|this) tutor");
+
+# ╔═╡ ce87808b-ab43-4852-9e00-4878c1c44613
+df_sentiment_tutor_selected = @select df_sentiment_tutor begin
+	:"The tutor established a positive relationship with the student."
+	:"The tutor was a good mentor to the student."
+	:"Overall, sessions with this tutor were helpful and improved the student's knowledge of the subject."
+end
+
+# ╔═╡ 3c16b1be-99a3-4277-8b65-0188752363b5
+names(df_sentiment_tutor)
 
 # ╔═╡ 393addd2-5e4f-46bb-9bc7-3edbbcde9dd3
 let
@@ -229,59 +282,25 @@ const sentiment_levels = [
 	"Strongly Agree",
 ]
 
-# ╔═╡ 54c3853c-1b09-4155-9c62-660f23363699
-const grade_map = let
-	d = Dict(string(g) => i for (i, g) in enumerate('A':'F'))
-	d["N/A"] = 7
-	d
-end
-
-# ╔═╡ 334320f5-1684-4e03-a927-a4469a7ece1d
-sentiment_mat(df, sentiment_levels) = stack(
-	[
-		count.(==(sentiment), eachcol(df))
-		for sentiment in sentiment_levels
-	]; dims=1
-)
-
-# ╔═╡ c5a8cc4d-a1a1-4c78-a888-4b7f83e9ff14
-function sentiment_plot(df, sentiment_levels)
-	Z = sentiment_mat(df, sentiment_levels)
-	
-	fig, ax, hm = heatmap(Z)
-
-	ax.xticks = (eachindex(sentiment_levels), sentiment_levels)
-	prompts = names(df)
-	ax.yticks = (eachindex(prompts), prompts)
-	ax.yreversed = true
-	
-	# Colorbar(fig[1, 2], hm; label=rich("Number of responses"))
-	
-	N_responses = sum(@view(Z[:, 1]))
-	for (coord, val) in pairs(Z)
-		sentiment_percent = round(Int, 100 * val / N_responses)
-		txt = "$(val) ($(sentiment_percent) %)"
-		txtcolor = sentiment_percent < 50 ? :black : :white
-		text!(ax, txt; color=txtcolor, position=Tuple(coord), align=(:center, :center), justification=:center)
-	end
-	
-	resize!(fig.scene, (800, 1100))
-
-	fig
-end
-
 # ╔═╡ 13e2d0f5-0a47-4468-8b04-d59bcba62183
 let
-	fig = sentiment_plot(df_sentiment_student, sentiment_levels)
+	fig = sentiment_plot(df_sentiment_student_selected, sentiment_levels)
 	save("src/fig/student.svg", fig, px_per_unit=3)
 	fig
 end
 
 # ╔═╡ 4715fb8c-7a1f-4826-b3e0-7f2ac8513cd6
 let
-	fig = sentiment_plot(df_sentiment_tutor, sentiment_levels)
+	fig = sentiment_plot(df_sentiment_tutor_selected, sentiment_levels)
 	save("src/fig/tutor.svg", fig, px_per_unit=3)
 	fig
+end
+
+# ╔═╡ 54c3853c-1b09-4155-9c62-660f23363699
+const grade_map = let
+	d = Dict(string(g) => i for (i, g) in enumerate('A':'F'))
+	d["N/A"] = 7
+	d
 end
 
 # ╔═╡ 61625f08-5745-46a1-96e4-d7e8b808f92e
@@ -2117,11 +2136,16 @@ version = "3.6.0+0"
 # ╔═╡ Cell order:
 # ╟─974dbb8b-3198-48f3-84f8-dfb78efcb2ce
 # ╟─286bffce-f63a-4c40-b720-70376c086f73
-# ╟─13e2d0f5-0a47-4468-8b04-d59bcba62183
-# ╟─0da528e1-22fe-4d6b-849c-df0f10e98dce
+# ╠═13e2d0f5-0a47-4468-8b04-d59bcba62183
+# ╠═c5a8cc4d-a1a1-4c78-a888-4b7f83e9ff14
+# ╠═fce91ac8-699a-43d5-8db9-d9ead8fe9c2f
+# ╠═0da528e1-22fe-4d6b-849c-df0f10e98dce
 # ╟─20146b67-290e-4bcd-8a1e-8a1811312e7f
-# ╟─4715fb8c-7a1f-4826-b3e0-7f2ac8513cd6
-# ╟─c0165c11-76c4-436d-bb30-ff2b76638a22
+# ╠═4715fb8c-7a1f-4826-b3e0-7f2ac8513cd6
+# ╠═ce87808b-ab43-4852-9e00-4878c1c44613
+# ╠═3c16b1be-99a3-4277-8b65-0188752363b5
+# ╠═c0165c11-76c4-436d-bb30-ff2b76638a22
+# ╠═334320f5-1684-4e03-a927-a4469a7ece1d
 # ╟─22781208-ab90-4008-81df-73f01b4aeaf3
 # ╟─f25405a1-e857-4f88-a904-34f684b7dc29
 # ╟─74537f50-ff1f-4ee3-ba88-52ad5664ad42
@@ -2141,13 +2165,11 @@ version = "3.6.0+0"
 # ╟─32d109dd-0969-4959-8a69-9029fb7bbe9b
 # ╠═a33073ea-6919-4a11-aaa4-e229534d259f
 # ╟─58db40e9-a478-4807-bb68-247c91b1a351
-# ╟─3f27256a-ffd8-42bf-81b8-0e00ef38d736
+# ╠═3f27256a-ffd8-42bf-81b8-0e00ef38d736
 # ╟─bb271e73-275c-46f9-b19a-12a2eebd8e7d
 # ╟─54c3853c-1b09-4155-9c62-660f23363699
-# ╟─334320f5-1684-4e03-a927-a4469a7ece1d
-# ╟─c5a8cc4d-a1a1-4c78-a888-4b7f83e9ff14
 # ╟─61625f08-5745-46a1-96e4-d7e8b808f92e
-# ╠═97c216ef-9e5f-4117-b9b2-d066dbb67430
+# ╟─97c216ef-9e5f-4117-b9b2-d066dbb67430
 # ╟─3ce94b2d-c777-410b-b6e2-e32159beb105
 # ╠═7055c674-75c7-4409-9bc8-872b747c3ff6
 # ╠═a9bceafd-010a-4393-af7f-982008af28bc
