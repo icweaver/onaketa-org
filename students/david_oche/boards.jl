@@ -202,6 +202,18 @@ board(
 	"https://link.excalidraw.com/readonly/mMCcxqAEkZ747qwYj78H?darkMode=true",
 )
 
+# ╔═╡ bda7b6e6-8a23-4e30-a4d1-ae62ef0ae8bc
+board(
+	"2025-03-06",
+	md"""
+	##### `radicals`
+	!!! note "Summary"
+		Continued review on simplifying radicals. Completed hw assignment.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1WghwSX4WeV",
+	"https://link.excalidraw.com/readonly/1B3bpBRG7wMySmHVuoaR?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -545,6 +557,7 @@ version = "17.4.0+2"
 # ╟─4e446ed3-a377-4c4f-893a-6e755bbb2f7b
 # ╟─2faec220-0632-4d4c-af6c-486f1768454e
 # ╟─396ef048-1e3f-4845-9bc4-2a9137eb2c61
+# ╟─bda7b6e6-8a23-4e30-a4d1-ae62ef0ae8bc
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
