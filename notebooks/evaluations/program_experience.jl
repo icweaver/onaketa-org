@@ -38,6 +38,11 @@ md"""
 Rate how much you agree with the following statements since participating in the Onaketa tutoring program.
 """
 
+# ╔═╡ c8938ef2-11ff-4336-8041-931d42503d8c
+qs = [	:"The student's grade in the class improved.",
+	:"The student has developed a more positive attitude towards math and/or science.",
+	:"The student is better prepared to learn in school as a result of the Onaketa tutoring program."];
+
 # ╔═╡ 20146b67-290e-4bcd-8a1e-8a1811312e7f
 md"""
 ## Tutor
@@ -197,6 +202,17 @@ df_sentiment_student_selected = @select df_sentiment_student begin
 	:"The student is better prepared to learn in school as a result of the Onaketa tutoring program."
 end
 
+# ╔═╡ 051462c1-0e13-478d-a092-224624c52faa
+df_sentiment_student_selected
+
+# ╔═╡ 4377f3c8-ded9-494d-9d97-54d7cb922bdc
+let
+	plt = data(df_sentiment_student_selected) *
+		mapping(qs[1], qs[2]) * frequency()
+
+	draw(plt)
+end
+
 # ╔═╡ c0165c11-76c4-436d-bb30-ff2b76638a22
 df_sentiment_tutor = @select df $(r"(The|this) tutor");
 
@@ -288,6 +304,9 @@ let
 	save("src/fig/student.svg", fig, px_per_unit=3)
 	fig
 end
+
+# ╔═╡ 53bc2f85-9751-4a91-98df-83079937a7f4
+sentiment_mat(df_sentiment_student_selected, sentiment_levels)
 
 # ╔═╡ 4715fb8c-7a1f-4826-b3e0-7f2ac8513cd6
 let
@@ -2137,6 +2156,10 @@ version = "3.6.0+0"
 # ╟─974dbb8b-3198-48f3-84f8-dfb78efcb2ce
 # ╟─286bffce-f63a-4c40-b720-70376c086f73
 # ╠═13e2d0f5-0a47-4468-8b04-d59bcba62183
+# ╠═051462c1-0e13-478d-a092-224624c52faa
+# ╠═4377f3c8-ded9-494d-9d97-54d7cb922bdc
+# ╠═c8938ef2-11ff-4336-8041-931d42503d8c
+# ╠═53bc2f85-9751-4a91-98df-83079937a7f4
 # ╠═c5a8cc4d-a1a1-4c78-a888-4b7f83e9ff14
 # ╠═fce91ac8-699a-43d5-8db9-d9ead8fe9c2f
 # ╠═0da528e1-22fe-4d6b-849c-df0f10e98dce
