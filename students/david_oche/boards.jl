@@ -214,6 +214,18 @@ board(
 	"https://link.excalidraw.com/readonly/1B3bpBRG7wMySmHVuoaR?darkMode=true",
 )
 
+# ╔═╡ 7017510e-57b0-4a43-be7a-0bb6bff5da91
+board(
+	"2025-03-13",
+	md"""
+	##### ``lines` line segments` `triangle proofs`
+	!!! note "Summary"
+		Parallel, perpendicular line equations. Applications of distance and midpoint formulas.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/7hf07VTS8vk",
+	"https://link.excalidraw.com/readonly/hw3z4Xmajkl6zZAzaSrT?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -246,7 +258,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.3"
+julia_version = "1.11.4"
 manifest_format = "2.0"
 project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
 
@@ -558,6 +570,7 @@ version = "17.4.0+2"
 # ╟─2faec220-0632-4d4c-af6c-486f1768454e
 # ╟─396ef048-1e3f-4845-9bc4-2a9137eb2c61
 # ╟─bda7b6e6-8a23-4e30-a4d1-ae62ef0ae8bc
+# ╟─7017510e-57b0-4a43-be7a-0bb6bff5da91
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
