@@ -218,7 +218,7 @@ board(
 board(
 	"2025-03-13",
 	md"""
-	##### ``lines` line segments` `triangle proofs`
+	##### `lines` `line segments` `triangle proofs`
 	!!! note "Summary"
 		Parallel, perpendicular line equations. Applications of distance and midpoint formulas.
 	""",
