@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.4
+# v0.20.5
 
 using Markdown
 using InteractiveUtils
@@ -284,6 +284,19 @@ board(
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/39RxdeGsYPD",
 	"https://link.excalidraw.com/readonly/ci9haCSGOJfcn9H7hxYg?darkMode=true",
+)
+
+# ╔═╡ 7f74648c-c512-472d-9683-a55eaa927409
+board(
+	"2025-03-19 and 2025-03-26",
+	md"""
+	###### `angles` `lines` `line segments`
+
+	!!! note "Summary"
+		Explored the relation between suppl., compl., and vertical angles + lines, rays, and line segments.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/24J6tQ51NNd",
+	"https://link.excalidraw.com/readonly/JtbyaKhXmxRIVZ2otkrl?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
@@ -634,6 +647,7 @@ version = "17.4.0+2"
 # ╟─3ece1762-4db4-45ac-a3f9-662a9a5e8e2e
 # ╟─7486e969-e403-4e1f-a867-742a4423ee5c
 # ╟─f13f652a-edcc-436c-9a5f-4ab38ed933e4
+# ╟─7f74648c-c512-472d-9683-a55eaa927409
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
