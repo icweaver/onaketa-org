@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.4
+# v0.20.5
 
 using Markdown
 using InteractiveUtils
@@ -20,11 +20,6 @@ md"""
 !!! note
 	[Past boards](https://docs.google.com/document/d/1VbkHtNdugk0vKbg7NwLoilR06OkxLso9SZAXn9egtGs/edit?usp=sharing)
 """
-
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
@@ -225,6 +220,23 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7hf07VTS8vk",
 	"https://link.excalidraw.com/readonly/hw3z4Xmajkl6zZAzaSrT?darkMode=true",
 )
+
+# ╔═╡ c9499268-f63d-46d6-a2cd-128e6443aa96
+board(
+	"2025-03-27",
+	md"""
+	##### `systems of equations`
+	!!! note "Summary"
+		Linear systems of equations with three variables.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2U3wVKGQADu",
+	"https://link.excalidraw.com/readonly/EHOUveS0hky1QWZPTLri?darkMode=true",
+)
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
@@ -571,6 +583,7 @@ version = "17.4.0+2"
 # ╟─396ef048-1e3f-4845-9bc4-2a9137eb2c61
 # ╟─bda7b6e6-8a23-4e30-a4d1-ae62ef0ae8bc
 # ╟─7017510e-57b0-4a43-be7a-0bb6bff5da91
+# ╟─c9499268-f63d-46d6-a2cd-128e6443aa96
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
