@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.4
+# v0.20.5
 
 using Markdown
 using InteractiveUtils
@@ -234,6 +234,17 @@ board(
 	"https://link.excalidraw.com/readonly/MYhSpGSQy6fsiIfMrDU1?darkMode=true",
 )
 
+# ╔═╡ 3a3d6fa5-ad70-4207-8968-1e73feb64a92
+board(
+	"2025-03-27",
+	md"""###### `logic`
+	!!! note "Summary"
+		Started new unit on Module 12: Logical Arguments and Line Relationships.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/7NUzeEqFW4b",
+	"https://link.excalidraw.com/readonly/SNP3IeDCbFqU6RJvg0Tu?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -266,7 +277,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.3"
+julia_version = "1.11.4"
 manifest_format = "2.0"
 project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
 
@@ -580,6 +591,7 @@ version = "17.4.0+2"
 # ╟─78ad6576-0ce0-4ba8-ba8b-647315f4332f
 # ╟─d39b3a62-d933-4680-93d6-90a6b6e4249a
 # ╟─ad8247ca-f383-4b2f-8316-d296af0754ac
+# ╟─3a3d6fa5-ad70-4207-8968-1e73feb64a92
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
