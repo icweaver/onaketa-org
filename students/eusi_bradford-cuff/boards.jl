@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.4
+# v0.20.5
 
 using Markdown
 using InteractiveUtils
@@ -14,11 +14,6 @@ end
 md"""
 Below are some boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
-
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
@@ -222,6 +217,22 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4uFGV8ruwwo",
 	"https://link.excalidraw.com/readonly/Y3aZuAJqdo7bMVkatodV?darkMode=true",
 )
+
+# ╔═╡ 36711517-42a2-410b-9543-ed639c35e360
+board(
+	"2025-03-27",
+	md"""###### `molecular mass` `mol`
+	!!! note "Summary"
+		Started new class: Chemistry! Reviewed converting between mass and moles of different elements and molecules
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3y3TvS653Xb",
+	"https://link.excalidraw.com/readonly/THrAHNmvDRhqjBBdQf90?darkMode=true",
+)
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
@@ -555,6 +566,7 @@ version = "17.4.0+2"
 # ╟─2c4048ae-8305-4f10-8783-acf961a5b7fd
 # ╟─00b23b75-0750-48e3-b706-5308d5dc5ac6
 # ╟─24cf3d7d-144a-41c4-9ede-5d6c1c0f866c
+# ╟─36711517-42a2-410b-9543-ed639c35e360
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
