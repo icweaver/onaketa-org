@@ -15,11 +15,6 @@ md"""
 Below are some boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
-
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
 # $(date)
@@ -298,6 +293,24 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/24J6tQ51NNd",
 	"https://link.excalidraw.com/readonly/JtbyaKhXmxRIVZ2otkrl?darkMode=true",
 )
+
+# ╔═╡ 36ad6c43-67d5-4498-a94a-d983d4df2a99
+board(
+	"2025-04-02",
+	md"""
+	###### `polygons`
+
+	!!! note "Summary"
+		Reviewed definitions of different polygons for test this Friday.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/935FBIaVS7o",
+	"https://link.excalidraw.com/readonly/PXbizF9QByiKjF9GqG3P?darkMode=true",
+)
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
@@ -648,6 +661,7 @@ version = "17.4.0+2"
 # ╟─7486e969-e403-4e1f-a867-742a4423ee5c
 # ╟─f13f652a-edcc-436c-9a5f-4ab38ed933e4
 # ╟─7f74648c-c512-472d-9683-a55eaa927409
+# ╟─36ad6c43-67d5-4498-a94a-d983d4df2a99
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
