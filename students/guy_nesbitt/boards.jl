@@ -15,11 +15,6 @@ md"""
 Below are some boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
-
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
 # $(date)
@@ -244,6 +239,22 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7NUzeEqFW4b",
 	"https://link.excalidraw.com/readonly/SNP3IeDCbFqU6RJvg0Tu?darkMode=true",
 )
+
+# ╔═╡ ef3d2910-749e-4553-9664-b985bf8c570e
+board(
+	"2025-04-03",
+	md"""###### `logic`
+	!!! note "Summary"
+		Continued new unit on Module 12: Logical Arguments and Line Relationships. Introduced symbolic notation for negation and compound operations.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/IKu3VA3A6r",
+	"https://link.excalidraw.com/readonly/OSl1aPyUa6VcFQ9x3pF4?darkMode=true",
+)
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
@@ -592,6 +603,7 @@ version = "17.4.0+2"
 # ╟─d39b3a62-d933-4680-93d6-90a6b6e4249a
 # ╟─ad8247ca-f383-4b2f-8316-d296af0754ac
 # ╟─3a3d6fa5-ad70-4207-8968-1e73feb64a92
+# ╟─ef3d2910-749e-4553-9664-b985bf8c570e
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
