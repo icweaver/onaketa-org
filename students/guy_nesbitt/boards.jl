@@ -15,6 +15,11 @@ md"""
 Below are some boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
+
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
 # $(date)
@@ -251,10 +256,16 @@ board(
 	"https://link.excalidraw.com/readonly/OSl1aPyUa6VcFQ9x3pF4?darkMode=true",
 )
 
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
+# ╔═╡ d5341ef7-8a3a-420e-a984-7af4f46292aa
+board(
+	"2025-04-10",
+	md"""###### `transformations` `symmetry`
+	!!! note "Summary"
+		Ahead in class, so we got a jump start on next module. Intro'd topics in linear translations and even-function symmetry.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/17uHib8dXBH",
+	"https://link.excalidraw.com/readonly/DJfIwg7F5LkJUGLSC76T?darkMode=true",
+)
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
@@ -604,6 +615,7 @@ version = "17.4.0+2"
 # ╟─ad8247ca-f383-4b2f-8316-d296af0754ac
 # ╟─3a3d6fa5-ad70-4207-8968-1e73feb64a92
 # ╟─ef3d2910-749e-4553-9664-b985bf8c570e
+# ╟─d5341ef7-8a3a-420e-a984-7af4f46292aa
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
