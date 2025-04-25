@@ -26,8 +26,7 @@ jobs:
             - name: Install Julia
               uses: julia-actions/setup-julia@v2
               with:
-                  version: "1" # This will automatically pick the latest Julia version
-
+                  version: "1.10" # Workaround until https://github.com/fonsp/Pluto.jl/pull/3180 upstreamed to PlutoSliderServer.jl
             - name: Cache Julia artifacts & such
               uses: julia-actions/cache@v2
               with:
