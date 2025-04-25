@@ -15,11 +15,6 @@ md"""
 Below are some boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
-
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
 # $(date)
@@ -324,6 +319,11 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/ART6Xo1cDSy",
 	"https://link.excalidraw.com/readonly/v16Kdd4pgQEhGfDzibtX?darkMode=true",
 )
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
