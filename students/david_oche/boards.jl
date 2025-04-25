@@ -244,7 +244,7 @@ board(
 	md"""
 	##### `systems of equations`
 	!!! note "Summary"
-		Just returned from spring break and school travel. Continued review of linear systems of equations with three variables. David doing well, mentioned that one of is classmates jumped from the third floor of their school, details still coming. He seems outwardly unphased, but will keep an eye on him.
+		Just returned from spring break and school travel. Continued review of linear systems of equations with three variables
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/3bt2Xhzlfmx",
 	"https://link.excalidraw.com/readonly/f0uoyVhw8mHzDewjbXJA?darkMode=true",
