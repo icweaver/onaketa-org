@@ -314,7 +314,7 @@ board(
 	###### `perimeter` `area`
 
 	!!! note "Summary"
-		Perimeter and area of rectangles and parallelograms.
+		Perimeter and area of rectangles and parallelograms
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/ART6Xo1cDSy",
 	"https://link.excalidraw.com/readonly/v16Kdd4pgQEhGfDzibtX?darkMode=true",

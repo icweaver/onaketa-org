@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.5
+# v0.20.6
 
 using Markdown
 using InteractiveUtils
@@ -238,6 +238,18 @@ board(
 	"https://link.excalidraw.com/readonly/EHOUveS0hky1QWZPTLri?darkMode=true",
 )
 
+# ╔═╡ 27594dab-1e4d-4cba-9f2a-041abb433ac7
+board(
+	"2025-04-24",
+	md"""
+	##### `systems of equations`
+	!!! note "Summary"
+		Just returned from spring break and school travel. Continued review of linear systems of equations with three variables. David doing well, mentioned that one of is classmates jumped from the third floor of their school, details still coming. He seems outwardly unphased, but will keep an eye on him.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3bt2Xhzlfmx",
+	"https://link.excalidraw.com/readonly/f0uoyVhw8mHzDewjbXJA?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
 
@@ -270,7 +282,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.4"
+julia_version = "1.11.5"
 manifest_format = "2.0"
 project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
 
@@ -584,6 +596,7 @@ version = "17.4.0+2"
 # ╟─bda7b6e6-8a23-4e30-a4d1-ae62ef0ae8bc
 # ╟─7017510e-57b0-4a43-be7a-0bb6bff5da91
 # ╟─c9499268-f63d-46d6-a2cd-128e6443aa96
+# ╟─27594dab-1e4d-4cba-9f2a-041abb433ac7
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
