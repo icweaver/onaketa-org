@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.6
+# v0.20.8
 
 using Markdown
 using InteractiveUtils
@@ -14,11 +14,6 @@ end
 md"""
 Below are some boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
-
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
@@ -324,6 +319,24 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/ART6Xo1cDSy",
 	"https://link.excalidraw.com/readonly/v16Kdd4pgQEhGfDzibtX?darkMode=true",
 )
+
+# ╔═╡ f0918391-1860-4fc9-ad99-aa3d7580a8fa
+board(
+	"2025-04-30",
+	md"""
+	###### `area`
+
+	!!! note "Summary"
+		Reviewed area of parallelograms, introduced area of triangles and circles.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/7GgLDDQLiHw",
+	"https://link.excalidraw.com/readonly/9AaA3u9nYiVIJpGpMm30?darkMode=true",
+)
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
@@ -663,6 +676,7 @@ version = "17.4.0+2"
 # ╟─7f74648c-c512-472d-9683-a55eaa927409
 # ╟─36ad6c43-67d5-4498-a94a-d983d4df2a99
 # ╟─dcc4182a-4cbf-430a-bed3-6dedf04ff1ba
+# ╟─f0918391-1860-4fc9-ad99-aa3d7580a8fa
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
