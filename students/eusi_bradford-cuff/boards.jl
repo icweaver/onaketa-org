@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.5
+# v0.20.8
 
 using Markdown
 using InteractiveUtils
@@ -249,6 +249,17 @@ board(
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/1KYfiRumpUj",
 	"https://link.excalidraw.com/readonly/VIaZTf1uGpY9mial73aO?darkMode=true",
+)
+
+# ╔═╡ 32754018-0e30-4455-999c-deb14e558671
+board(
+	"2025-05-01",
+	md"""###### `ideal gas law`
+	!!! note "Summary"
+		Reviewed gas laws
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1lBo31bQfx4",
+	"https://link.excalidraw.com/readonly/HWr4oj5qVLlqaiEefT3P?darkMode=true",
 )
 
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
@@ -604,6 +615,7 @@ version = "17.4.0+2"
 # ╟─36711517-42a2-410b-9543-ed639c35e360
 # ╟─b85a9bea-8834-4be9-b0e1-f808e51c53cf
 # ╟─8805fb10-9767-4944-863e-00fc64737d2e
+# ╟─32754018-0e30-4455-999c-deb14e558671
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
