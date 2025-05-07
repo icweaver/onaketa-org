@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.4
+# v0.20.8
 
 using Markdown
 using InteractiveUtils
@@ -62,12 +62,6 @@ With these definitions made, we go on to visualize different aspects of the data
 !!! todo
 	Do we want to include dropped student data in some way? For now, just omitting this by default.
 """
-
-# ╔═╡ 9d8a71a0-510d-4789-8822-d6757d73fb86
-gdf = @chain df_accepted begin
-	@rtransform :yh = yearhalf(:"Submitted at")
-	@groupby :yh
-end;
 
 # ╔═╡ 99d32265-92c0-4af4-ac08-83bcb83a22bd
 # let
@@ -140,6 +134,12 @@ function yearhalf(dt)
 	# end
 	"$(yr)-$(semester)"
 end
+
+# ╔═╡ 9d8a71a0-510d-4789-8822-d6757d73fb86
+gdf = @chain df_accepted begin
+	@rtransform :yh = yearhalf(:"Submitted at")
+	@groupby :yh
+end;
 
 # ╔═╡ d5210e0a-dba8-469c-a369-23aeb88a1815
 begin
@@ -386,7 +386,6 @@ DataFramesMeta = "~0.15.3"
 NaturalSort = "~1.0.0"
 OrderedCollections = "~1.6.3"
 PlutoUI = "~0.7.60"
-Statistics = "~1.11.1"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
@@ -1407,7 +1406,7 @@ version = "3.2.4+0"
 [[OpenLibm_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "05823500-19ac-5b8b-9628-191a04bc5112"
-version = "0.8.1+2"
+version = "0.8.5+0"
 
 [[OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]

@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.6
+# v0.20.8
 
 using Markdown
 using InteractiveUtils
@@ -14,11 +14,6 @@ end
 md"""
 Below are some boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
-
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
@@ -277,6 +272,22 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4uegOYqiJTr",
 	"https://link.excalidraw.com/readonly/Oza0Qtpsn6i6t4DImoH6?darkMode=true",
 )
+
+# ╔═╡ c6a8d020-96cd-48a3-adb1-51e584bc63e4
+board(
+	"2025-05-01",
+	md"""###### `linear transformations` `vector algebra`
+	!!! note "Summary"
+		Reviewed linear translations, and reflections. Got a head start on new content: vector addition and subtraction in two dimensions.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8AKXqdI1pDo",
+	"https://link.excalidraw.com/readonly/5UpdHHLq4vp7jOnSxTG1?darkMode=true",
+)
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
@@ -615,6 +626,7 @@ version = "17.4.0+2"
 # ╟─ef3d2910-749e-4553-9664-b985bf8c570e
 # ╟─d5341ef7-8a3a-420e-a984-7af4f46292aa
 # ╟─d114eecc-7b24-48ec-ab33-8064d0c16a6b
+# ╟─c6a8d020-96cd-48a3-adb1-51e584bc63e4
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

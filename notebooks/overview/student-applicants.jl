@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.4
+# v0.20.8
 
 using Markdown
 using InteractiveUtils
@@ -7,7 +7,7 @@ using InteractiveUtils
 # This Pluto notebook uses @bind for interactivity. When running this notebook outside of Pluto, the following 'mock version' of @bind gives bound variables a default value (instead of an error).
 macro bind(def, element)
     #! format: off
-    quote
+    return quote
         local iv = try Base.loaded_modules[Base.PkgId(Base.UUID("6e696c72-6542-2067-7265-42206c756150"), "AbstractPlutoDingetjes")].Bonds.initial_value catch; b -> missing; end
         local el = $(esc(element))
         global $(esc(def)) = Core.applicable(Base.get, el) ? Base.get(el) : iv(el)
@@ -39,11 +39,27 @@ md"""
 _Sorted by name_
 """
 
+# ╔═╡ 8b8dae06-0e42-4f6a-bdca-367f2b2161ab
+cm"""
+$([
+	cm"$(generate_report(i, row))"
+	for (i, row) in enumerate(eachrow(sort(df_accept, :student_name)))
+])
+"""
+
 # ╔═╡ 1fab4247-2273-4258-b804-95b574d7f9b0
 md"""
 # ⏸️ Waitlist applications
 
 _Sorted by name_
+"""
+
+# ╔═╡ 2fe50f64-b13e-40e6-86ea-5a9559f7afd3
+cm"""
+$([
+	cm"$(generate_report(i, row))"
+	for (i, row) in enumerate(eachrow(sort(df_waitlist, :student_name)))
+])
 """
 
 # ╔═╡ e3bf8c55-d2e9-4bdc-96de-88a4217dcbb9
@@ -207,22 +223,6 @@ function generate_report(num, row)
 		**Schedule:** $(Markdown.parse("<$(row.schedule)>"))
 	""")
 end
-
-# ╔═╡ 8b8dae06-0e42-4f6a-bdca-367f2b2161ab
-cm"""
-$([
-	cm"$(generate_report(i, row))"
-	for (i, row) in enumerate(eachrow(sort(df_accept, :student_name)))
-])
-"""
-
-# ╔═╡ 2fe50f64-b13e-40e6-86ea-5a9559f7afd3
-cm"""
-$([
-	cm"$(generate_report(i, row))"
-	for (i, row) in enumerate(eachrow(sort(df_waitlist, :student_name)))
-])
-"""
 
 # ╔═╡ a1e0708f-e795-41d1-a75a-3ac6cb392fc7
 md"""
