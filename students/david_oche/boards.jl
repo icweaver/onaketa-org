@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.6
+# v0.20.8
 
 using Markdown
 using InteractiveUtils
@@ -20,11 +20,6 @@ md"""
 !!! note
 	[Past boards](https://docs.google.com/document/d/1VbkHtNdugk0vKbg7NwLoilR06OkxLso9SZAXn9egtGs/edit?usp=sharing)
 """
-
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
@@ -249,6 +244,23 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/3bt2Xhzlfmx",
 	"https://link.excalidraw.com/readonly/f0uoyVhw8mHzDewjbXJA?darkMode=true",
 )
+
+# ╔═╡ 2415789a-71e2-45e1-8709-12c081452340
+board(
+	"2025-05-01",
+	md"""
+	##### `linear programming`
+	!!! note "Summary"
+		Introduction to the fundamental theorem of linear programming and its applications.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2LvPnrYevLa",
+	"https://link.excalidraw.com/readonly/bhF6ITThmI7bVo2fMSmz?darkMode=true",
+)
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Boards 📝", depth=6, indent=false)
@@ -584,6 +596,7 @@ version = "17.4.0+2"
 # ╟─7017510e-57b0-4a43-be7a-0bb6bff5da91
 # ╟─c9499268-f63d-46d6-a2cd-128e6443aa96
 # ╟─27594dab-1e4d-4cba-9f2a-041abb433ac7
+# ╟─2415789a-71e2-45e1-8709-12c081452340
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
