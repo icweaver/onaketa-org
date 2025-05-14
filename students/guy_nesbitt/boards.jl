@@ -284,6 +284,17 @@ board(
 	"https://link.excalidraw.com/readonly/5UpdHHLq4vp7jOnSxTG1?darkMode=true",
 )
 
+# ╔═╡ dcfc2a28-685a-44a6-93d7-1d9e5fccf115
+board(
+	"2025-05-08",
+	md"""###### `systems of equations` `equations of a line`, `exponents`
+	!!! note "Summary"
+		Reviewed systems of equations, equations of a line, and exponentiation.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9jzMDM06krA",
+	"https://link.excalidraw.com/readonly/T7uhXKPeEDY8VOnnSWpn?darkMode=true",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @mdx """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -627,6 +638,7 @@ version = "17.4.0+2"
 # ╟─d5341ef7-8a3a-420e-a984-7af4f46292aa
 # ╟─d114eecc-7b24-48ec-ab33-8064d0c16a6b
 # ╟─c6a8d020-96cd-48a3-adb1-51e584bc63e4
+# ╟─dcfc2a28-685a-44a6-93d7-1d9e5fccf115
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
