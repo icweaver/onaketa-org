@@ -340,7 +340,7 @@ board(
 	###### `perimeter` `area` `line segments`
 
 	!!! note "Summary"
-		Reviewed area of parallelograms, introduced area of triangles and circles.
+		Reviewed perimeter and area equations for rectangles and triangles. Ended with line segment exercise.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/Vcaut5CJCv",
 	"https://link.excalidraw.com/readonly/tvdqUKpCLGSLBapbqLnO?darkMode=true",
