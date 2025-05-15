@@ -333,6 +333,19 @@ board(
 	"https://link.excalidraw.com/readonly/9AaA3u9nYiVIJpGpMm30?darkMode=true",
 )
 
+# ╔═╡ 8f077501-ff5d-4aff-9db3-4a8e6eb836a8
+board(
+	"2025-05-14",
+	md"""
+	###### `perimeter` `area` `line segments`
+
+	!!! note "Summary"
+		Reviewed area of parallelograms, introduced area of triangles and circles.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/Vcaut5CJCv",
+	"https://link.excalidraw.com/readonly/tvdqUKpCLGSLBapbqLnO?darkMode=true",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @mdx """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -677,6 +690,7 @@ version = "17.4.0+2"
 # ╟─36ad6c43-67d5-4498-a94a-d983d4df2a99
 # ╟─dcc4182a-4cbf-430a-bed3-6dedf04ff1ba
 # ╟─f0918391-1860-4fc9-ad99-aa3d7580a8fa
+# ╟─8f077501-ff5d-4aff-9db3-4a8e6eb836a8
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
