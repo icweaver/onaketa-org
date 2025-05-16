@@ -273,6 +273,17 @@ board(
 	"https://link.excalidraw.com/readonly/TBEN0vXDMZGyIDAKqOcm?darkMode=true",
 )
 
+# ╔═╡ bde40226-89dd-4044-a2aa-25c03e7d64a0
+board(
+	"2025-05-15",
+	md"""###### `calorimetry`
+	!!! note "Summary"
+		Started new unit in thermochemistry: calorimetry.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/6ayiR46CX2s",
+	"https://link.excalidraw.com/readonly/a2WFAS4T0RgbKsgej1GB?darkMode=true",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @mdx """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -628,6 +639,7 @@ version = "17.4.0+2"
 # ╟─8805fb10-9767-4944-863e-00fc64737d2e
 # ╟─32754018-0e30-4455-999c-deb14e558671
 # ╟─48c41877-ec7d-44cd-a916-94b937f367ed
+# ╟─bde40226-89dd-4044-a2aa-25c03e7d64a0
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

@@ -295,6 +295,17 @@ board(
 	"https://link.excalidraw.com/readonly/T7uhXKPeEDY8VOnnSWpn?darkMode=true",
 )
 
+# ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
+board(
+	"2025-05-15",
+	md"""###### `line segments` `line of best fit`
+	!!! note "Summary"
+		Reviewed old material on line segment relations and lines of best fit
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/6FCKFcKrlM1",
+	"https://link.excalidraw.com/readonly/JMFm4u1P2muZDWICTR1T?darkMode=true",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @mdx """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -639,6 +650,7 @@ version = "17.4.0+2"
 # ╟─d114eecc-7b24-48ec-ab33-8064d0c16a6b
 # ╟─c6a8d020-96cd-48a3-adb1-51e584bc63e4
 # ╟─dcfc2a28-685a-44a6-93d7-1d9e5fccf115
+# ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
