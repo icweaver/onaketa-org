@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.8
+# v0.20.9
 
 using Markdown
 using InteractiveUtils
@@ -255,6 +255,18 @@ board(
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/2LvPnrYevLa",
 	"https://link.excalidraw.com/readonly/bhF6ITThmI7bVo2fMSmz?darkMode=true",
+)
+
+# ╔═╡ 467f9592-8798-4398-809a-7498d9473e67
+board(
+	"2025-05-29",
+	md"""
+	##### `quadratics`
+	!!! note "Summary"
+		Perfect trinomials and completing the square technique.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/7ZNqFN4c9Oy",
+	"https://link.excalidraw.com/readonly/VzIdinfjkukQJo3AL9QQ?darkMode=true",
 )
 
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
@@ -597,6 +609,7 @@ version = "17.4.0+2"
 # ╟─c9499268-f63d-46d6-a2cd-128e6443aa96
 # ╟─27594dab-1e4d-4cba-9f2a-041abb433ac7
 # ╟─2415789a-71e2-45e1-8709-12c081452340
+# ╟─467f9592-8798-4398-809a-7498d9473e67
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
