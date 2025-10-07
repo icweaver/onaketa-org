@@ -49,11 +49,6 @@ TableOfContents(; title="Boards 📝", depth=6, indent=false)
 # ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
 @mdx """
 <style>
-main {
-    max-width: 90%;
-    margin-right: 5% !important;
-}
-
 pluto-output.rich_output code {
   background-color: light-dark(wheat, grey);
 }
