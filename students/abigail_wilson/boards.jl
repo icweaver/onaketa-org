@@ -12,8 +12,7 @@ end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 md"""
-# Abigail's board 🥰
-Below are boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
+Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
@@ -37,7 +36,7 @@ board(
 	"2025-10-08",
 	md"""###### `polynomials` `long division` `complex numbers` 
 	!!! note "Summary"
-		Abigail walked us through two sample problems for her test tomorrow on polynomial long divison and working with complex numbers. We also discussed the following resources to help prepare for the [AMC])(https://maa.org/student-programs/amc/):
+		Abigail walked us through two sample problems for her test tomorrow on polynomial long divison and working with complex numbers. We also discussed the following resources to help prepare for the [AMC](https://maa.org/student-programs/amc/):
 
 		* [AoPS](https://artofproblemsolving.com/company?croid=undefined)
 		* [OpenStax](https://openstax.org/)
@@ -47,7 +46,7 @@ board(
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="Boards 📝", depth=6, indent=false)
+TableOfContents(; title="Abigail's Board 🥰", depth=6, indent=false)
 
 # ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
 @mdx """

@@ -22,7 +22,7 @@ iframe(url) = @mdx """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
-## $(date)
+# $(date)
 
 $(description)
 
@@ -33,17 +33,17 @@ $(iframe(url_embed))
 
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
-	"2025-10-06",
-	md"""###### `fractions` `LCD`
+	"2025-10-07",
+	md"""###### `proportionality`
 	!!! note "Summary"
-		Reviewed homework on re-writing fractions using their least common denominator (LCD). We then used this to start comparing different fractions with each other.
+		Reviewed using proportionality constants to analyze financial word problems.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/Acf1ztSlzVp",
-	"https://link.excalidraw.com/readonly/8xGkg6liMPmXsLtvCZDZ?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8k2AdqApe4B",
+	"https://link.excalidraw.com/readonly/5vnNd6BPYn1ZN215tK52?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
+TableOfContents(; title="Tywan's Board 💀", depth=6, indent=false)
 
 # ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
 @mdx """
