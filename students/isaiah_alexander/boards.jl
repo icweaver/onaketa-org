@@ -53,6 +53,19 @@ board(
 	"https://link.excalidraw.com/readonly/dn12J9qErW34GKZNmBoJ?darkMode=true",
 )
 
+# ╔═╡ 24f589dc-6805-4eb8-8c78-8f6ca88f1592
+board(
+	"2025-10-20",
+	md"""###### `mixed fractions` `improper fractions`
+	!!! note "Summary"
+		* Worksheet - [2.2 Homework – Divide Fractions](https://www.google.com/url?q=https://docs.google.com/document/d/1NKg2rbI3kbDvzidrLK0OR1ieL2nngcEAx1SScCGwLfA/edit?usp%3Dsharing&sa=D&source=calendar&ust=1761252678336830&usg=AOvVaw2_9Og9BjkMFIGaKYfRqyA8)
+		* Worksheet - [2.3 Homework – Divide Mixed Numbers](https://www.google.com/url?q=https://docs.google.com/document/d/102RYkwWDLFKB6f6lodfZzAm5MsLdqlh-gx07kDaX8lc/edit?usp%3Dsharing&sa=D&source=calendar&ust=1761252678336830&usg=AOvVaw34PAVGqRrk9HezBddGJKio)
+		* Practice test - [Ch1.6e-2.3 Practice Test](https://www.google.com/url?q=https://docs.google.com/document/d/1zQ4IXt9J_XnsnxidV9QxAQ8g8BX39L0nxqTmGS8JWJ8/edit?usp%3Dsharing&sa=D&source=calendar&ust=1761252678336830&usg=AOvVaw0lBYU2gUAhxkUC_iSG-zwF)
+	""",
+	"",
+	"",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
 
@@ -383,6 +396,7 @@ version = "17.4.0+2"
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
 # ╟─288f5b88-ce22-4f5d-9323-67eac543cd86
+# ╟─24f589dc-6805-4eb8-8c78-8f6ca88f1592
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
