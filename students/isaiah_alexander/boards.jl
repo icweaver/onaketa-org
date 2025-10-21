@@ -58,12 +58,10 @@ board(
 	"2025-10-20",
 	md"""###### `mixed fractions` `improper fractions`
 	!!! note "Summary"
-		* Worksheet - [2.2 Homework – Divide Fractions](https://www.google.com/url?q=https://docs.google.com/document/d/1NKg2rbI3kbDvzidrLK0OR1ieL2nngcEAx1SScCGwLfA/edit?usp%3Dsharing&sa=D&source=calendar&ust=1761252678336830&usg=AOvVaw2_9Og9BjkMFIGaKYfRqyA8)
-		* Worksheet - [2.3 Homework – Divide Mixed Numbers](https://www.google.com/url?q=https://docs.google.com/document/d/102RYkwWDLFKB6f6lodfZzAm5MsLdqlh-gx07kDaX8lc/edit?usp%3Dsharing&sa=D&source=calendar&ust=1761252678336830&usg=AOvVaw34PAVGqRrk9HezBddGJKio)
-		* Practice test - [Ch1.6e-2.3 Practice Test](https://www.google.com/url?q=https://docs.google.com/document/d/1zQ4IXt9J_XnsnxidV9QxAQ8g8BX39L0nxqTmGS8JWJ8/edit?usp%3Dsharing&sa=D&source=calendar&ust=1761252678336830&usg=AOvVaw0lBYU2gUAhxkUC_iSG-zwF)
+		* Reviewed [1.1 - 1.3 Practice Test](https://docs.google.com/document/d/1Vhi75VGQdi8ZNJsARfC_-S5Lj9NraTXPDSAvZepR5dM/edit?usp=sharing) and [Ch1.6e-2.3 Practice Test](https://docs.google.com/document/d/1zQ4IXt9J_XnsnxidV9QxAQ8g8BX39L0nxqTmGS8JWJ8/edit?usp=sharing) for test tomorrow. 
 	""",
-	"",
-	"",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5fVYFJqCwr",
+	"https://link.excalidraw.com/readonly/5LetYLGAmbQ4u0T5S186?darkMode=true",
 )
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d

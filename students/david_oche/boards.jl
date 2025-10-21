@@ -31,11 +31,6 @@ md"""
 # 2024-25 Term
 """
 
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
-
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share, url_embed) = @mdx """
 ## $(date)
@@ -67,6 +62,17 @@ board(
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/1Dyclzt0FiK",
 	"https://link.excalidraw.com/readonly/DMiAijIc4ylDN1dFz3IN?darkMode=true",
+)
+
+# ╔═╡ f6a3d3d6-b285-4a99-b7a2-e6d6ab00be1a
+board(
+	"2025-10-20",
+	md"""##### `chords` `sectors`
+	!!! note "Summary"
+		Geometry review.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4Sh3gneIayb",
+	"https://link.excalidraw.com/readonly/5veIcnA90QowAdfBZBXg?darkMode=true",
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -305,6 +311,11 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7ZNqFN4c9Oy",
 	"https://link.excalidraw.com/readonly/VzIdinfjkukQJo3AL9QQ?darkMode=true",
 )
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @mdx """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="David's Board 💻", depth=6, indent=false)
@@ -638,6 +649,7 @@ version = "17.4.0+2"
 # ╟─df52962a-d2a5-42ed-b891-db262fc90a08
 # ╟─91332a74-d423-489d-81ea-a1f5e36e23fc
 # ╟─31c62bd7-fabf-424c-8d9a-d9fbd3e24170
+# ╟─f6a3d3d6-b285-4a99-b7a2-e6d6ab00be1a
 # ╟─1169c9cd-27b8-4ce7-ac18-f88b4491438f
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─502b9fbc-ee9a-456f-b017-e8f88b53fb3a
