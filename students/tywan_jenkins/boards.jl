@@ -53,6 +53,17 @@ board(
 	"https://link.excalidraw.com/readonly/QfGZEbypvAYSdkghnWZl",
 )
 
+# ╔═╡ 584deffe-123b-46b2-a733-7d72ae8270ff
+board(
+	"2025-10-21",
+	md"""###### `proportionality` `slope-intercept`
+	!!! note "Summary"
+		Continued review of proportionalities and their application in word problems. Started practice problems with slope-intercept form of equation of a line.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/72EnTLxde0",
+	"https://link.excalidraw.com/readonly/LcjIe2C35XXf1OYGE0Lw",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth=6, indent=false)
 
@@ -383,6 +394,7 @@ version = "17.4.0+2"
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
 # ╟─8004c1c6-1535-488f-a251-c0aef13f8e1d
+# ╟─584deffe-123b-46b2-a733-7d72ae8270ff
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
