@@ -64,6 +64,21 @@ board(
 	"https://link.excalidraw.com/readonly/gb5cUntmQIo8vDIypx2Y?darkMode=true",
 )
 
+# ╔═╡ e2bc15a6-28a2-46bd-8c0f-2b985107f357
+board(
+	"2025-10-21",
+	md"""###### `triangle midpoint theorem`
+	!!! note "Summary"
+		Reviewed triangle midpoint theorem for test tomorrow. Used the following resources:
+		* [Kuta Software handout](https://cdn.kutasoftware.com/Worksheets/Geo/5-Midsegment%20of%20a%20Triangle.pdf) [from class](https://drive.google.com/drive/folders/1SlVpu75XGFeV75nFoAFi3Sk9KMpHe9ZO?usp=drive_link)
+		* Khan Academy - [Midpoint theorem](https://www.khanacademy.org/math/ncert-class-9/x2757d6348a04b24e:quadrilaterals-ncert-new/x2757d6348a04b24e:the-midpoint-theorem/e/midpoint-theorem)
+		* IXL - [N.1 Midsegments of triangles](https://www.ixl.com/math/geometry/midsegments-of-triangles)
+	IXL
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1SoPtrmxDSK",
+	"https://link.excalidraw.com/readonly/ce2UPYKrseSwXxPgAVXd?darkMode=true",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -675,6 +690,7 @@ version = "17.4.0+2"
 # ╟─a1663be4-3593-4880-8f42-e5dcc9c75609
 # ╟─2ea5e382-a7f6-4c4c-aa6e-6b84af73aaf0
 # ╟─9d7185b4-c562-4657-be08-ef426b918e86
+# ╟─e2bc15a6-28a2-46bd-8c0f-2b985107f357
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─2943fbc4-ff83-42b0-9dc5-fe2704353b71
