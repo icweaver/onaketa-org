@@ -56,6 +56,19 @@ board(
 	"https://link.excalidraw.com/readonly/vpXbZMccymO0DzihEVPk",
 )
 
+# ╔═╡ ffa86634-a392-47be-879f-6996d765def9
+board(
+	"2025-10-22",
+	md"""###### `finance` `sequences` 
+	!!! note "Summary"
+		Reviewed more sample problems from [AMC 10](https://drive.google.com/file/d/1i1DrI7h7TmxQBEhI55LZy0QlcuSckMQ2/view?usp=drive_link). Abigail also shared the [AMC 10/12 Math Club booklet](https://drive.google.com/file/d/14N1NUyVSZsM8mYlSmjb8U1m-Q2ubEnCK/view?usp=drive_link).
+
+		[Shared resource](https://tutorial.math.lamar.edu/Solutions/Alg/GraphRationalFcns/Prob3.aspx) on rational functions for test.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/6xSrJP545gC",
+	"https://link.excalidraw.com/readonly/IYvcK3y6f4HqiExPrmKd",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Abigail's Board 🥰", depth=6, indent=false)
 
@@ -381,6 +394,7 @@ version = "17.4.0+2"
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
 # ╟─6b5fd48c-26ca-42dd-871e-16a2a78afbcc
+# ╟─ffa86634-a392-47be-879f-6996d765def9
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
