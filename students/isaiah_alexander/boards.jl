@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 1dedaa68-4f52-471a-ab41-c04ebbd793ca
 begin
 	using PlutoUI
-	using MarkdownLiteral: @mdx
+	using HypertextLiteral: @htl
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
@@ -15,21 +15,14 @@ md"""
 Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
-
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share, url_embed) = @mdx """
-## $(date)
+board(date, description, url_share) = """
+## ▪ $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-
-$(iframe(url_embed))
-""";
+""" |> Markdown.parse;
 
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
@@ -39,7 +32,6 @@ board(
 		Reviewed homework on re-writing fractions using their least common denominator (LCD). We then used this to start comparing different fractions with each other.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/Acf1ztSlzVp",
-	"https://link.excalidraw.com/readonly/8xGkg6liMPmXsLtvCZDZ?darkMode=true",
 )
 
 # ╔═╡ 288f5b88-ce22-4f5d-9323-67eac543cd86
@@ -50,7 +42,6 @@ board(
 		Reviewed working with mixed and improper fractions, and how to convert between them.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7qoA1zdsfmx",
-	"https://link.excalidraw.com/readonly/dn12J9qErW34GKZNmBoJ?darkMode=true",
 )
 
 # ╔═╡ 24f589dc-6805-4eb8-8c78-8f6ca88f1592
@@ -61,7 +52,6 @@ board(
 		* Reviewed [1.1 - 1.3 Practice Test](https://docs.google.com/document/d/1Vhi75VGQdi8ZNJsARfC_-S5Lj9NraTXPDSAvZepR5dM/edit?usp=sharing) and [Ch1.6e-2.3 Practice Test](https://docs.google.com/document/d/1zQ4IXt9J_XnsnxidV9QxAQ8g8BX39L0nxqTmGS8JWJ8/edit?usp=sharing) for test tomorrow. 
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/5fVYFJqCwr",
-	"https://link.excalidraw.com/readonly/5LetYLGAmbQ4u0T5S186?darkMode=true",
 )
 
 # ╔═╡ bbf985d2-3b66-4e1a-8ff0-e4f7fa50d8e9
@@ -72,14 +62,30 @@ board(
 		* Reviewed [Math 6: Chapter 2 Fractions Practice Test](https://docs.google.com/document/d/1zQ4IXt9J_XnsnxidV9QxAQ8g8BX39L0nxqTmGS8JWJ8/edit?usp=sharing) for test re-take tomorrow. 
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/3gq2g4Twoza",
-	"https://link.excalidraw.com/readonly/DS6YKp9ejT4RqagsBrru?darkMode=true",
 )
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @htl """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
+
+# ╔═╡ 8783183d-4fe0-413c-bab5-3aa7ac497036
+iframe("https://link.excalidraw.com/readonly/8xGkg6liMPmXsLtvCZDZ?darkMode=true")
+
+# ╔═╡ c3116396-50d8-479d-a88a-aaff6925d0ad
+iframe("https://link.excalidraw.com/readonly/dn12J9qErW34GKZNmBoJ?darkMode=true")
+
+# ╔═╡ e1685f29-94c4-48c8-b6cc-74dea0624198
+iframe("https://link.excalidraw.com/readonly/5LetYLGAmbQ4u0T5S186?darkMode=true")
+
+# ╔═╡ d6bbe93f-49e2-456e-afbd-f0bf633faddf
+iframe("https://link.excalidraw.com/readonly/DS6YKp9ejT4RqagsBrru?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
 
 # ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
-@mdx """
+html"""
 <style>
 main {
     max-width: 90%;
@@ -95,11 +101,11 @@ pluto-output.rich_output code {
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
-MarkdownLiteral = "736d6165-7244-6769-4267-6b50796e6954"
+HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
-MarkdownLiteral = "~0.1.1"
+HypertextLiteral = "~0.9.5"
 PlutoUI = "~0.7.59"
 """
 
@@ -109,7 +115,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.11.7"
 manifest_format = "2.0"
-project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
+project_hash = "65877c43b0e7adba5f4c93d8d0c98988bb337300"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -135,21 +141,10 @@ git-tree-sha1 = "b10d0b65641d57b8b4d5e234446582de5047050d"
 uuid = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 version = "0.11.5"
 
-[[deps.CommonMark]]
-deps = ["Crayons", "PrecompileTools"]
-git-tree-sha1 = "3faae67b8899797592335832fccf4b3c80bb04fa"
-uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
-version = "0.8.15"
-
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 version = "1.1.1+0"
-
-[[deps.Crayons]]
-git-tree-sha1 = "249fe38abf76d48563e2f4556bebd215aa317e15"
-uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
-version = "4.1.1"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -247,12 +242,6 @@ version = "1.0.0"
 deps = ["Base64"]
 uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 version = "1.11.0"
-
-[[deps.MarkdownLiteral]]
-deps = ["CommonMark", "HypertextLiteral"]
-git-tree-sha1 = "0d3fa2dd374934b62ee16a4721fe68c418b92899"
-uuid = "736d6165-7244-6769-4267-6b50796e6954"
-version = "0.1.1"
 
 [[deps.MbedTLS_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -404,9 +393,13 @@ version = "17.4.0+2"
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
+# ╟─8783183d-4fe0-413c-bab5-3aa7ac497036
 # ╟─288f5b88-ce22-4f5d-9323-67eac543cd86
+# ╟─c3116396-50d8-479d-a88a-aaff6925d0ad
 # ╟─24f589dc-6805-4eb8-8c78-8f6ca88f1592
-# ╟─bbf985d2-3b66-4e1a-8ff0-e4f7fa50d8e9
+# ╟─e1685f29-94c4-48c8-b6cc-74dea0624198
+# ╠═bbf985d2-3b66-4e1a-8ff0-e4f7fa50d8e9
+# ╟─d6bbe93f-49e2-456e-afbd-f0bf633faddf
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
