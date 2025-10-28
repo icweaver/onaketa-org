@@ -64,6 +64,17 @@ board(
 	"https://link.excalidraw.com/readonly/5LetYLGAmbQ4u0T5S186?darkMode=true",
 )
 
+# ╔═╡ bbf985d2-3b66-4e1a-8ff0-e4f7fa50d8e9
+board(
+	"2025-10-27 🎃",
+	md"""###### `mixed fractions` `improper fractions`
+	!!! note "Summary"
+		* Reviewed [Math 6: Chapter 2 Fractions Practice Test](https://docs.google.com/document/d/1zQ4IXt9J_XnsnxidV9QxAQ8g8BX39L0nxqTmGS8JWJ8/edit?usp=sharing) for test re-take tomorrow. 
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3gq2g4Twoza",
+	"https://link.excalidraw.com/readonly/DS6YKp9ejT4RqagsBrru?darkMode=true",
+)
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
 
@@ -395,6 +406,7 @@ version = "17.4.0+2"
 # ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
 # ╟─288f5b88-ce22-4f5d-9323-67eac543cd86
 # ╟─24f589dc-6805-4eb8-8c78-8f6ca88f1592
+# ╟─bbf985d2-3b66-4e1a-8ff0-e4f7fa50d8e9
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
