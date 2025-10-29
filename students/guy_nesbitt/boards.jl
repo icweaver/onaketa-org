@@ -27,7 +27,7 @@ md"""
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share) = """
-## ▪ $(date)
+# ▪ $(date)
 
 $(description)
 
@@ -762,39 +762,39 @@ version = "17.4.0+2"
 # ╟─d0a05b07-6e80-4063-bca5-dbf1ce59c4d0
 # ╟─d1e93d8e-dae2-4254-ae04-180b4cb29a9a
 # ╟─0c8784bd-c6a5-42b9-86ae-c757fb8b49e7
-# ╠═a79ca5a6-68bb-427d-8f22-3034b550fdd9
-# ╠═206527d3-26fe-4513-bffe-caf9c0676411
-# ╠═7d2c5a4e-63ec-4928-aa8d-6f58e1106d97
-# ╠═db37434c-f513-41ed-a4e5-a84a4a6bd597
-# ╠═3b4049bd-585a-4ee5-a9c9-b376f83e74f1
-# ╠═39571527-1521-4b32-bfd1-c752dbeddb9d
-# ╠═eb9e9706-3e13-42a4-808d-24a5902f83e4
-# ╠═cb1f24f8-6e8e-4e59-a2d0-41efff7c53ec
-# ╠═8fc7cd6a-7389-41ff-a8bd-375b2b58ac17
-# ╠═ced7b607-9ef9-44fa-8ebb-f615c6629cb9
-# ╠═fd9053ff-4754-4773-ae27-b075ec841aac
-# ╠═7cb4aa73-d816-4b08-a2da-82580badb438
-# ╠═d3f3a612-5469-40b2-9983-5a6d08717b21
+# ╟─a79ca5a6-68bb-427d-8f22-3034b550fdd9
+# ╟─206527d3-26fe-4513-bffe-caf9c0676411
+# ╟─7d2c5a4e-63ec-4928-aa8d-6f58e1106d97
+# ╟─db37434c-f513-41ed-a4e5-a84a4a6bd597
+# ╟─3b4049bd-585a-4ee5-a9c9-b376f83e74f1
+# ╟─39571527-1521-4b32-bfd1-c752dbeddb9d
+# ╟─eb9e9706-3e13-42a4-808d-24a5902f83e4
+# ╟─cb1f24f8-6e8e-4e59-a2d0-41efff7c53ec
+# ╟─8fc7cd6a-7389-41ff-a8bd-375b2b58ac17
+# ╟─ced7b607-9ef9-44fa-8ebb-f615c6629cb9
+# ╟─fd9053ff-4754-4773-ae27-b075ec841aac
+# ╟─7cb4aa73-d816-4b08-a2da-82580badb438
+# ╟─d3f3a612-5469-40b2-9983-5a6d08717b21
 # ╠═e77d3d7c-e8bd-4d63-885e-624676b5edb3
-# ╠═fac84720-43e1-4731-a437-127c5d7f81a9
-# ╠═90c108ed-7d1a-42f6-96e7-74131e45f34f
-# ╠═b1e5752f-34d9-4747-a9ee-1acec8e3e839
-# ╠═4fc791da-95b6-4cf7-9aef-c717477e735d
-# ╠═6bd657e6-6e4a-4ff9-bb96-f231aaf9673c
-# ╠═711e59ae-18c1-410c-bb78-947ee6b0d2ef
-# ╠═00d93dbd-4ec2-4c3a-9561-2a97f6a43b6e
-# ╠═5669164f-911c-41af-a5a7-d59d94e38c21
-# ╠═bda1c38a-3ab0-47ba-95c1-6ee5f5cada46
-# ╠═dacc6e0f-2e52-4925-bf8d-1436c58ca5ec
-# ╠═c036d887-c149-45aa-ba08-84ccaf8c717f
-# ╠═04f6c97e-b1b4-49a3-a949-22ebf090976f
-# ╠═f9f4078a-52eb-4937-8e91-03fc14b0d043
-# ╠═9d85b9a6-d573-418b-b5e3-1997a1aca256
-# ╠═ebf08764-d1bd-4a63-a607-33c4e4f6a0de
-# ╠═c47fea77-a06b-468c-9bf7-78d1ff02d7e5
-# ╠═a8d5bde9-c0f0-4bc9-a963-a13bbf3af53c
-# ╠═dcae2fd4-0514-4fb0-8df9-3863de2beffe
-# ╠═c85dc1be-0863-4aaa-bbee-fd72ceda714a
+# ╟─fac84720-43e1-4731-a437-127c5d7f81a9
+# ╟─90c108ed-7d1a-42f6-96e7-74131e45f34f
+# ╟─b1e5752f-34d9-4747-a9ee-1acec8e3e839
+# ╟─4fc791da-95b6-4cf7-9aef-c717477e735d
+# ╟─6bd657e6-6e4a-4ff9-bb96-f231aaf9673c
+# ╟─711e59ae-18c1-410c-bb78-947ee6b0d2ef
+# ╟─00d93dbd-4ec2-4c3a-9561-2a97f6a43b6e
+# ╟─5669164f-911c-41af-a5a7-d59d94e38c21
+# ╟─bda1c38a-3ab0-47ba-95c1-6ee5f5cada46
+# ╟─dacc6e0f-2e52-4925-bf8d-1436c58ca5ec
+# ╟─c036d887-c149-45aa-ba08-84ccaf8c717f
+# ╟─04f6c97e-b1b4-49a3-a949-22ebf090976f
+# ╟─f9f4078a-52eb-4937-8e91-03fc14b0d043
+# ╟─9d85b9a6-d573-418b-b5e3-1997a1aca256
+# ╟─ebf08764-d1bd-4a63-a607-33c4e4f6a0de
+# ╟─c47fea77-a06b-468c-9bf7-78d1ff02d7e5
+# ╟─a8d5bde9-c0f0-4bc9-a963-a13bbf3af53c
+# ╟─dcae2fd4-0514-4fb0-8df9-3863de2beffe
+# ╟─c85dc1be-0863-4aaa-bbee-fd72ceda714a
 # ╟─7c33c829-7947-4a18-b062-f635fa0f8c5f
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
