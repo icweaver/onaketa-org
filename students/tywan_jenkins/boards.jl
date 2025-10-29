@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 1dedaa68-4f52-471a-ab41-c04ebbd793ca
 begin
 	using PlutoUI
-	using MarkdownLiteral: @mdx
+	using HypertextLiteral: @htl
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
@@ -15,21 +15,14 @@ md"""
 Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
-
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share, url_embed) = @mdx """
-# $(date)
+board(date, description, url_share) = """
+# ▪ $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-
-$(iframe(url_embed))
-""";
+""" |> Markdown.parse;
 
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
@@ -39,7 +32,6 @@ board(
 		Reviewed using proportionality constants to analyze financial word problems.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/8k2AdqApe4B",
-	"https://link.excalidraw.com/readonly/5vnNd6BPYn1ZN215tK52",
 )
 
 # ╔═╡ 8004c1c6-1535-488f-a251-c0aef13f8e1d
@@ -50,7 +42,6 @@ board(
 		Continued review of proportionalities and their application in word problems.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/1Ovwa2AmUKC",
-	"https://link.excalidraw.com/readonly/QfGZEbypvAYSdkghnWZl",
 )
 
 # ╔═╡ 584deffe-123b-46b2-a733-7d72ae8270ff
@@ -61,14 +52,40 @@ board(
 		Continued review of proportionalities and their application in word problems. Started practice problems with slope-intercept form of equation of a line.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/72EnTLxde0",
-	"https://link.excalidraw.com/readonly/LcjIe2C35XXf1OYGE0Lw",
 )
+
+# ╔═╡ 692b1328-4022-4185-a167-8d88a3c7fd56
+board(
+	"2025-10-28 🎃",
+	md"""###### `proportionality` `slope-intercept`
+	!!! note "Summary"
+		Continued review of proportionalities and their application in word problems.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4wCyR1AFMWV",
+)
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @htl """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
+
+# ╔═╡ 32a14c13-8e03-4504-b942-067bd0f4b167
+iframe("https://link.excalidraw.com/readonly/5vnNd6BPYn1ZN215tK52")
+
+# ╔═╡ 3cbee9ef-d166-49d2-8a2b-0631b821dd6d
+iframe("https://link.excalidraw.com/readonly/QfGZEbypvAYSdkghnWZl")
+
+# ╔═╡ 1b5f65da-aa74-451d-8918-de7e28794ea5
+iframe("https://link.excalidraw.com/readonly/LcjIe2C35XXf1OYGE0Lw")
+
+# ╔═╡ aaf74f90-a764-4ff1-a3d5-0f19eefb4e71
+iframe("https://link.excalidraw.com/readonly/2QmonWaKuVT0cm3R1KGt")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth=6, indent=false)
 
 # ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
-@mdx """
+html"""
 <style>
 main {
     max-width: 90%;
@@ -84,11 +101,11 @@ pluto-output.rich_output code {
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
-MarkdownLiteral = "736d6165-7244-6769-4267-6b50796e6954"
+HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
-MarkdownLiteral = "~0.1.1"
+HypertextLiteral = "~0.9.5"
 PlutoUI = "~0.7.59"
 """
 
@@ -98,7 +115,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.11.7"
 manifest_format = "2.0"
-project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
+project_hash = "65877c43b0e7adba5f4c93d8d0c98988bb337300"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -124,21 +141,10 @@ git-tree-sha1 = "b10d0b65641d57b8b4d5e234446582de5047050d"
 uuid = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 version = "0.11.5"
 
-[[deps.CommonMark]]
-deps = ["Crayons", "PrecompileTools"]
-git-tree-sha1 = "3faae67b8899797592335832fccf4b3c80bb04fa"
-uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
-version = "0.8.15"
-
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 version = "1.1.1+0"
-
-[[deps.Crayons]]
-git-tree-sha1 = "249fe38abf76d48563e2f4556bebd215aa317e15"
-uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
-version = "4.1.1"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -236,12 +242,6 @@ version = "1.0.0"
 deps = ["Base64"]
 uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 version = "1.11.0"
-
-[[deps.MarkdownLiteral]]
-deps = ["CommonMark", "HypertextLiteral"]
-git-tree-sha1 = "0d3fa2dd374934b62ee16a4721fe68c418b92899"
-uuid = "736d6165-7244-6769-4267-6b50796e6954"
-version = "0.1.1"
 
 [[deps.MbedTLS_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -393,8 +393,13 @@ version = "17.4.0+2"
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
+# ╟─32a14c13-8e03-4504-b942-067bd0f4b167
 # ╟─8004c1c6-1535-488f-a251-c0aef13f8e1d
+# ╟─3cbee9ef-d166-49d2-8a2b-0631b821dd6d
 # ╟─584deffe-123b-46b2-a733-7d72ae8270ff
+# ╟─1b5f65da-aa74-451d-8918-de7e28794ea5
+# ╟─692b1328-4022-4185-a167-8d88a3c7fd56
+# ╟─aaf74f90-a764-4ff1-a3d5-0f19eefb4e71
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
