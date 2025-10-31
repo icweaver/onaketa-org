@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 1dedaa68-4f52-471a-ab41-c04ebbd793ca
 begin
 	using PlutoUI
-	using MarkdownLiteral: @mdx
+	using HypertextLiteral: @htl
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
@@ -15,21 +15,14 @@ md"""
 Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
-
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share, url_embed) = @mdx """
-# $(date)
+board(date, description, url_share) = """
+# ▪ $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-
-$(iframe(url_embed))
-""";
+""" |> Markdown.parse;
 
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
@@ -42,7 +35,6 @@ board(
 		* [OpenStax](https://openstax.org/)
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/6ekdGYZhUZ7",
-	"https://link.excalidraw.com/readonly/Pq5dUmRplzG4beribySe",
 )
 
 # ╔═╡ 6b5fd48c-26ca-42dd-871e-16a2a78afbcc
@@ -53,7 +45,6 @@ board(
 		Reviewed sample problems from [AMC 10](https://drive.google.com/file/d/1i1DrI7h7TmxQBEhI55LZy0QlcuSckMQ2/view?usp=drive_link). Abigail also shared the [AMC 10/12 Math Club booklet](https://drive.google.com/file/d/14N1NUyVSZsM8mYlSmjb8U1m-Q2ubEnCK/view?usp=drive_link).
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/89ngJYF3YJx",
-	"https://link.excalidraw.com/readonly/vpXbZMccymO0DzihEVPk",
 )
 
 # ╔═╡ ffa86634-a392-47be-879f-6996d765def9
@@ -66,14 +57,42 @@ board(
 		[Shared resource](https://tutorial.math.lamar.edu/Solutions/Alg/GraphRationalFcns/Prob3.aspx) on rational functions for test.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/6xSrJP545gC",
-	"https://link.excalidraw.com/readonly/IYvcK3y6f4HqiExPrmKd",
 )
+
+# ╔═╡ 286e7ab1-532d-4308-b5bb-b72e5f858d0b
+board(
+	"2025-10-30 🎃",
+	md"""###### `probability` `sequences` 
+	!!! note "Summary"
+		Reviewed more sample problems from [AMC 10](https://drive.google.com/file/d/1i1DrI7h7TmxQBEhI55LZy0QlcuSckMQ2/view?usp=drive_link). Abigail also shared the [AMC 10/12 Math Club booklet](https://drive.google.com/file/d/14N1NUyVSZsM8mYlSmjb8U1m-Q2ubEnCK/view?usp=drive_link).
+
+		[Shared resource](https://tutorial.math.lamar.edu/Solutions/Alg/GraphRationalFcns/Prob3.aspx) on rational functions for test.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/6xSrJP545gC",
+)
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @htl """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
+
+# ╔═╡ ed69e148-d2b7-4ba0-b01c-2ba48e34ce9e
+iframe("https://link.excalidraw.com/readonly/Pq5dUmRplzG4beribySe")
+
+# ╔═╡ ce4ccf7f-2931-4cc0-ae54-56aab17c389f
+iframe("https://link.excalidraw.com/readonly/vpXbZMccymO0DzihEVPk")
+
+# ╔═╡ f2e3cf6f-17c2-4bed-9e5f-9f04b141ec1c
+iframe("https://link.excalidraw.com/readonly/IYvcK3y6f4HqiExPrmKd")
+
+# ╔═╡ 9a217f3f-d64e-479b-abcf-4a7b8f733820
+iframe("https://link.excalidraw.com/readonly/P3qcXNHgMzaMN0d7pwfA")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Abigail's Board 🥰", depth=6, indent=false)
 
 # ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
-@mdx """
+@htl """
 <style>
 pluto-output.rich_output code {
   background-color: light-dark(wheat, grey);
@@ -84,11 +103,11 @@ pluto-output.rich_output code {
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
-MarkdownLiteral = "736d6165-7244-6769-4267-6b50796e6954"
+HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
-MarkdownLiteral = "~0.1.1"
+HypertextLiteral = "~0.9.5"
 PlutoUI = "~0.7.59"
 """
 
@@ -98,7 +117,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.11.7"
 manifest_format = "2.0"
-project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
+project_hash = "65877c43b0e7adba5f4c93d8d0c98988bb337300"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -124,21 +143,10 @@ git-tree-sha1 = "b10d0b65641d57b8b4d5e234446582de5047050d"
 uuid = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 version = "0.11.5"
 
-[[deps.CommonMark]]
-deps = ["Crayons", "PrecompileTools"]
-git-tree-sha1 = "3faae67b8899797592335832fccf4b3c80bb04fa"
-uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
-version = "0.8.15"
-
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 version = "1.1.1+0"
-
-[[deps.Crayons]]
-git-tree-sha1 = "249fe38abf76d48563e2f4556bebd215aa317e15"
-uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
-version = "4.1.1"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -236,12 +244,6 @@ version = "1.0.0"
 deps = ["Base64"]
 uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 version = "1.11.0"
-
-[[deps.MarkdownLiteral]]
-deps = ["CommonMark", "HypertextLiteral"]
-git-tree-sha1 = "0d3fa2dd374934b62ee16a4721fe68c418b92899"
-uuid = "736d6165-7244-6769-4267-6b50796e6954"
-version = "0.1.1"
 
 [[deps.MbedTLS_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -393,8 +395,13 @@ version = "17.4.0+2"
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
+# ╟─ed69e148-d2b7-4ba0-b01c-2ba48e34ce9e
 # ╟─6b5fd48c-26ca-42dd-871e-16a2a78afbcc
+# ╟─ce4ccf7f-2931-4cc0-ae54-56aab17c389f
 # ╟─ffa86634-a392-47be-879f-6996d765def9
+# ╟─f2e3cf6f-17c2-4bed-9e5f-9f04b141ec1c
+# ╟─286e7ab1-532d-4308-b5bb-b72e5f858d0b
+# ╟─9a217f3f-d64e-479b-abcf-4a7b8f733820
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
