@@ -69,6 +69,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/6xSrJP545gC",
 )
 
+# ╔═╡ a02b2d41-63b3-449f-94ec-d8672c056a41
+board(
+	"2025-11-04",
+	md"""###### `domain` `linear programming` 
+	!!! note "Summary"
+		Continued AMC 10 review.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/33Oje7d0DQw",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -85,6 +95,9 @@ iframe("https://link.excalidraw.com/readonly/IYvcK3y6f4HqiExPrmKd")
 
 # ╔═╡ 9a217f3f-d64e-479b-abcf-4a7b8f733820
 iframe("https://link.excalidraw.com/readonly/P3qcXNHgMzaMN0d7pwfA")
+
+# ╔═╡ 27f0e469-6e9c-4917-a643-23b1b88c1bb4
+iframe("https://link.excalidraw.com/readonly/9PdV91lqhW6HBrn7Ofci")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Abigail's Board 🥰", depth=6, indent=false)
@@ -409,6 +422,8 @@ version = "17.5.0+2"
 # ╟─f2e3cf6f-17c2-4bed-9e5f-9f04b141ec1c
 # ╟─286e7ab1-532d-4308-b5bb-b72e5f858d0b
 # ╟─9a217f3f-d64e-479b-abcf-4a7b8f733820
+# ╟─a02b2d41-63b3-449f-94ec-d8672c056a41
+# ╟─27f0e469-6e9c-4917-a643-23b1b88c1bb4
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
