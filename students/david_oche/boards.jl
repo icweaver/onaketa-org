@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.19
+# v0.20.20
 
 using Markdown
 using InteractiveUtils
@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 1dedaa68-4f52-471a-ab41-c04ebbd793ca
 begin
 	using PlutoUI
-	using MarkdownLiteral: @mdx
+	using HypertextLiteral: @htl
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
@@ -31,21 +31,14 @@ md"""
 # 2024-25 Term
 """
 
-# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
-iframe(url) = @mdx """
-<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
-""";
-
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share, url_embed) = @mdx """
-## $(date)
+board(date, description, url_share) = """
+# ▪ $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-
-$(iframe(url_embed))
-""";
+""" |> Markdown.parse;
 
 # ╔═╡ 91332a74-d423-489d-81ea-a1f5e36e23fc
 board(
@@ -54,8 +47,7 @@ board(
 	!!! note "Summary"
 		Reviewed application of inscribed circle theorems.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/110BU3VwrSY",
-	"https://link.excalidraw.com/readonly/J7O2rWEps3t754BMkKX3?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/110BU3VwrSY"
 )
 
 # ╔═╡ 31c62bd7-fabf-424c-8d9a-d9fbd3e24170
@@ -65,8 +57,7 @@ board(
 	!!! note "Summary"
 		Reviewed applications of tangent-secant, intersecting chords, and intersecting secants theorems.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/1Dyclzt0FiK",
-	"https://link.excalidraw.com/readonly/DMiAijIc4ylDN1dFz3IN?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1Dyclzt0FiK"
 )
 
 # ╔═╡ f6a3d3d6-b285-4a99-b7a2-e6d6ab00be1a
@@ -76,8 +67,27 @@ board(
 	!!! note "Summary"
 		Geometry review.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/4Sh3gneIayb",
-	"https://link.excalidraw.com/readonly/5veIcnA90QowAdfBZBXg?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4Sh3gneIayb"
+)
+
+# ╔═╡ 01a3b979-7746-4f98-90e5-6a3faea1b1a0
+board(
+	"2025-10-23",
+	md"""##### `chords` `sectors`
+	!!! note "Summary"
+		Geometry review.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4Sh3gneIayb"
+)
+
+# ╔═╡ 8b7d94e1-dacc-41ff-b72f-d72632c7006e
+board(
+	"2025-11-03",
+	md"""##### `trig functions` `polar coordinates`
+	!!! note "Summary"
+		Caught up in class, got a headstart on working in the polar coordinate plane.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/TIHihsvgoF"
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -87,8 +97,7 @@ board(
 	!!! note "Summary"
 		Simplifying radicals.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/2tFeXSTe1eD",
-	"https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2tFeXSTe1eD"
 )
 
 # ╔═╡ 502b9fbc-ee9a-456f-b017-e8f88b53fb3a
@@ -98,8 +107,7 @@ board(
 	!!! note "Summary"
 		Simplifying radicals, continued.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/1PQi19DVcmT",
-	"https://link.excalidraw.com/readonly/D8DcPDu0ME8im4u0Wd0r?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1PQi19DVcmT"
 )
 
 # ╔═╡ 863b624d-df61-4127-95d7-eb28c8bd377e
@@ -110,7 +118,6 @@ board(
 		Simplifying polynomials.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/1LayH65v07k",
-	"https://link.excalidraw.com/readonly/GOEaEaOLYgNyZcn0fZyh?darkMode=true",
 )
 
 # ╔═╡ e2c8db5a-3612-4311-ac92-34b38b5afe48
@@ -121,8 +128,7 @@ board(
 	!!! note "Summary"
 		We explore some different ways to count things in Chemistry.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/AJzHToxLe5f",
-	"https://link.excalidraw.com/readonly/O7iUR0RbVhYILcfO5PqK?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/AJzHToxLe5f"
 )
 
 # ╔═╡ 803e5ba3-0e75-4030-abd9-a7178a54de16
@@ -133,8 +139,7 @@ board(
 	!!! note "Summary"
 		Proving line segment and angle congruency for different configurations
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/5ezMPHwgxUk",
-	"https://link.excalidraw.com/readonly/G4KdjiI9E4kZ2tFC0sLJ?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5ezMPHwgxUk"
 )
 
 # ╔═╡ ba1d2c0d-1a77-4fd4-bb16-81148a62b7bd
@@ -145,8 +150,7 @@ board(
 	!!! note "Summary"
 		Introduced the trigonometric functions: sine ``(\sin\theta)``, cosine ``(\cos\theta)``, and tangent ``(\tan\theta)``
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/9uizZbClcH4",
-	"https://link.excalidraw.com/readonly/1ZkwlX3qhDj9OM0lgcG9?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9uizZbClcH4"
 )
 
 # ╔═╡ 59e16f3f-1e37-4cdb-8a21-826f89ebd282
@@ -157,8 +161,7 @@ board(
 	!!! note "Summary"
 		Reviewed prooving different triangle relations using similar triangles.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/9rXIyx2vKdA",
-	"https://link.excalidraw.com/readonly/PUKNIho0UIuqQScUJfKd?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9rXIyx2vKdA"
 )
 
 # ╔═╡ 2ef67c72-36bf-4a07-b0bb-87710c254c2c
@@ -169,8 +172,7 @@ board(
 	!!! note "Summary"
 		Reviewed proofs using properties of right triangles.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/bnFH4igGU",
-	"https://link.excalidraw.com/readonly/VrlaRVR2wOyOUgE4yik6?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/bnFH4igGU"
 )
 
 # ╔═╡ f8294d92-a96a-46eb-acec-dddee774a0ea
@@ -181,8 +183,7 @@ board(
 	!!! note "Summary"
 		Reviewed simplifying radical expressions.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/dZrRvC1kZN",
-	"https://link.excalidraw.com/readonly/kRCDv6cbftU4AUW3cW5w?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/dZrRvC1kZN"
 )
 
 # ╔═╡ 0b5ae025-8e1a-4db3-9973-7fcf4744be29
@@ -193,8 +194,7 @@ board(
 	!!! note "Summary"
 		We investigate special triangles and solving for their sides.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/53OeWLJwd2Z",
-	"https://link.excalidraw.com/readonly/KgeBf1P39SzumeaebI42?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/53OeWLJwd2Z"
 )
 
 # ╔═╡ 85b3d00e-357f-49a8-9bb3-d4986b77b493
@@ -205,8 +205,7 @@ board(
 	!!! note "Summary"
 		Continued review of special triangles and their extension to trig functions.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/5nWrWPun9H0",
-	"https://link.excalidraw.com/readonly/oagRcznX0IvCCxyVK4Tq?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5nWrWPun9H0"
 )
 
 # ╔═╡ 4e446ed3-a377-4c4f-893a-6e755bbb2f7b
@@ -218,7 +217,6 @@ board(
 		Reviewed additional trigonometry word problems.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/Ab2UUFHCHW1",
-	"https://link.excalidraw.com/readonly/VCJozdCGwoqp5WsBE91W?darkMode=true",
 )
 
 # ╔═╡ 2faec220-0632-4d4c-af6c-486f1768454e
@@ -230,7 +228,6 @@ board(
 		Distance, midpoint, and slope of line segments on the coordinate plane.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/31c6e7PnORC",
-	"https://link.excalidraw.com/readonly/MSGHQeg6biRUSEnHAiHP?darkMode=true",
 )
 
 # ╔═╡ 396ef048-1e3f-4845-9bc4-2a9137eb2c61
@@ -241,8 +238,7 @@ board(
 	!!! note "Summary"
 		Test correction review on simplifying radicals and solving word problems with trig functions.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/5NmHBVJCdN9",
-	"https://link.excalidraw.com/readonly/mMCcxqAEkZ747qwYj78H?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5NmHBVJCdN9"
 )
 
 # ╔═╡ bda7b6e6-8a23-4e30-a4d1-ae62ef0ae8bc
@@ -253,8 +249,7 @@ board(
 	!!! note "Summary"
 		Continued review on simplifying radicals. Completed hw assignment.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/1WghwSX4WeV",
-	"https://link.excalidraw.com/readonly/1B3bpBRG7wMySmHVuoaR?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1WghwSX4WeV"
 )
 
 # ╔═╡ 7017510e-57b0-4a43-be7a-0bb6bff5da91
@@ -265,8 +260,7 @@ board(
 	!!! note "Summary"
 		Parallel, perpendicular line equations. Applications of distance and midpoint formulas.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/7hf07VTS8vk",
-	"https://link.excalidraw.com/readonly/hw3z4Xmajkl6zZAzaSrT?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/7hf07VTS8vk"
 )
 
 # ╔═╡ c9499268-f63d-46d6-a2cd-128e6443aa96
@@ -277,8 +271,7 @@ board(
 	!!! note "Summary"
 		Linear systems of equations with three variables.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/2U3wVKGQADu",
-	"https://link.excalidraw.com/readonly/EHOUveS0hky1QWZPTLri?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2U3wVKGQADu"
 )
 
 # ╔═╡ 27594dab-1e4d-4cba-9f2a-041abb433ac7
@@ -289,8 +282,7 @@ board(
 	!!! note "Summary"
 		Just returned from spring break and school travel. Continued review of linear systems of equations with three variables
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/3bt2Xhzlfmx",
-	"https://link.excalidraw.com/readonly/f0uoyVhw8mHzDewjbXJA?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3bt2Xhzlfmx"
 )
 
 # ╔═╡ 2415789a-71e2-45e1-8709-12c081452340
@@ -301,8 +293,7 @@ board(
 	!!! note "Summary"
 		Introduction to the fundamental theorem of linear programming and its applications.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/2LvPnrYevLa",
-	"https://link.excalidraw.com/readonly/bhF6ITThmI7bVo2fMSmz?darkMode=true",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2LvPnrYevLa"
 )
 
 # ╔═╡ 467f9592-8798-4398-809a-7498d9473e67
@@ -314,14 +305,93 @@ board(
 		Perfect trinomials and completing the square technique.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7ZNqFN4c9Oy",
-	"https://link.excalidraw.com/readonly/VzIdinfjkukQJo3AL9QQ?darkMode=true",
 )
+
+# ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
+iframe(url) = @htl """
+<iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
+""";
+
+# ╔═╡ 797fb912-0319-4471-be69-5c46721c6ace
+iframe("https://link.excalidraw.com/readonly/J7O2rWEps3t754BMkKX3?darkMode=true")
+
+# ╔═╡ b778423f-61eb-4575-97af-b2931d345ebe
+iframe("https://link.excalidraw.com/readonly/DMiAijIc4ylDN1dFz3IN?darkMode=true")
+
+# ╔═╡ 427a7256-55f0-46bb-96bc-2c6f4ed8f768
+iframe("https://link.excalidraw.com/readonly/5veIcnA90QowAdfBZBXg?darkMode=true")
+
+# ╔═╡ f76d08ad-eb7d-4645-890a-329cd3d2a7d0
+iframe("https://link.excalidraw.com/readonly/5veIcnA90QowAdfBZBXg?darkMode=true")
+
+# ╔═╡ fc668662-e92c-466a-bd3c-0911b5f09e55
+iframe("https://link.excalidraw.com/readonly/Jp7JyYGlp4pIMXK56i6V?darkMode=true")
+
+# ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
+iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
+
+# ╔═╡ eddf8295-1c6b-403a-904d-0332d080da7d
+iframe("https://link.excalidraw.com/readonly/D8DcPDu0ME8im4u0Wd0r?darkMode=true")
+
+# ╔═╡ c4cf8437-8e4a-468c-b985-56756d29b6d6
+iframe("https://link.excalidraw.com/readonly/GOEaEaOLYgNyZcn0fZyh?darkMode=true")
+
+# ╔═╡ 6e237bd2-9770-46e1-960a-e2ca08e7763d
+iframe("https://link.excalidraw.com/readonly/O7iUR0RbVhYILcfO5PqK?darkMode=true")
+
+# ╔═╡ 306d6921-4fe4-4d6b-a1d1-03cd17ca0e70
+iframe("https://link.excalidraw.com/readonly/G4KdjiI9E4kZ2tFC0sLJ?darkMode=true")
+
+# ╔═╡ 923367d8-cc31-4ddc-aa2c-9384d4df51b0
+iframe("https://link.excalidraw.com/readonly/1ZkwlX3qhDj9OM0lgcG9?darkMode=true")
+
+# ╔═╡ 3d507707-ed0f-40d6-84fa-97c0a677ecf0
+iframe("https://link.excalidraw.com/readonly/PUKNIho0UIuqQScUJfKd?darkMode=true")
+
+# ╔═╡ dd4becb5-78c7-4ea2-bc7f-b4265076323c
+iframe("https://link.excalidraw.com/readonly/VrlaRVR2wOyOUgE4yik6?darkMode=true")
+
+# ╔═╡ aa29b7d9-9963-4e19-9cca-7341686bac1f
+iframe("https://link.excalidraw.com/readonly/kRCDv6cbftU4AUW3cW5w?darkMode=true")
+
+# ╔═╡ 4021770f-5fbc-46c4-9b0d-686c0ce33e50
+iframe("https://link.excalidraw.com/readonly/KgeBf1P39SzumeaebI42?darkMode=true")
+
+# ╔═╡ 8991228b-b044-4238-9f22-7c1b4444964d
+iframe("https://link.excalidraw.com/readonly/oagRcznX0IvCCxyVK4Tq?darkMode=true")
+
+# ╔═╡ 8090bffa-85aa-49dd-8b13-7530d0e66226
+iframe("https://link.excalidraw.com/readonly/VCJozdCGwoqp5WsBE91W?darkMode=true")
+
+# ╔═╡ 31f51b65-8100-4dcc-9fae-ed0324748fd4
+iframe("https://link.excalidraw.com/readonly/MSGHQeg6biRUSEnHAiHP?darkMode=true")
+
+# ╔═╡ a4d6d45f-6e7c-4f66-a5c8-1b661eb70a4e
+iframe("https://link.excalidraw.com/readonly/mMCcxqAEkZ747qwYj78H?darkMode=true")
+
+# ╔═╡ 3d9e250c-af8b-4df0-a089-44e6e6ae3fff
+iframe("https://link.excalidraw.com/readonly/1B3bpBRG7wMySmHVuoaR?darkMode=true")
+
+# ╔═╡ a4c887e8-c75f-459a-bcd7-14f2080e8b98
+iframe("https://link.excalidraw.com/readonly/hw3z4Xmajkl6zZAzaSrT?darkMode=true")
+
+# ╔═╡ f0d8e763-3066-4a2d-9f87-29d8c2fd01f9
+iframe("https://link.excalidraw.com/readonly/EHOUveS0hky1QWZPTLri?darkMode=true")
+
+# ╔═╡ 39f2b751-e0f6-408e-8850-26967ce1e944
+iframe("https://link.excalidraw.com/readonly/f0uoyVhw8mHzDewjbXJA?darkMode=true")
+
+# ╔═╡ 342ed251-4aad-4c8e-ac1b-7ee8bb005ad2
+iframe("https://link.excalidraw.com/readonly/bhF6ITThmI7bVo2fMSmz?darkMode=true")
+
+# ╔═╡ 3e4d7f0a-4426-4c70-9be6-e14cf3e8376e
+iframe("https://link.excalidraw.com/readonly/VzIdinfjkukQJo3AL9QQ?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="David's Board 💻", depth=6, indent=false)
 
 # ╔═╡ 4a70b5f4-5188-44db-a6d5-34edbad0499e
-@mdx """
+html"""
 <style>
 main {
     max-width: 90%;
@@ -337,21 +407,21 @@ pluto-output.rich_output code {
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
-MarkdownLiteral = "736d6165-7244-6769-4267-6b50796e6954"
+HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
-MarkdownLiteral = "~0.1.1"
-PlutoUI = "~0.7.59"
+HypertextLiteral = "~0.9.5"
+PlutoUI = "~0.7.61"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.7"
+julia_version = "1.12.1"
 manifest_format = "2.0"
-project_hash = "4fe86f2ffdda9d465ae2e62a654f50858f0c1a87"
+project_hash = "15a830fa04d1630dc450c522753bdc586de23cec"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -377,21 +447,10 @@ git-tree-sha1 = "b10d0b65641d57b8b4d5e234446582de5047050d"
 uuid = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 version = "0.11.5"
 
-[[deps.CommonMark]]
-deps = ["Crayons", "PrecompileTools"]
-git-tree-sha1 = "3faae67b8899797592335832fccf4b3c80bb04fa"
-uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
-version = "0.8.15"
-
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
-version = "1.1.1+0"
-
-[[deps.Crayons]]
-git-tree-sha1 = "249fe38abf76d48563e2f4556bebd215aa317e15"
-uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
-version = "4.1.1"
+version = "1.3.0+1"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -442,30 +501,35 @@ git-tree-sha1 = "31e996f0a15c7b280ba9f76636b3ff9e2ae58c9a"
 uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 version = "0.21.4"
 
+[[deps.JuliaSyntaxHighlighting]]
+deps = ["StyledStrings"]
+uuid = "ac6e5ff7-fb65-4e79-a425-ec3bc9c03011"
+version = "1.12.0"
+
 [[deps.LibCURL]]
 deps = ["LibCURL_jll", "MozillaCACerts_jll"]
 uuid = "b27032c2-a3e7-50c8-80cd-2d36dbcbfd21"
 version = "0.6.4"
 
 [[deps.LibCURL_jll]]
-deps = ["Artifacts", "LibSSH2_jll", "Libdl", "MbedTLS_jll", "Zlib_jll", "nghttp2_jll"]
+deps = ["Artifacts", "LibSSH2_jll", "Libdl", "OpenSSL_jll", "Zlib_jll", "nghttp2_jll"]
 uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
-version = "8.6.0+0"
+version = "8.11.1+1"
 
 [[deps.LibGit2]]
-deps = ["Base64", "LibGit2_jll", "NetworkOptions", "Printf", "SHA"]
+deps = ["LibGit2_jll", "NetworkOptions", "Printf", "SHA"]
 uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
 version = "1.11.0"
 
 [[deps.LibGit2_jll]]
-deps = ["Artifacts", "LibSSH2_jll", "Libdl", "MbedTLS_jll"]
+deps = ["Artifacts", "LibSSH2_jll", "Libdl", "OpenSSL_jll"]
 uuid = "e37daf67-58a4-590a-8e99-b0245dd2ffc5"
-version = "1.7.2+0"
+version = "1.9.0+0"
 
 [[deps.LibSSH2_jll]]
-deps = ["Artifacts", "Libdl", "MbedTLS_jll"]
+deps = ["Artifacts", "Libdl", "OpenSSL_jll"]
 uuid = "29816b5a-b9ab-546f-933c-edad1886dfa8"
-version = "1.11.0+1"
+version = "1.11.3+1"
 
 [[deps.Libdl]]
 uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
@@ -474,7 +538,7 @@ version = "1.11.0"
 [[deps.LinearAlgebra]]
 deps = ["Libdl", "OpenBLAS_jll", "libblastrampoline_jll"]
 uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-version = "1.11.0"
+version = "1.12.0"
 
 [[deps.Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
@@ -486,20 +550,9 @@ uuid = "6c6e2e6c-3030-632d-7369-2d6c69616d65"
 version = "1.0.0"
 
 [[deps.Markdown]]
-deps = ["Base64"]
+deps = ["Base64", "JuliaSyntaxHighlighting", "StyledStrings"]
 uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 version = "1.11.0"
-
-[[deps.MarkdownLiteral]]
-deps = ["CommonMark", "HypertextLiteral"]
-git-tree-sha1 = "0d3fa2dd374934b62ee16a4721fe68c418b92899"
-uuid = "736d6165-7244-6769-4267-6b50796e6954"
-version = "0.1.1"
-
-[[deps.MbedTLS_jll]]
-deps = ["Artifacts", "Libdl"]
-uuid = "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
-version = "2.28.6+0"
 
 [[deps.Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
@@ -507,16 +560,21 @@ version = "1.11.0"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
-version = "2023.12.12"
+version = "2025.5.20"
 
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
-version = "1.2.0"
+version = "1.3.0"
 
 [[deps.OpenBLAS_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl"]
 uuid = "4536629a-c528-5b80-bd46-f80d51c5b363"
-version = "0.3.27+1"
+version = "0.3.29+0"
+
+[[deps.OpenSSL_jll]]
+deps = ["Artifacts", "Libdl"]
+uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
+version = "3.5.1+0"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
@@ -527,7 +585,7 @@ version = "2.8.1"
 [[deps.Pkg]]
 deps = ["Artifacts", "Dates", "Downloads", "FileWatching", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "Random", "SHA", "TOML", "Tar", "UUIDs", "p7zip_jll"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-version = "1.11.0"
+version = "1.12.0"
 
     [deps.Pkg.extensions]
     REPLExt = "REPL"
@@ -588,6 +646,10 @@ version = "1.11.1"
     [deps.Statistics.weakdeps]
     SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
+[[deps.StyledStrings]]
+uuid = "f489334b-da3d-4c2e-b8f0-e476e12c162b"
+version = "1.11.0"
+
 [[deps.TOML]]
 deps = ["Dates"]
 uuid = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
@@ -625,22 +687,22 @@ version = "1.11.0"
 [[deps.Zlib_jll]]
 deps = ["Libdl"]
 uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
-version = "1.2.13+1"
+version = "1.3.1+2"
 
 [[deps.libblastrampoline_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
-version = "5.11.0+0"
+version = "5.15.0+0"
 
 [[deps.nghttp2_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
-version = "1.59.0+0"
+version = "1.64.0+1"
 
 [[deps.p7zip_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
-version = "17.4.0+2"
+version = "17.5.0+2"
 """
 
 # ╔═╡ Cell order:
@@ -648,29 +710,56 @@ version = "17.4.0+2"
 # ╟─c9ef3aa5-b300-43dd-a4c0-6fee6f35b01f
 # ╟─df52962a-d2a5-42ed-b891-db262fc90a08
 # ╟─91332a74-d423-489d-81ea-a1f5e36e23fc
+# ╟─797fb912-0319-4471-be69-5c46721c6ace
 # ╟─31c62bd7-fabf-424c-8d9a-d9fbd3e24170
+# ╟─b778423f-61eb-4575-97af-b2931d345ebe
 # ╟─f6a3d3d6-b285-4a99-b7a2-e6d6ab00be1a
+# ╟─427a7256-55f0-46bb-96bc-2c6f4ed8f768
+# ╟─01a3b979-7746-4f98-90e5-6a3faea1b1a0
+# ╟─f76d08ad-eb7d-4645-890a-329cd3d2a7d0
+# ╟─8b7d94e1-dacc-41ff-b72f-d72632c7006e
+# ╟─fc668662-e92c-466a-bd3c-0911b5f09e55
 # ╟─1169c9cd-27b8-4ce7-ac18-f88b4491438f
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
+# ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 # ╟─502b9fbc-ee9a-456f-b017-e8f88b53fb3a
+# ╟─eddf8295-1c6b-403a-904d-0332d080da7d
 # ╟─863b624d-df61-4127-95d7-eb28c8bd377e
+# ╟─c4cf8437-8e4a-468c-b985-56756d29b6d6
 # ╟─e2c8db5a-3612-4311-ac92-34b38b5afe48
+# ╟─6e237bd2-9770-46e1-960a-e2ca08e7763d
 # ╟─803e5ba3-0e75-4030-abd9-a7178a54de16
+# ╟─306d6921-4fe4-4d6b-a1d1-03cd17ca0e70
 # ╟─ba1d2c0d-1a77-4fd4-bb16-81148a62b7bd
+# ╟─923367d8-cc31-4ddc-aa2c-9384d4df51b0
 # ╟─59e16f3f-1e37-4cdb-8a21-826f89ebd282
+# ╟─3d507707-ed0f-40d6-84fa-97c0a677ecf0
 # ╟─2ef67c72-36bf-4a07-b0bb-87710c254c2c
+# ╟─dd4becb5-78c7-4ea2-bc7f-b4265076323c
 # ╟─f8294d92-a96a-46eb-acec-dddee774a0ea
+# ╟─aa29b7d9-9963-4e19-9cca-7341686bac1f
 # ╟─0b5ae025-8e1a-4db3-9973-7fcf4744be29
+# ╟─4021770f-5fbc-46c4-9b0d-686c0ce33e50
 # ╟─85b3d00e-357f-49a8-9bb3-d4986b77b493
+# ╟─8991228b-b044-4238-9f22-7c1b4444964d
 # ╟─4e446ed3-a377-4c4f-893a-6e755bbb2f7b
+# ╟─8090bffa-85aa-49dd-8b13-7530d0e66226
 # ╟─2faec220-0632-4d4c-af6c-486f1768454e
+# ╟─31f51b65-8100-4dcc-9fae-ed0324748fd4
 # ╟─396ef048-1e3f-4845-9bc4-2a9137eb2c61
+# ╟─a4d6d45f-6e7c-4f66-a5c8-1b661eb70a4e
 # ╟─bda7b6e6-8a23-4e30-a4d1-ae62ef0ae8bc
+# ╟─3d9e250c-af8b-4df0-a089-44e6e6ae3fff
 # ╟─7017510e-57b0-4a43-be7a-0bb6bff5da91
+# ╟─a4c887e8-c75f-459a-bcd7-14f2080e8b98
 # ╟─c9499268-f63d-46d6-a2cd-128e6443aa96
+# ╟─f0d8e763-3066-4a2d-9f87-29d8c2fd01f9
 # ╟─27594dab-1e4d-4cba-9f2a-041abb433ac7
+# ╟─39f2b751-e0f6-408e-8850-26967ce1e944
 # ╟─2415789a-71e2-45e1-8709-12c081452340
+# ╟─342ed251-4aad-4c8e-ac1b-7ee8bb005ad2
 # ╟─467f9592-8798-4398-809a-7498d9473e67
+# ╟─3e4d7f0a-4426-4c70-9be6-e14cf3e8376e
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
