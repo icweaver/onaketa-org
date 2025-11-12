@@ -74,6 +74,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/8V8pANsBj9l",
 )
 
+# ╔═╡ d41b6505-73aa-4926-8802-073017885eab
+board(
+	"2025-11-10",
+	md"""###### `multiplication` `decimals`
+	!!! note "Summary"
+		* Continued review of multiplying decimals with multiple digits.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4AltSIKagnd",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -88,11 +98,14 @@ iframe("https://link.excalidraw.com/readonly/dn12J9qErW34GKZNmBoJ?darkMode=true"
 # ╔═╡ e1685f29-94c4-48c8-b6cc-74dea0624198
 iframe("https://link.excalidraw.com/readonly/5LetYLGAmbQ4u0T5S186?darkMode=true")
 
+# ╔═╡ 11638468-359c-4fb0-9d89-28ce72625b2a
+iframe("https://link.excalidraw.com/readonly/DS6YKp9ejT4RqagsBrru?darkMode=true")
+
 # ╔═╡ 25b46726-142c-4323-91b9-347514176bad
 iframe("https://link.excalidraw.com/readonly/6dZ6QvLJyQtgFVanM9WT?darkMode=true")
 
 # ╔═╡ d6bbe93f-49e2-456e-afbd-f0bf633faddf
-iframe("https://link.excalidraw.com/readonly/DS6YKp9ejT4RqagsBrru?darkMode=true")
+iframe("https://link.excalidraw.com/readonly/XvVB1zobmNrdsMO3Xke5?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
@@ -421,8 +434,10 @@ version = "17.5.0+2"
 # ╟─24f589dc-6805-4eb8-8c78-8f6ca88f1592
 # ╟─e1685f29-94c4-48c8-b6cc-74dea0624198
 # ╟─bbf985d2-3b66-4e1a-8ff0-e4f7fa50d8e9
+# ╟─11638468-359c-4fb0-9d89-28ce72625b2a
 # ╟─ffc3dfcf-c234-42c5-b919-b98f531bc226
 # ╟─25b46726-142c-4323-91b9-347514176bad
+# ╟─d41b6505-73aa-4926-8802-073017885eab
 # ╟─d6bbe93f-49e2-456e-afbd-f0bf633faddf
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69

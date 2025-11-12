@@ -88,6 +88,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7cBHlCC18sSC",
 )
 
+# ╔═╡ 477f02d3-cff8-4ca9-a269-652c48cac257
+board(
+	"2025-11-11",
+	md"""###### `similar triangles`
+	!!! note "Summary"
+		Reviewed past test and quiz on similar triangles, and current study guide for next test this week.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/jTYOZjjamA",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -357,11 +367,14 @@ iframe("https://link.excalidraw.com/readonly/gb5cUntmQIo8vDIypx2Y?darkMode=true"
 # ╔═╡ b25841d8-6bcb-4904-942f-17dc9d501951
 iframe("https://link.excalidraw.com/readonly/ce2UPYKrseSwXxPgAVXd?darkMode=true")
 
+# ╔═╡ c0d5008b-e2e3-4304-a52c-0a47d1ae2216
+iframe("https://link.excalidraw.com/readonly/C02GuxbWd2aBKHAb57CY?darkMode=true")
+
 # ╔═╡ efab5750-7abe-4715-8f21-b91c3581d00a
 iframe("https://link.excalidraw.com/readonly/QuoG5fXZoDDmZaHDmo43?darkMode=true")
 
-# ╔═╡ c0d5008b-e2e3-4304-a52c-0a47d1ae2216
-iframe("https://link.excalidraw.com/readonly/C02GuxbWd2aBKHAb57CY?darkMode=true")
+# ╔═╡ 8dd8074e-8210-4685-983c-c96fc7599fa6
+iframe("https://link.excalidraw.com/readonly/KUlKuNt09xzoV9eXb8QZ?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -766,9 +779,11 @@ version = "17.5.0+2"
 # ╟─e2bc15a6-28a2-46bd-8c0f-2b985107f357
 # ╟─b25841d8-6bcb-4904-942f-17dc9d501951
 # ╟─ba83d0f8-ab61-4127-a22a-64ba4e3f520a
+# ╟─c0d5008b-e2e3-4304-a52c-0a47d1ae2216
 # ╟─31bd435b-8be8-488a-b790-e8a8f2cf74f5
 # ╟─efab5750-7abe-4715-8f21-b91c3581d00a
-# ╟─c0d5008b-e2e3-4304-a52c-0a47d1ae2216
+# ╟─477f02d3-cff8-4ca9-a269-652c48cac257
+# ╟─8dd8074e-8210-4685-983c-c96fc7599fa6
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44

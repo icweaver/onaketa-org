@@ -90,6 +90,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/TIHihsvgoF"
 )
 
+# ╔═╡ e0185f7e-f02c-4b0f-b0d2-657e132a6ee6
+board(
+	"2025-11-10",
+	md"""##### `lateral surface area` `total surface area`
+	!!! note "Summary"
+		LSA and TSA for cones, portions of a sphere, cylinders, and truncated cones.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/RivkkDPxzH"
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-04-25",
@@ -326,6 +336,9 @@ iframe("https://link.excalidraw.com/readonly/5veIcnA90QowAdfBZBXg?darkMode=true"
 
 # ╔═╡ fc668662-e92c-466a-bd3c-0911b5f09e55
 iframe("https://link.excalidraw.com/readonly/Jp7JyYGlp4pIMXK56i6V?darkMode=true")
+
+# ╔═╡ 4b00fedb-6f36-417e-9e7d-0a7181b4bdef
+iframe("https://link.excalidraw.com/readonly/AYoQ29zmJUu8wDpYBTfG?darkMode=true")
 
 # ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
@@ -719,6 +732,8 @@ version = "17.5.0+2"
 # ╟─f76d08ad-eb7d-4645-890a-329cd3d2a7d0
 # ╟─8b7d94e1-dacc-41ff-b72f-d72632c7006e
 # ╟─fc668662-e92c-466a-bd3c-0911b5f09e55
+# ╟─e0185f7e-f02c-4b0f-b0d2-657e132a6ee6
+# ╟─4b00fedb-6f36-417e-9e7d-0a7181b4bdef
 # ╟─1169c9cd-27b8-4ce7-ac18-f88b4491438f
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
