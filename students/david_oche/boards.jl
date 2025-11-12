@@ -23,17 +23,17 @@ md"""
 
 # ╔═╡ df52962a-d2a5-42ed-b891-db262fc90a08
 md"""
-# 2025-26 Term
+# **2025-26 Term**
 """
 
 # ╔═╡ 1169c9cd-27b8-4ce7-ac18-f88b4491438f
 md"""
-# 2024-25 Term
+# **2024-25 Term**
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share) = """
-# ▪ $(date)
+## ▪ $(date)
 
 $(description)
 

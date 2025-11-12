@@ -17,7 +17,7 @@ Below are the boards from our sessions. Hover over the table of contents icon to
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share) = """
-# ▪ $(date)
+## ▪ $(date)
 
 $(description)
 

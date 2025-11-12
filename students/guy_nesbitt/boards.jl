@@ -17,17 +17,17 @@ Below are the boards from our sessions. Hover over the table of contents icon to
 
 # ╔═╡ a1663be4-3593-4880-8f42-e5dcc9c75609
 md"""
-# 2025-26 Term
+# **2025-26 Term**
 """
 
 # ╔═╡ 69621754-6647-4056-a2e6-ccf81af3f0d3
 md"""
-# 2024-25 Term
+# **2024-25 Term**
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share) = """
-# ▪ $(date)
+## ▪ $(date)
 
 $(description)
 
