@@ -84,7 +84,7 @@ board(
 	"2025-11-03",
 	md"""###### `logarithms` `properties of logarithms` 
 	!!! note "Summary"
-		Practices simplifying, expanding, and graphing logarithms using their algebraic properties
+		Practiced simplifying, expanding, and graphing logarithms using their algebraic properties
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/92jQniwHGlo",
 )
