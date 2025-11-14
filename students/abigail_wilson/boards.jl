@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.20
+# v0.20.21
 
 using Markdown
 using InteractiveUtils
@@ -17,7 +17,7 @@ Below are the boards from our sessions. Hover over the table of contents icon to
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share) = """
-# ▪ $(date)
+## ▪ $(date)
 
 $(description)
 
@@ -79,6 +79,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/33Oje7d0DQw",
 )
 
+# ╔═╡ d2129e4a-2f58-4a30-b5b9-0e50bbaa405d
+board(
+	"2025-11-03",
+	md"""###### `logarithms` `properties of logarithms` 
+	!!! note "Summary"
+		Practices simplifying, expanding, and graphing logarithms using their algebraic properties
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/92jQniwHGlo",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -98,6 +108,9 @@ iframe("https://link.excalidraw.com/readonly/P3qcXNHgMzaMN0d7pwfA")
 
 # ╔═╡ 27f0e469-6e9c-4917-a643-23b1b88c1bb4
 iframe("https://link.excalidraw.com/readonly/9PdV91lqhW6HBrn7Ofci")
+
+# ╔═╡ 888da660-f92e-4039-b94d-f24c07f16b14
+iframe("https://link.excalidraw.com/readonly/xuEsqZRu0CGeuvf3ccCz")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Abigail's Board 🥰", depth=6, indent=false)
@@ -424,6 +437,8 @@ version = "17.5.0+2"
 # ╟─9a217f3f-d64e-479b-abcf-4a7b8f733820
 # ╟─a02b2d41-63b3-449f-94ec-d8672c056a41
 # ╟─27f0e469-6e9c-4917-a643-23b1b88c1bb4
+# ╟─d2129e4a-2f58-4a30-b5b9-0e50bbaa405d
+# ╟─888da660-f92e-4039-b94d-f24c07f16b14
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
