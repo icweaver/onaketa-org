@@ -81,7 +81,7 @@ board(
 
 # ╔═╡ d2129e4a-2f58-4a30-b5b9-0e50bbaa405d
 board(
-	"2025-11-03",
+	"2025-11-13",
 	md"""###### `logarithms` `properties of logarithms` 
 	!!! note "Summary"
 		Practiced simplifying, expanding, and graphing logarithms using their algebraic properties
