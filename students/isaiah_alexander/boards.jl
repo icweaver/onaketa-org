@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.20
+# v0.20.21
 
 using Markdown
 using InteractiveUtils
@@ -84,6 +84,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4AltSIKagnd",
 )
 
+# ╔═╡ d5ba8b72-2860-4bbe-8f55-d874c629334d
+board(
+	"2025-11-17",
+	md"""###### `ratios` `proportinos`
+	!!! note "Summary"
+		Reviewed creating and simplifying proportions from word problems.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9xkVqwlBVOJ",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -106,6 +116,9 @@ iframe("https://link.excalidraw.com/readonly/6dZ6QvLJyQtgFVanM9WT?darkMode=true"
 
 # ╔═╡ d6bbe93f-49e2-456e-afbd-f0bf633faddf
 iframe("https://link.excalidraw.com/readonly/XvVB1zobmNrdsMO3Xke5?darkMode=true")
+
+# ╔═╡ fd9455d5-9727-4e63-bae0-49202d33caec
+iframe("https://link.excalidraw.com/readonly/h2fBHyyBuEMpH42XDTZy?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
@@ -439,6 +452,8 @@ version = "17.5.0+2"
 # ╟─25b46726-142c-4323-91b9-347514176bad
 # ╟─d41b6505-73aa-4926-8802-073017885eab
 # ╟─d6bbe93f-49e2-456e-afbd-f0bf633faddf
+# ╟─d5ba8b72-2860-4bbe-8f55-d874c629334d
+# ╟─fd9455d5-9727-4e63-bae0-49202d33caec
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
