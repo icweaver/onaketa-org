@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.20
+# v0.20.21
 
 using Markdown
 using InteractiveUtils
@@ -96,6 +96,16 @@ board(
 		Reviewed past test and quiz on similar triangles, and current study guide for next test this week.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/jTYOZjjamA",
+)
+
+# ╔═╡ e66d0992-7c94-4c81-887a-96abf13e0563
+board(
+	"2025-11-18",
+	md"""###### `trig functions`
+	!!! note "Summary"
+		Applications of SOH-CAH-TOA. Guy got a 100% on his last test!
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/RNxf0hDWwR",
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -375,6 +385,9 @@ iframe("https://link.excalidraw.com/readonly/QuoG5fXZoDDmZaHDmo43?darkMode=true"
 
 # ╔═╡ 8dd8074e-8210-4685-983c-c96fc7599fa6
 iframe("https://link.excalidraw.com/readonly/KUlKuNt09xzoV9eXb8QZ?darkMode=true")
+
+# ╔═╡ bea058ee-0c5e-40dc-a9bd-d52257da9ca0
+iframe("https://link.excalidraw.com/readonly/q0AkeIfU0dCgC5wztkNE?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -784,6 +797,8 @@ version = "17.5.0+2"
 # ╟─efab5750-7abe-4715-8f21-b91c3581d00a
 # ╟─477f02d3-cff8-4ca9-a269-652c48cac257
 # ╟─8dd8074e-8210-4685-983c-c96fc7599fa6
+# ╟─e66d0992-7c94-4c81-887a-96abf13e0563
+# ╟─bea058ee-0c5e-40dc-a9bd-d52257da9ca0
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
