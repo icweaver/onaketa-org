@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.20
+# v0.20.21
 
 using Markdown
 using InteractiveUtils
@@ -66,12 +66,12 @@ board(
 
 # ╔═╡ 039ad6cd-4743-4fdd-9b87-680dd2326607
 board(
-	"2025-11-04",
-	md"""###### `coordinates` `equation of line`
+	"2025-11-18",
+	md"""###### `distributive property`
 	!!! note "Summary"
-		Practiced solving word problems using the equation of a line and evaluating it at specific coordinates.
+		Practiced the distributive property, went through first two problems on worksheet.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/9ZSFoV0OxEL",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/98stKkVwQYy",
 )
 
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
@@ -92,7 +92,7 @@ iframe("https://link.excalidraw.com/readonly/LcjIe2C35XXf1OYGE0Lw")
 iframe("https://link.excalidraw.com/readonly/2QmonWaKuVT0cm3R1KGt")
 
 # ╔═╡ 658bd291-d210-4b17-addb-c999b4ea9926
-iframe("https://link.excalidraw.com/readonly/8qTdLjSnGdcEL6LK5hnM")
+iframe("https://link.excalidraw.com/readonly/1eoywami8YGFJgfKJmY1")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth=6, indent=false)
