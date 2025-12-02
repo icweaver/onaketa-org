@@ -94,6 +94,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/9xkVqwlBVOJ",
 )
 
+# ╔═╡ 483de8d0-2940-4a1e-aecb-76c58e444b3d
+board(
+	"2025-12-01",
+	md"""###### `ratio tables` `algebra`
+	!!! note "Summary"
+		No new material from class. Instead, we reviewed working with ratio tables, and then got a headstart on new content: solving linear equations.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5ViaH5Y2OoH",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -119,6 +129,9 @@ iframe("https://link.excalidraw.com/readonly/XvVB1zobmNrdsMO3Xke5?darkMode=true"
 
 # ╔═╡ fd9455d5-9727-4e63-bae0-49202d33caec
 iframe("https://link.excalidraw.com/readonly/h2fBHyyBuEMpH42XDTZy?darkMode=true")
+
+# ╔═╡ 7e365ecb-bc48-4bae-a8eb-119de13cdc05
+iframe("https://link.excalidraw.com/readonly/ZKT747u1qOKYenyNUSLl?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
@@ -454,6 +467,8 @@ version = "17.5.0+2"
 # ╟─d6bbe93f-49e2-456e-afbd-f0bf633faddf
 # ╟─d5ba8b72-2860-4bbe-8f55-d874c629334d
 # ╟─fd9455d5-9727-4e63-bae0-49202d33caec
+# ╟─483de8d0-2940-4a1e-aecb-76c58e444b3d
+# ╟─7e365ecb-bc48-4bae-a8eb-119de13cdc05
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

@@ -26,9 +26,6 @@ md"""
 # **2025-26 Term**
 """
 
-# ╔═╡ 7476e746-8f85-46c1-af50-a84e978e27d8
-
-
 # ╔═╡ 1169c9cd-27b8-4ce7-ac18-f88b4491438f
 md"""
 # **2024-25 Term**
@@ -111,6 +108,16 @@ board(
 		Reviewed volumes of revolution about the x and y axis.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/18gmamzU3yi"
+)
+
+# ╔═╡ ff9e2c30-ba4e-4e5c-a27a-d67982ef42b8
+board(
+	"2025-12-01",
+	md"""##### `volume`
+	!!! note "Summary"
+		Re-derived the volume formula for a regular tetrahedron.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/6y20CUucUYd"
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -355,6 +362,9 @@ iframe("https://link.excalidraw.com/readonly/AYoQ29zmJUu8wDpYBTfG?darkMode=true"
 
 # ╔═╡ 5d9e8381-be29-4c32-9c6a-17ef24a9c8ad
 iframe("https://link.excalidraw.com/readonly/2nYEMYvgZaQZy5Jniz23?darkMode=true")
+
+# ╔═╡ 5a6d005f-5690-43ba-baa4-1b27caf03fc6
+iframe("https://link.excalidraw.com/readonly/hdHux2ivHR7soFHysreq?darkMode=true")
 
 # ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
@@ -750,9 +760,10 @@ version = "17.5.0+2"
 # ╟─fc668662-e92c-466a-bd3c-0911b5f09e55
 # ╟─e0185f7e-f02c-4b0f-b0d2-657e132a6ee6
 # ╟─4b00fedb-6f36-417e-9e7d-0a7181b4bdef
-# ╠═7476e746-8f85-46c1-af50-a84e978e27d8
 # ╟─d0bdaa1f-9eae-45ee-b9d4-c4acc2dec858
 # ╟─5d9e8381-be29-4c32-9c6a-17ef24a9c8ad
+# ╟─ff9e2c30-ba4e-4e5c-a27a-d67982ef42b8
+# ╟─5a6d005f-5690-43ba-baa4-1b27caf03fc6
 # ╟─1169c9cd-27b8-4ce7-ac18-f88b4491438f
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
