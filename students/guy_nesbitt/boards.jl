@@ -113,7 +113,7 @@ board(
 	"2025-12-01",
 	md"""###### `trig functions` `projectile motion`
 	!!! note "Summary"
-		No new work, got a head start on new content instead: Physics applications of trigonometry.
+		No new work, got a head start on new content instead: Physics applications of trigonometry. Guy got another A on his last test 🎉
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/3iNG5JuUc44",
 )
