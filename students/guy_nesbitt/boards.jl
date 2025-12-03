@@ -108,6 +108,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/RNxf0hDWwR",
 )
 
+# ╔═╡ 9c3ba310-bbd4-474b-971d-61d16c7b0993
+board(
+	"2025-12-01",
+	md"""###### `trig functions` `projectile motion`
+	!!! note "Summary"
+		No new work, got a head start on new content instead: Physics applications of trigonometry.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3iNG5JuUc44",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -388,6 +398,9 @@ iframe("https://link.excalidraw.com/readonly/KUlKuNt09xzoV9eXb8QZ?darkMode=true"
 
 # ╔═╡ bea058ee-0c5e-40dc-a9bd-d52257da9ca0
 iframe("https://link.excalidraw.com/readonly/q0AkeIfU0dCgC5wztkNE?darkMode=true")
+
+# ╔═╡ f7e7979e-ac55-45ed-9619-0574516abffc
+iframe("https://link.excalidraw.com/readonly/WZB7gcHfyBlzDDSvjSXo?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -799,6 +812,8 @@ version = "17.5.0+2"
 # ╟─8dd8074e-8210-4685-983c-c96fc7599fa6
 # ╟─e66d0992-7c94-4c81-887a-96abf13e0563
 # ╟─bea058ee-0c5e-40dc-a9bd-d52257da9ca0
+# ╟─9c3ba310-bbd4-474b-971d-61d16c7b0993
+# ╟─f7e7979e-ac55-45ed-9619-0574516abffc
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
