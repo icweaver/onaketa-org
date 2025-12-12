@@ -109,6 +109,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/6hF0fvxyIoB",
 )
 
+# ╔═╡ f7eb82a4-1bf5-4c19-ac0a-d988f54deff6
+board(
+	"2025-12-11",
+	md"""###### `unit circle` 
+	!!! note "Summary"
+		`polynomial` `complex numbers` `log properties` `graphing`
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4HzdIQuiLzi",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -137,6 +147,9 @@ iframe("https://link.excalidraw.com/readonly/u5RrPigok0wsINNhtgPq")
 
 # ╔═╡ deb46c08-229a-4ff5-8531-b2932d65a29f
 iframe("https://link.excalidraw.com/readonly/Kew15GqXD4ekNb143tga")
+
+# ╔═╡ 3754b7eb-a2d0-4c75-98cf-ec95e91d3396
+iframe("https://link.excalidraw.com/l/570Ui7jcPf6/4HzdIQuiLzi")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Abigail's Board 🥰", depth=6, indent=false)
@@ -469,6 +482,8 @@ version = "17.5.0+2"
 # ╟─1580de58-9d1f-4005-a815-27318bab26d5
 # ╟─28997577-427e-4e82-b227-4afb824107fc
 # ╟─deb46c08-229a-4ff5-8531-b2932d65a29f
+# ╟─f7eb82a4-1bf5-4c19-ac0a-d988f54deff6
+# ╟─3754b7eb-a2d0-4c75-98cf-ec95e91d3396
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
