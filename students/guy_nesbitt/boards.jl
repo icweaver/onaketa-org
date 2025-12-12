@@ -110,12 +110,22 @@ board(
 
 # ╔═╡ 9c3ba310-bbd4-474b-971d-61d16c7b0993
 board(
-	"2025-12-01",
+	"2025-12-02",
 	md"""###### `trig functions` `projectile motion`
 	!!! note "Summary"
 		No new work, got a head start on new content instead: Physics applications of trigonometry. Guy got another A on his last test 🎉
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/3iNG5JuUc44",
+)
+
+# ╔═╡ 297861ee-d148-44da-92f6-dddb5f6657c0
+board(
+	"2025-12-09",
+	md"""###### `trig functions` `unit circle`
+	!!! note "Summary"
+		Continued review on unit trig functions, got a head start on navigating the unit circle.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5TCogOAd9Ln",
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -401,6 +411,9 @@ iframe("https://link.excalidraw.com/readonly/q0AkeIfU0dCgC5wztkNE?darkMode=true"
 
 # ╔═╡ f7e7979e-ac55-45ed-9619-0574516abffc
 iframe("https://link.excalidraw.com/readonly/WZB7gcHfyBlzDDSvjSXo?darkMode=true")
+
+# ╔═╡ 77607a91-e668-4cea-939e-5a407735a997
+iframe("https://link.excalidraw.com/readonly/6RzipviMWEOeBanQ4vhl?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -814,6 +827,8 @@ version = "17.5.0+2"
 # ╟─bea058ee-0c5e-40dc-a9bd-d52257da9ca0
 # ╟─9c3ba310-bbd4-474b-971d-61d16c7b0993
 # ╟─f7e7979e-ac55-45ed-9619-0574516abffc
+# ╟─297861ee-d148-44da-92f6-dddb5f6657c0
+# ╟─77607a91-e668-4cea-939e-5a407735a997
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
