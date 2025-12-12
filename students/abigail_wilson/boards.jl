@@ -112,9 +112,9 @@ board(
 # ╔═╡ f7eb82a4-1bf5-4c19-ac0a-d988f54deff6
 board(
 	"2025-12-11",
-	md"""###### `unit circle` 
+	md"""###### `polynomial` `complex numbers` `log properties` `graphing` 
 	!!! note "Summary"
-		`polynomial` `complex numbers` `log properties` `graphing`
+		End of year review.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4HzdIQuiLzi",
 )
