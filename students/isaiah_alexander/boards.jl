@@ -114,6 +114,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4Bxqu1C6OGU",
 )
 
+# ╔═╡ 1154cf55-d77e-4a04-b22f-2d2f25e8705d
+board(
+	"2025-12-15",
+	md"""###### `unit rates` `equivalent rates`
+	!!! note "Summary"
+		Final review on unit and equivalent rates to solve word problems.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/ApzO8Qp9BhX",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -145,6 +155,9 @@ iframe("https://link.excalidraw.com/readonly/ZKT747u1qOKYenyNUSLl?darkMode=true"
 
 # ╔═╡ 70e90a5e-037c-41e4-9893-1f0c6d5f929b
 iframe("https://link.excalidraw.com/readonly/0xD4OwRMp4saJBSYYqpT?darkMode=true")
+
+# ╔═╡ fa0e4214-ba6d-4d4f-bbe8-bd1c4a2fbaff
+iframe("https://link.excalidraw.com/readonly/eCJaQlG1tflG9dIRdAyf?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
@@ -484,6 +497,8 @@ version = "17.5.0+2"
 # ╟─7e365ecb-bc48-4bae-a8eb-119de13cdc05
 # ╟─c885bfe0-996c-49ad-9800-6b4e80d2b4d0
 # ╟─70e90a5e-037c-41e4-9893-1f0c6d5f929b
+# ╟─1154cf55-d77e-4a04-b22f-2d2f25e8705d
+# ╟─fa0e4214-ba6d-4d4f-bbe8-bd1c4a2fbaff
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
