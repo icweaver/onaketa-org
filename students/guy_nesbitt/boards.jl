@@ -128,6 +128,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/5TCogOAd9Ln",
 )
 
+# ╔═╡ a2c4c630-3e26-4a06-9da2-f9037fd61029
+board(
+	"2025-12-16",
+	md"""###### `trig functions`
+	!!! note "Summary"
+		Final review on applying trig functions to word problems.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/7zT1ql3yz35",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -414,6 +424,9 @@ iframe("https://link.excalidraw.com/readonly/WZB7gcHfyBlzDDSvjSXo?darkMode=true"
 
 # ╔═╡ 77607a91-e668-4cea-939e-5a407735a997
 iframe("https://link.excalidraw.com/readonly/6RzipviMWEOeBanQ4vhl?darkMode=true")
+
+# ╔═╡ 1a5c23a9-fce2-4306-8f7a-91e0fe4e4a5d
+iframe("https://link.excalidraw.com/readonly/pMWY5xDkwYclDLLzWJ8n?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -829,6 +842,8 @@ version = "17.5.0+2"
 # ╟─f7e7979e-ac55-45ed-9619-0574516abffc
 # ╟─297861ee-d148-44da-92f6-dddb5f6657c0
 # ╟─77607a91-e668-4cea-939e-5a407735a997
+# ╟─a2c4c630-3e26-4a06-9da2-f9037fd61029
+# ╟─1a5c23a9-fce2-4306-8f7a-91e0fe4e4a5d
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
