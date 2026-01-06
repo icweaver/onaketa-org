@@ -124,6 +124,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/ApzO8Qp9BhX",
 )
 
+# ╔═╡ 77068a72-846f-458c-8086-afd9e429e2f5
+board(
+	"2026-01-05 ✨",
+	md"""###### `decimals`  `subtraction`
+	!!! note "Summary"
+		1st session of the new year. Reviewed subtracting multi-digit decimals.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3R2YzKnAcxV",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -159,6 +169,9 @@ iframe("https://link.excalidraw.com/readonly/0xD4OwRMp4saJBSYYqpT?darkMode=true"
 # ╔═╡ fa0e4214-ba6d-4d4f-bbe8-bd1c4a2fbaff
 iframe("https://link.excalidraw.com/readonly/eCJaQlG1tflG9dIRdAyf?darkMode=true")
 
+# ╔═╡ e2de5c2e-61f5-4892-9626-26bc86d04fa9
+iframe("https://link.excalidraw.com/readonly/lbVbZimdQLjCnS7B6VWn?darkMode=true")
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
 
@@ -191,7 +204,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.1"
+julia_version = "1.12.3"
 manifest_format = "2.0"
 project_hash = "026533f4d5798b427cf78f9e543c536dc326e6b6"
 
@@ -232,7 +245,7 @@ version = "1.11.0"
 [[deps.Downloads]]
 deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
-version = "1.6.0"
+version = "1.7.0"
 
 [[deps.FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
@@ -286,7 +299,7 @@ version = "0.6.4"
 [[deps.LibCURL_jll]]
 deps = ["Artifacts", "LibSSH2_jll", "Libdl", "OpenSSL_jll", "Zlib_jll", "nghttp2_jll"]
 uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
-version = "8.11.1+1"
+version = "8.15.0+0"
 
 [[deps.LibGit2]]
 deps = ["LibGit2_jll", "NetworkOptions", "Printf", "SHA"]
@@ -346,7 +359,7 @@ version = "0.3.29+0"
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "3.5.1+0"
+version = "3.5.4+0"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
@@ -357,7 +370,7 @@ version = "2.8.1"
 [[deps.Pkg]]
 deps = ["Artifacts", "Dates", "Downloads", "FileWatching", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "Random", "SHA", "TOML", "Tar", "UUIDs", "p7zip_jll"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-version = "1.12.0"
+version = "1.12.1"
 
     [deps.Pkg.extensions]
     REPLExt = "REPL"
@@ -472,9 +485,9 @@ uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
 version = "1.64.0+1"
 
 [[deps.p7zip_jll]]
-deps = ["Artifacts", "Libdl"]
+deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl"]
 uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
-version = "17.5.0+2"
+version = "17.7.0+0"
 """
 
 # ╔═╡ Cell order:
@@ -499,6 +512,8 @@ version = "17.5.0+2"
 # ╟─70e90a5e-037c-41e4-9893-1f0c6d5f929b
 # ╟─1154cf55-d77e-4a04-b22f-2d2f25e8705d
 # ╟─fa0e4214-ba6d-4d4f-bbe8-bd1c4a2fbaff
+# ╟─77068a72-846f-458c-8086-afd9e429e2f5
+# ╟─e2de5c2e-61f5-4892-9626-26bc86d04fa9
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
