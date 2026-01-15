@@ -120,6 +120,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/6y20CUucUYd"
 )
 
+# ╔═╡ 515c3bba-5ba2-476a-90b5-c304af54279c
+board(
+	"2026-01-12",
+	md"""##### `dynamics` `vectors`
+	!!! note "Summary"
+		Physics: vector decomposition and addition review. Used resources from [The Physics Classroom](https://www.physicsclassroom.com/)
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4YC86ABLAh3"
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-04-25",
@@ -365,6 +375,9 @@ iframe("https://link.excalidraw.com/readonly/2nYEMYvgZaQZy5Jniz23?darkMode=true"
 
 # ╔═╡ 5a6d005f-5690-43ba-baa4-1b27caf03fc6
 iframe("https://link.excalidraw.com/readonly/hdHux2ivHR7soFHysreq?darkMode=true")
+
+# ╔═╡ c20ae9cd-c910-4c45-990e-8a62fb2bbeef
+iframe("https://link.excalidraw.com/readonly/VDvSiGZU0nokRnt8j0FA?darkMode=true")
 
 # ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
@@ -764,6 +777,8 @@ version = "17.5.0+2"
 # ╟─5d9e8381-be29-4c32-9c6a-17ef24a9c8ad
 # ╟─ff9e2c30-ba4e-4e5c-a27a-d67982ef42b8
 # ╟─5a6d005f-5690-43ba-baa4-1b27caf03fc6
+# ╟─515c3bba-5ba2-476a-90b5-c304af54279c
+# ╟─c20ae9cd-c910-4c45-990e-8a62fb2bbeef
 # ╟─1169c9cd-27b8-4ce7-ac18-f88b4491438f
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
