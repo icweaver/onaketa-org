@@ -15,9 +15,6 @@ md"""
 Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
-# ╔═╡ e1ea0765-226a-4638-9d25-d4ed6254eeb2
-
-
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
 board(date, description, url_share) = """
 ## ▪ $(date)
@@ -132,6 +129,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/2Z5eyrCUDru",
 )
 
+# ╔═╡ 3bf118b2-45e9-4b25-b1db-0087314e6eb8
+board(
+	"2026-01-22",
+	md"""###### `law of sines`  `law of cosines` 
+	!!! note "Summary"
+		Practiced applying the law of sines and cosines.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/7XMmwjW962C",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -166,6 +173,9 @@ iframe("https://link.excalidraw.com/l/570Ui7jcPf6/4HzdIQuiLzi")
 
 # ╔═╡ bc6c59b0-f4c5-4e85-99c8-9d120d4fd345
 iframe("https://link.excalidraw.com/readonly/GRYZkjUCmwc5JUjrywLL")
+
+# ╔═╡ 0309a090-8234-43d0-b29a-5d099880ead5
+iframe("https://link.excalidraw.com/readonly/LzmlzKotZNhEokgtT7lQ")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Abigail's Board 🥰", depth=6, indent=false)
@@ -500,9 +510,10 @@ version = "17.5.0+2"
 # ╟─deb46c08-229a-4ff5-8531-b2932d65a29f
 # ╟─f7eb82a4-1bf5-4c19-ac0a-d988f54deff6
 # ╟─3754b7eb-a2d0-4c75-98cf-ec95e91d3396
-# ╠═e1ea0765-226a-4638-9d25-d4ed6254eeb2
 # ╟─a139cbcf-f3fa-4013-a4e4-3411bd3d4c6e
-# ╠═bc6c59b0-f4c5-4e85-99c8-9d120d4fd345
+# ╟─bc6c59b0-f4c5-4e85-99c8-9d120d4fd345
+# ╟─3bf118b2-45e9-4b25-b1db-0087314e6eb8
+# ╟─0309a090-8234-43d0-b29a-5d099880ead5
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
