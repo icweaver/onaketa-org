@@ -130,6 +130,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4YC86ABLAh3"
 )
 
+# ╔═╡ 679dbbd2-0867-4b01-a53f-c7c59011dba5
+board(
+	"2026-01-26",
+	md"""##### `unit circle` `projectile motion`
+	!!! note "Summary"
+		Unit circle and projectile motion review for horizontal launches.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3AYGI7W0WUy"
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-04-25",
@@ -378,6 +388,9 @@ iframe("https://link.excalidraw.com/readonly/hdHux2ivHR7soFHysreq?darkMode=true"
 
 # ╔═╡ c20ae9cd-c910-4c45-990e-8a62fb2bbeef
 iframe("https://link.excalidraw.com/readonly/VDvSiGZU0nokRnt8j0FA?darkMode=true")
+
+# ╔═╡ 8c63f334-9735-4ba3-94d7-2e06d7c0895f
+iframe("https://link.excalidraw.com/readonly/bULPt2heDa6Besaij1ps?darkMode=true")
 
 # ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
@@ -779,6 +792,8 @@ version = "17.5.0+2"
 # ╟─5a6d005f-5690-43ba-baa4-1b27caf03fc6
 # ╟─515c3bba-5ba2-476a-90b5-c304af54279c
 # ╟─c20ae9cd-c910-4c45-990e-8a62fb2bbeef
+# ╟─679dbbd2-0867-4b01-a53f-c7c59011dba5
+# ╟─8c63f334-9735-4ba3-94d7-2e06d7c0895f
 # ╟─1169c9cd-27b8-4ce7-ac18-f88b4491438f
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
