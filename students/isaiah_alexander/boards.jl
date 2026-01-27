@@ -134,6 +134,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/3R2YzKnAcxV",
 )
 
+# ╔═╡ ca0fdca2-d0c4-46aa-b84e-1a4c69980ddf
+board(
+	"2026-01-26",
+	md"""###### `perentage` `decimals`
+	!!! note "Summary"
+		Completed 5.5 - 5.6 Practice Test
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9qUk7PJuMhY",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -171,6 +181,9 @@ iframe("https://link.excalidraw.com/readonly/eCJaQlG1tflG9dIRdAyf?darkMode=true"
 
 # ╔═╡ e2de5c2e-61f5-4892-9626-26bc86d04fa9
 iframe("https://link.excalidraw.com/readonly/lbVbZimdQLjCnS7B6VWn?darkMode=true")
+
+# ╔═╡ 101232d1-f9b8-4efe-9d5f-2fe86cb6494d
+iframe("https://link.excalidraw.com/readonly/WrCdT3gabvUIjC15h3o6?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
@@ -514,6 +527,8 @@ version = "17.7.0+0"
 # ╟─fa0e4214-ba6d-4d4f-bbe8-bd1c4a2fbaff
 # ╟─77068a72-846f-458c-8086-afd9e429e2f5
 # ╟─e2de5c2e-61f5-4892-9626-26bc86d04fa9
+# ╟─ca0fdca2-d0c4-46aa-b84e-1a4c69980ddf
+# ╟─101232d1-f9b8-4efe-9d5f-2fe86cb6494d
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
