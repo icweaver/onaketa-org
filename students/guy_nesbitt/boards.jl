@@ -158,6 +158,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/9uYcOr8FRJA",
 )
 
+# ╔═╡ 01cd3762-c4dd-4fa1-a0b0-e95f628f534d
+board(
+	"2026-01-27",
+	md"""###### `absolute value` `graphing`
+	!!! note "Summary"
+		Reviewed past test (CP Math 2 Bridge Q3 24/37) and study guide on domain and range of absolute value functions.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/70gCchbrTV5",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -453,6 +463,9 @@ iframe("https://link.excalidraw.com/readonly/f3VNkrZoUA29G5WSS8bB?darkMode=true"
 
 # ╔═╡ c5802a7d-5bcc-48b5-b6e9-122185272a26
 iframe("https://link.excalidraw.com/readonly/YFSD0kw8CtxBig9uFKOh?darkMode=true")
+
+# ╔═╡ 3117f23a-7418-4982-b9d4-1914b8dc762b
+iframe("https://link.excalidraw.com/readonly/RAUwJGupgnASdvNUwY2Z?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -874,6 +887,8 @@ version = "17.7.0+0"
 # ╟─ba583034-a3d3-4ca0-bd21-13bc5a60de69
 # ╟─cd64dfb1-e0dc-42de-bbf0-7ae29b383f07
 # ╟─c5802a7d-5bcc-48b5-b6e9-122185272a26
+# ╟─01cd3762-c4dd-4fa1-a0b0-e95f628f534d
+# ╟─3117f23a-7418-4982-b9d4-1914b8dc762b
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
