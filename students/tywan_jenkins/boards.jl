@@ -124,6 +124,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7ODirC4hDft",
 )
 
+# ╔═╡ 44619ca9-3a86-4e61-b4dc-0a229e20a925
+board(
+	"2026-01-27",
+	md"""###### `linear equations`
+	!!! note "Summary"
+		Continued review of solving linear equations.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1ZfznIkQHBs",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -158,6 +168,9 @@ iframe("https://link.excalidraw.com/readonly/nWsp890iMdg3npdPnCuc")
 
 # ╔═╡ 07c87eca-e3fa-4c8a-a7e7-ea0303f3fe89
 iframe("https://link.excalidraw.com/readonly/dfPFlZy8Gg6XPzWTcJsO")
+
+# ╔═╡ b2c4f778-8683-4022-b958-a3c3207910c9
+iframe("https://link.excalidraw.com/readonly/itIa3UhbMyh8BmfNMutw")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth=6, indent=false)
@@ -499,6 +512,8 @@ version = "17.7.0+0"
 # ╟─d6efd479-71ee-490c-8b35-3d3948c054b2
 # ╟─2d8e0106-790c-402a-871b-c9c8416a9fef
 # ╟─07c87eca-e3fa-4c8a-a7e7-ea0303f3fe89
+# ╟─44619ca9-3a86-4e61-b4dc-0a229e20a925
+# ╟─b2c4f778-8683-4022-b958-a3c3207910c9
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
