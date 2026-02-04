@@ -168,6 +168,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/70gCchbrTV5",
 )
 
+# ╔═╡ 855d49ce-67a7-4ba6-b2ad-f97179a1f7e6
+board(
+	"2026-02-03",
+	md"""###### `absolute value` `graphing` `LEB/REB`
+	!!! note "Summary"
+		Reviewed study guide on left and right end behavior (LEB, REB) of absolute value functions, and how graphing their transformations.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/71rZssDBG3I",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -466,6 +476,9 @@ iframe("https://link.excalidraw.com/readonly/YFSD0kw8CtxBig9uFKOh?darkMode=true"
 
 # ╔═╡ 3117f23a-7418-4982-b9d4-1914b8dc762b
 iframe("https://link.excalidraw.com/readonly/RAUwJGupgnASdvNUwY2Z?darkMode=true")
+
+# ╔═╡ 883816e5-080b-4a6b-8dc0-86e3cc2724c9
+iframe("https://link.excalidraw.com/readonly/tNmMyzV080Dz7x4d7GiG?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -889,6 +902,8 @@ version = "17.7.0+0"
 # ╟─c5802a7d-5bcc-48b5-b6e9-122185272a26
 # ╟─01cd3762-c4dd-4fa1-a0b0-e95f628f534d
 # ╟─3117f23a-7418-4982-b9d4-1914b8dc762b
+# ╟─855d49ce-67a7-4ba6-b2ad-f97179a1f7e6
+# ╟─883816e5-080b-4a6b-8dc0-86e3cc2724c9
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
