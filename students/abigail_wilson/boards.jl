@@ -139,6 +139,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7XMmwjW962C",
 )
 
+# ╔═╡ 5851e6f2-c751-4dc1-be8c-0aceb7256d69
+board(
+	"2026-02-12",
+	md"""###### `trig identities` `trig equations` 
+	!!! note "Summary"
+		Practiced solving equations using trig identities.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/6TioCFcBZM8",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -176,6 +186,9 @@ iframe("https://link.excalidraw.com/readonly/GRYZkjUCmwc5JUjrywLL")
 
 # ╔═╡ 0309a090-8234-43d0-b29a-5d099880ead5
 iframe("https://link.excalidraw.com/readonly/LzmlzKotZNhEokgtT7lQ")
+
+# ╔═╡ f0e915e4-c26e-4232-ab57-682f279ef9ae
+iframe("https://link.excalidraw.com/readonly/eLo5Bt6MbWqKVtVk3kyd")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Abigail's Board 🥰", depth=6, indent=false)
@@ -514,6 +527,8 @@ version = "17.5.0+2"
 # ╟─bc6c59b0-f4c5-4e85-99c8-9d120d4fd345
 # ╟─3bf118b2-45e9-4b25-b1db-0087314e6eb8
 # ╟─0309a090-8234-43d0-b29a-5d099880ead5
+# ╟─5851e6f2-c751-4dc1-be8c-0aceb7256d69
+# ╟─f0e915e4-c26e-4232-ab57-682f279ef9ae
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
