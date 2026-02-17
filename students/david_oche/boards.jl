@@ -26,6 +26,9 @@ md"""
 # **2025-26 Term**
 """
 
+# ╔═╡ f9b00543-0667-4a15-868f-9ce9a87174c7
+
+
 # ╔═╡ 1169c9cd-27b8-4ce7-ac18-f88b4491438f
 md"""
 # **2024-25 Term**
@@ -148,6 +151,16 @@ board(
 		Practiced evaluating the `sec` and `csc` of different angles using the sum and difference trig identities.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7QT8c3rFMgx"
+)
+
+# ╔═╡ e7ec81cb-b4a1-4fac-bb64-f25b1d2b4e04
+board(
+	"2026-02-16",
+	md"""##### `law of sines`
+	!!! note "Summary"
+		Law of sines practice with word problems.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/Alp4MYpqX9R"
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -404,6 +417,9 @@ iframe("https://link.excalidraw.com/readonly/bULPt2heDa6Besaij1ps?darkMode=true"
 
 # ╔═╡ a7c98f45-5ea6-4ce1-af32-8d26b3f0684f
 iframe("https://link.excalidraw.com/readonly/ES618visYiW9QQ6BZ2kT?darkMode=true")
+
+# ╔═╡ 1dd0ea52-e5a9-4ab5-961e-73e11a61ef5e
+iframe("https://link.excalidraw.com/readonly/kna8hAqgPTYEiQshJVs4?darkMode=true")
 
 # ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
@@ -809,6 +825,9 @@ version = "17.5.0+2"
 # ╟─8c63f334-9735-4ba3-94d7-2e06d7c0895f
 # ╟─b50b43d3-33b0-4892-93b4-be0008938bd0
 # ╟─a7c98f45-5ea6-4ce1-af32-8d26b3f0684f
+# ╠═f9b00543-0667-4a15-868f-9ce9a87174c7
+# ╟─e7ec81cb-b4a1-4fac-bb64-f25b1d2b4e04
+# ╟─1dd0ea52-e5a9-4ab5-961e-73e11a61ef5e
 # ╟─1169c9cd-27b8-4ce7-ac18-f88b4491438f
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
