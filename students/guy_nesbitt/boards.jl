@@ -178,6 +178,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/71rZssDBG3I",
 )
 
+# ╔═╡ 5e954dca-0937-4d9a-a42f-c7fb881bbfbb
+board(
+	"2026-02-17",
+	md"""###### `exponential functions` `graphing`
+	!!! note "Summary"
+		New topic: Graphing and evaluating exponential functions.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2s8qGPQ2K62",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -479,6 +489,9 @@ iframe("https://link.excalidraw.com/readonly/RAUwJGupgnASdvNUwY2Z?darkMode=true"
 
 # ╔═╡ 883816e5-080b-4a6b-8dc0-86e3cc2724c9
 iframe("https://link.excalidraw.com/readonly/tNmMyzV080Dz7x4d7GiG?darkMode=true")
+
+# ╔═╡ 89c1e69e-7475-4b13-b0a9-5f3fac9c28f9
+iframe("https://link.excalidraw.com/readonly/THz1qqye6bK6zutTWggr?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -904,6 +917,8 @@ version = "17.7.0+0"
 # ╟─3117f23a-7418-4982-b9d4-1914b8dc762b
 # ╟─855d49ce-67a7-4ba6-b2ad-f97179a1f7e6
 # ╟─883816e5-080b-4a6b-8dc0-86e3cc2724c9
+# ╟─5e954dca-0937-4d9a-a42f-c7fb881bbfbb
+# ╟─89c1e69e-7475-4b13-b0a9-5f3fac9c28f9
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
