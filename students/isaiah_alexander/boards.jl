@@ -151,7 +151,7 @@ board(
 	!!! note "Summary"
 		Simplified expressions using the distributive property. Completed TB p137 #3-11 odd, 17-23 odd.
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/9qUk7PJuMhY",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5oXy7STjFan",
 )
 
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
@@ -196,7 +196,7 @@ iframe("https://link.excalidraw.com/readonly/lbVbZimdQLjCnS7B6VWn?darkMode=true"
 iframe("https://link.excalidraw.com/readonly/WrCdT3gabvUIjC15h3o6?darkMode=true")
 
 # ╔═╡ b7f8796f-49dd-4f1b-9c0b-ab952ea533cf
-iframe("https://link.excalidraw.com/readonly/WrCdT3gabvUIjC15h3o6?darkMode=true")
+iframe("https://link.excalidraw.com/readonly/yLcQxJ1Hjl3NV27tZZjY?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Isaiah's board 🏀", depth=6, indent=false)
