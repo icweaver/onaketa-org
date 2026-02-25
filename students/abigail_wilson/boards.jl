@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.21
+# v0.20.22
 
 using Markdown
 using InteractiveUtils
@@ -8,26 +8,28 @@ using InteractiveUtils
 begin
 	using PlutoUI
 	using HypertextLiteral: @htl
+	using CommonMark
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
-md"""
-Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
+cm"""
+!!! tip
+	Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share) = """
-## ▪ $(date)
+board(date, description, url_share) = cm"""
+# $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-""" |> Markdown.parse;
+""";
 
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
 	"2025-10-08",
-	md"""###### `polynomials` `long division` `complex numbers` 
+	cm"""###### `polynomials` `long division` `complex numbers` 
 	!!! note "Summary"
 		Abigail walked us through two sample problems for her test tomorrow on polynomial long divison and working with complex numbers. We also discussed the following resources to help prepare for the [AMC](https://maa.org/student-programs/amc/):
 
@@ -40,7 +42,7 @@ board(
 # ╔═╡ 6b5fd48c-26ca-42dd-871e-16a2a78afbcc
 board(
 	"2025-10-15",
-	md"""###### `systems of equations` `Thales' theorem` `fractional shares` 
+	cm"""###### `systems of equations` `Thales' theorem` `fractional shares` 
 	!!! note "Summary"
 		Reviewed sample problems from [AMC 10](https://drive.google.com/file/d/1i1DrI7h7TmxQBEhI55LZy0QlcuSckMQ2/view?usp=drive_link). Abigail also shared the [AMC 10/12 Math Club booklet](https://drive.google.com/file/d/14N1NUyVSZsM8mYlSmjb8U1m-Q2ubEnCK/view?usp=drive_link).
 	""",
@@ -50,7 +52,7 @@ board(
 # ╔═╡ ffa86634-a392-47be-879f-6996d765def9
 board(
 	"2025-10-22",
-	md"""###### `finance` `sequences` 
+	cm"""###### `finance` `sequences` 
 	!!! note "Summary"
 		Reviewed more sample problems from [AMC 10](https://drive.google.com/file/d/1i1DrI7h7TmxQBEhI55LZy0QlcuSckMQ2/view?usp=drive_link). Abigail also shared the [AMC 10/12 Math Club booklet](https://drive.google.com/file/d/14N1NUyVSZsM8mYlSmjb8U1m-Q2ubEnCK/view?usp=drive_link).
 
@@ -62,7 +64,7 @@ board(
 # ╔═╡ 286e7ab1-532d-4308-b5bb-b72e5f858d0b
 board(
 	"2025-10-30 🎃",
-	md"""###### `probability` `sequences` 
+	cm"""###### `probability` `sequences` 
 	!!! note "Summary"
 		Continued AMC 10 review.
 	""",
@@ -72,7 +74,7 @@ board(
 # ╔═╡ a02b2d41-63b3-449f-94ec-d8672c056a41
 board(
 	"2025-11-04",
-	md"""###### `domain` `linear programming` 
+	cm"""###### `domain` `linear programming` 
 	!!! note "Summary"
 		Continued AMC 10 review.
 	""",
@@ -82,7 +84,7 @@ board(
 # ╔═╡ d2129e4a-2f58-4a30-b5b9-0e50bbaa405d
 board(
 	"2025-11-13",
-	md"""###### `logarithms` `properties of logarithms` 
+	cm"""###### `logarithms` `properties of logarithms` 
 	!!! note "Summary"
 		Practiced simplifying, expanding, and graphing logarithms using their algebraic properties
 	""",
@@ -92,7 +94,7 @@ board(
 # ╔═╡ 656c4039-39d2-416a-b68d-c8c99f35da16
 board(
 	"2025-11-20",
-	md"""###### `coterminal angles` `unit circle`
+	cm"""###### `coterminal angles` `unit circle`
 	!!! note "Summary"
 		Reviewed using the unit circle to identify coterminal angles.
 	""",
@@ -102,7 +104,7 @@ board(
 # ╔═╡ 28997577-427e-4e82-b227-4afb824107fc
 board(
 	"2025-12-04",
-	md"""###### `unit circle` 
+	cm"""###### `unit circle` 
 	!!! note "Summary"
 		Continued unit circle review.
 	""",
@@ -112,7 +114,7 @@ board(
 # ╔═╡ f7eb82a4-1bf5-4c19-ac0a-d988f54deff6
 board(
 	"2025-12-11",
-	md"""###### `polynomial` `complex numbers` `log properties` `graphing` 
+	cm"""###### `polynomial` `complex numbers` `log properties` `graphing` 
 	!!! note "Summary"
 		End of year review.
 	""",
@@ -122,7 +124,7 @@ board(
 # ╔═╡ a139cbcf-f3fa-4013-a4e4-3411bd3d4c6e
 board(
 	"2026-01-15",
-	md"""###### `reciprocal trig functions` `graphing` 
+	cm"""###### `reciprocal trig functions` `graphing` 
 	!!! note "Summary"
 		Solving and graphing trig functions without a calculator.
 	""",
@@ -132,7 +134,7 @@ board(
 # ╔═╡ 3bf118b2-45e9-4b25-b1db-0087314e6eb8
 board(
 	"2026-01-22",
-	md"""###### `law of sines`  `law of cosines` 
+	cm"""###### `law of sines`  `law of cosines` 
 	!!! note "Summary"
 		Practiced applying the law of sines and cosines.
 	""",
@@ -142,7 +144,7 @@ board(
 # ╔═╡ 5851e6f2-c751-4dc1-be8c-0aceb7256d69
 board(
 	"2026-02-12",
-	md"""###### `trig identities` `trig equations` 
+	cm"""###### `trig identities` `trig equations` 
 	!!! note "Summary"
 		Practiced solving equations using trig identities.
 	""",
@@ -152,7 +154,7 @@ board(
 # ╔═╡ 1c49d15f-8f0d-4513-8884-6ebbb8d95a7d
 board(
 	"2026-02-19",
-	md"""###### `trig identities` `trig equations` 
+	cm"""###### `trig identities` `trig equations` 
 	!!! note "Summary"
 		Caught up in class. Got a headstart on sum and difference, and double angle identities.
 	""",
@@ -204,7 +206,7 @@ iframe("https://link.excalidraw.com/readonly/eLo5Bt6MbWqKVtVk3kyd")
 iframe("https://link.excalidraw.com/readonly/Rqvd3jHy2yIMSHhqZ5v4")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="Abigail's Board 🥰", depth=6, indent=false)
+TableOfContents(; title = "Abigail's Board 🥰", depth = 6, indent = false)
 
 # ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
 @htl """
@@ -218,21 +220,23 @@ pluto-output.rich_output code {
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
+CommonMark = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
 HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
+CommonMark = "~0.10.0"
 HypertextLiteral = "~0.9.5"
-PlutoUI = "~0.7.59"
+PlutoUI = "~0.7.61"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.1"
+julia_version = "1.12.5"
 manifest_format = "2.0"
-project_hash = "026533f4d5798b427cf78f9e543c536dc326e6b6"
+project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -258,6 +262,16 @@ git-tree-sha1 = "b10d0b65641d57b8b4d5e234446582de5047050d"
 uuid = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 version = "0.11.5"
 
+[[deps.CommonMark]]
+deps = ["PrecompileTools"]
+git-tree-sha1 = "830073a853633d2838c52127624af3e86580a09e"
+uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
+version = "0.10.0"
+weakdeps = ["Markdown"]
+
+    [deps.CommonMark.extensions]
+    CommonMarkMarkdownExt = "Markdown"
+
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
@@ -271,7 +285,7 @@ version = "1.11.0"
 [[deps.Downloads]]
 deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
-version = "1.6.0"
+version = "1.7.0"
 
 [[deps.FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
@@ -325,7 +339,7 @@ version = "0.6.4"
 [[deps.LibCURL_jll]]
 deps = ["Artifacts", "LibSSH2_jll", "Libdl", "OpenSSL_jll", "Zlib_jll", "nghttp2_jll"]
 uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
-version = "8.11.1+1"
+version = "8.15.0+0"
 
 [[deps.LibGit2]]
 deps = ["LibGit2_jll", "NetworkOptions", "Printf", "SHA"]
@@ -371,7 +385,7 @@ version = "1.11.0"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
-version = "2025.5.20"
+version = "2025.11.4"
 
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
@@ -385,7 +399,7 @@ version = "0.3.29+0"
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "3.5.1+0"
+version = "3.5.4+0"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
@@ -396,7 +410,7 @@ version = "2.8.1"
 [[deps.Pkg]]
 deps = ["Artifacts", "Dates", "Downloads", "FileWatching", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "Random", "SHA", "TOML", "Tar", "UUIDs", "p7zip_jll"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-version = "1.12.0"
+version = "1.12.1"
 
     [deps.Pkg.extensions]
     REPLExt = "REPL"
@@ -511,9 +525,9 @@ uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
 version = "1.64.0+1"
 
 [[deps.p7zip_jll]]
-deps = ["Artifacts", "Libdl"]
+deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl"]
 uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
-version = "17.5.0+2"
+version = "17.7.0+0"
 """
 
 # ╔═╡ Cell order:

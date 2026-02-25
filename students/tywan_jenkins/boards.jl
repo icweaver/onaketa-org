@@ -8,26 +8,27 @@ using InteractiveUtils
 begin
 	using PlutoUI
 	using HypertextLiteral: @htl
+	using CommonMark
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
-md"""
+cm"""
 Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share) = """
-# ▪ $(date)
+board(date, description, url_share) = cm"""
+## $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-""" |> Markdown.parse;
+""";
 
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
 	"2025-10-07",
-	md"""###### `proportionality`
+	cm"""###### `proportionality`
 	!!! note "Summary"
 		Reviewed using proportionality constants to analyze financial word problems.
 	""",
@@ -37,7 +38,7 @@ board(
 # ╔═╡ 8004c1c6-1535-488f-a251-c0aef13f8e1d
 board(
 	"2025-10-14",
-	md"""###### `proportionality`
+	cm"""###### `proportionality`
 	!!! note "Summary"
 		Continued review of proportionalities and their application in word problems.
 	""",
@@ -47,7 +48,7 @@ board(
 # ╔═╡ 584deffe-123b-46b2-a733-7d72ae8270ff
 board(
 	"2025-10-21",
-	md"""###### `proportionality` `slope-intercept`
+	cm"""###### `proportionality` `slope-intercept`
 	!!! note "Summary"
 		Continued review of proportionalities and their application in word problems. Started practice problems with slope-intercept form of equation of a line.
 	""",
@@ -57,7 +58,7 @@ board(
 # ╔═╡ 692b1328-4022-4185-a167-8d88a3c7fd56
 board(
 	"2025-10-28 🎃",
-	md"""###### `proportionality` `slope-intercept`
+	cm"""###### `proportionality` `slope-intercept`
 	!!! note "Summary"
 		Continued review of proportionalities and their application in word problems.
 	""",
@@ -67,7 +68,7 @@ board(
 # ╔═╡ 039ad6cd-4743-4fdd-9b87-680dd2326607
 board(
 	"2025-11-18",
-	md"""###### `distributive property`
+	cm"""###### `distributive property`
 	!!! note "Summary"
 		Practiced the distributive property, went through first two problems on worksheet.
 	""",
@@ -77,7 +78,7 @@ board(
 # ╔═╡ 20640e6f-92d8-4f51-8dc5-96487c8fe9b9
 board(
 	"2025-12-03",
-	md"""###### `linear equations`
+	cm"""###### `linear equations`
 	!!! note "Summary"
 		Introduction to isolating the variable from a linear equation.
 	""",
@@ -87,7 +88,7 @@ board(
 # ╔═╡ ab816e96-e2e8-438d-bf2f-1c3173bf77f0
 board(
 	"2025-12-09",
-	md"""###### `linear equations` `word problems` `graphing`
+	cm"""###### `linear equations` `word problems` `graphing`
 	!!! note "Summary"
 		Contnued linear equations review.
 	""",
@@ -97,7 +98,7 @@ board(
 # ╔═╡ 7736d594-579a-4e28-be45-96136e25baf5
 board(
 	"2025-12-16",
-	md"""###### `linear equations` `word problems` `graphing`
+	cm"""###### `linear equations` `word problems` `graphing`
 	!!! note "Summary"
 		Final review on applying linear equations to word problems.
 	""",
@@ -107,7 +108,7 @@ board(
 # ╔═╡ 043c220e-a3fe-4851-9095-8edd086bc7ba
 board(
 	"2026-01-13",
-	md"""###### `linear equations`
+	cm"""###### `linear equations`
 	!!! note "Summary"
 		Continued review of solving linear equations.
 	""",
@@ -117,7 +118,7 @@ board(
 # ╔═╡ 2d8e0106-790c-402a-871b-c9c8416a9fef
 board(
 	"2026-01-20",
-	md"""###### `linear equations`
+	cm"""###### `linear equations`
 	!!! note "Summary"
 		Continued review of solving linear equations in Lesson 9 Practice Problems workbook.
 	""",
@@ -127,7 +128,7 @@ board(
 # ╔═╡ 44619ca9-3a86-4e61-b4dc-0a229e20a925
 board(
 	"2026-01-27",
-	md"""###### `linear equations`
+	cm"""###### `linear equations`
 	!!! note "Summary"
 		Continued review of solving linear equations.
 	""",
@@ -137,7 +138,7 @@ board(
 # ╔═╡ 85cb57c6-c0e5-4101-98b2-4c8812462807
 board(
 	"2026-02-03",
-	md"""###### `linear equations`
+	cm"""###### `linear equations`
 	!!! note "Summary"
 		Continued review of solving and graphing linear equations.
 	""",
@@ -147,7 +148,7 @@ board(
 # ╔═╡ 04298579-d428-44fe-bb9b-b654891ca781
 board(
 	"2026-02-24",
-	md"""###### `distributing` `factoring`
+	cm"""###### `distributing` `factoring`
 	!!! note "Summary"
 		Practice with solving linear and quadratic equations using the distributive property and factoring.
 	""",
@@ -199,16 +200,11 @@ iframe("https://link.excalidraw.com/readonly/vCZx6amlQFD2uWXiCApD")
 iframe("https://link.excalidraw.com/readonly/wtvyQWgUwPBLkSFGpu0K")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="Tywan's Board 💀", depth=6, indent=false)
+TableOfContents(; title="Tywan's Board 💀", depth = 6, indent = false)
 
 # ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
 html"""
 <style>
-main {
-    max-width: 90%;
-    margin-right: 5% !important;
-}
-
 pluto-output.rich_output code {
   background-color: light-dark(wheat, grey);
 }
@@ -218,21 +214,23 @@ pluto-output.rich_output code {
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
+CommonMark = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
 HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
+CommonMark = "~0.10.0"
 HypertextLiteral = "~0.9.5"
-PlutoUI = "~0.7.59"
+PlutoUI = "~0.7.61"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.2"
+julia_version = "1.12.5"
 manifest_format = "2.0"
-project_hash = "026533f4d5798b427cf78f9e543c536dc326e6b6"
+project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -257,6 +255,16 @@ deps = ["FixedPointNumbers", "Random"]
 git-tree-sha1 = "b10d0b65641d57b8b4d5e234446582de5047050d"
 uuid = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 version = "0.11.5"
+
+[[deps.CommonMark]]
+deps = ["PrecompileTools"]
+git-tree-sha1 = "830073a853633d2838c52127624af3e86580a09e"
+uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
+version = "0.10.0"
+weakdeps = ["Markdown"]
+
+    [deps.CommonMark.extensions]
+    CommonMarkMarkdownExt = "Markdown"
 
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -371,7 +379,7 @@ version = "1.11.0"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
-version = "2025.5.20"
+version = "2025.11.4"
 
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
@@ -396,7 +404,7 @@ version = "2.8.1"
 [[deps.Pkg]]
 deps = ["Artifacts", "Dates", "Downloads", "FileWatching", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "Random", "SHA", "TOML", "Tar", "UUIDs", "p7zip_jll"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-version = "1.12.0"
+version = "1.12.1"
 
     [deps.Pkg.extensions]
     REPLExt = "REPL"

@@ -8,45 +8,44 @@ using InteractiveUtils
 begin
 	using PlutoUI
 	using HypertextLiteral: @htl
+	using CommonMark
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
-md"""
-Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
-"""
+cm"""
+!!! tip
+	Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 
-# ╔═╡ c9ef3aa5-b300-43dd-a4c0-6fee6f35b01f
-md"""
 !!! note
 	[Past boards](https://docs.google.com/document/d/1VbkHtNdugk0vKbg7NwLoilR06OkxLso9SZAXn9egtGs/edit?usp=sharing)
 """
 
-# ╔═╡ df52962a-d2a5-42ed-b891-db262fc90a08
-md"""
-# **2025-26 Term**
+# ╔═╡ 75eb55ff-cd84-4b62-aad5-8b3204dccd4b
+cm"""
+# _**--- 2025 -- 2026 ---**_
 """
 
 # ╔═╡ f9b00543-0667-4a15-868f-9ce9a87174c7
 
 
-# ╔═╡ 1169c9cd-27b8-4ce7-ac18-f88b4491438f
-md"""
-# **2024-25 Term**
+# ╔═╡ 6f1c8c88-1710-42ef-94cd-3ad75c2b437c
+cm"""
+# _**--- 2024 -- 2025 ---**_
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share) = """
-## ▪ $(date)
+board(date, description, url_share) = cm"""
+## $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-""" |> Markdown.parse;
+""";
 
 # ╔═╡ 91332a74-d423-489d-81ea-a1f5e36e23fc
 board(
 	"2025-10-06",
-	md"""##### `radicals`
+	cm"""##### `radicals`
 	!!! note "Summary"
 		Reviewed application of inscribed circle theorems.
 	""",
@@ -56,7 +55,7 @@ board(
 # ╔═╡ 31c62bd7-fabf-424c-8d9a-d9fbd3e24170
 board(
 	"2025-10-13",
-	md"""##### `tangent-secant` `intersecting chords` `intersecting secants`
+	cm"""##### `tangent-secant` `intersecting chords` `intersecting secants`
 	!!! note "Summary"
 		Reviewed applications of tangent-secant, intersecting chords, and intersecting secants theorems.
 	""",
@@ -66,7 +65,7 @@ board(
 # ╔═╡ f6a3d3d6-b285-4a99-b7a2-e6d6ab00be1a
 board(
 	"2025-10-20",
-	md"""##### `chords` `sectors`
+	cm"""##### `chords` `sectors`
 	!!! note "Summary"
 		Geometry review.
 	""",
@@ -76,7 +75,7 @@ board(
 # ╔═╡ 01a3b979-7746-4f98-90e5-6a3faea1b1a0
 board(
 	"2025-10-23",
-	md"""##### `chords` `sectors`
+	cm"""##### `chords` `sectors`
 	!!! note "Summary"
 		Geometry review.
 	""",
@@ -86,7 +85,7 @@ board(
 # ╔═╡ 8b7d94e1-dacc-41ff-b72f-d72632c7006e
 board(
 	"2025-11-03",
-	md"""##### `trig functions` `polar coordinates`
+	cm"""##### `trig functions` `polar coordinates`
 	!!! note "Summary"
 		Caught up in class, got a headstart on working in the polar coordinate plane.
 	""",
@@ -96,7 +95,7 @@ board(
 # ╔═╡ e0185f7e-f02c-4b0f-b0d2-657e132a6ee6
 board(
 	"2025-11-10",
-	md"""##### `lateral surface area` `total surface area`
+	cm"""##### `lateral surface area` `total surface area`
 	!!! note "Summary"
 		LSA and TSA for cones, portions of a sphere, cylinders, and truncated cones.
 	""",
@@ -106,7 +105,7 @@ board(
 # ╔═╡ d0bdaa1f-9eae-45ee-b9d4-c4acc2dec858
 board(
 	"2025-11-17",
-	md"""##### `volumes of revolution`
+	cm"""##### `volumes of revolution`
 	!!! note "Summary"
 		Reviewed volumes of revolution about the x and y axis.
 	""",
@@ -116,7 +115,7 @@ board(
 # ╔═╡ ff9e2c30-ba4e-4e5c-a27a-d67982ef42b8
 board(
 	"2025-12-01",
-	md"""##### `volume`
+	cm"""##### `volume`
 	!!! note "Summary"
 		Re-derived the volume formula for a regular tetrahedron.
 	""",
@@ -126,7 +125,7 @@ board(
 # ╔═╡ 515c3bba-5ba2-476a-90b5-c304af54279c
 board(
 	"2026-01-12",
-	md"""##### `dynamics` `vectors`
+	cm"""##### `dynamics` `vectors`
 	!!! note "Summary"
 		Physics: vector decomposition and addition review. Used resources from [The Physics Classroom](https://www.physicsclassroom.com/)
 	""",
@@ -136,7 +135,7 @@ board(
 # ╔═╡ 679dbbd2-0867-4b01-a53f-c7c59011dba5
 board(
 	"2026-01-26",
-	md"""##### `unit circle` `projectile motion`
+	cm"""##### `unit circle` `projectile motion`
 	!!! note "Summary"
 		Unit circle and projectile motion review for horizontal launches.
 	""",
@@ -146,7 +145,7 @@ board(
 # ╔═╡ b50b43d3-33b0-4892-93b4-be0008938bd0
 board(
 	"2026-02-02",
-	md"""##### `reciprocal trig functions` `unit circle` `sum and difference identitites`
+	cm"""##### `reciprocal trig functions` `unit circle` `sum and difference identitites`
 	!!! note "Summary"
 		Practiced evaluating the `sec` and `csc` of different angles using the sum and difference trig identities.
 	""",
@@ -156,7 +155,7 @@ board(
 # ╔═╡ e7ec81cb-b4a1-4fac-bb64-f25b1d2b4e04
 board(
 	"2026-02-16",
-	md"""##### `law of sines`
+	cm"""##### `law of sines`
 	!!! note "Summary"
 		Law of sines practice with word problems.
 	""",
@@ -166,7 +165,7 @@ board(
 # ╔═╡ 4fd6a558-53b6-4a16-bb03-2035336a3524
 board(
 	"2026-02-23",
-	md"""##### `dynamics` `Newton's 2nd Law`
+	cm"""##### `dynamics` `Newton's 2nd Law`
 	!!! note "Summary"
 		Practice problems + conceptual checks on Newton's 2nd Law.
 	""",
@@ -176,7 +175,7 @@ board(
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-04-25",
-	md"""##### `radicals`
+	cm"""##### `radicals`
 	!!! note "Summary"
 		Simplifying radicals.
 	""",
@@ -186,7 +185,7 @@ board(
 # ╔═╡ 502b9fbc-ee9a-456f-b017-e8f88b53fb3a
 board(
 	"2024-05-02",
-	md"""##### `radicals`
+	cm"""##### `radicals`
 	!!! note "Summary"
 		Simplifying radicals, continued.
 	""",
@@ -196,7 +195,7 @@ board(
 # ╔═╡ 863b624d-df61-4127-95d7-eb28c8bd377e
 board(
 	"2024-05-09",
-	md"""##### `polynomials`
+	cm"""##### `polynomials`
 	!!! note "Summary"
 		Simplifying polynomials.
 	""",
@@ -206,7 +205,7 @@ board(
 # ╔═╡ e2c8db5a-3612-4311-ac92-34b38b5afe48
 board(
 	"2024-11-04",
-	md"""
+	cm"""
 	##### `Avogadro's number` `molar mass`
 	!!! note "Summary"
 		We explore some different ways to count things in Chemistry.
@@ -217,7 +216,7 @@ board(
 # ╔═╡ 803e5ba3-0e75-4030-abd9-a7178a54de16
 board(
 	"2024-11-14",
-	md"""
+	cm"""
 	##### `proofs` `similar triangles` `line segments` `transvere lines`
 	!!! note "Summary"
 		Proving line segment and angle congruency for different configurations
@@ -228,7 +227,7 @@ board(
 # ╔═╡ ba1d2c0d-1a77-4fd4-bb16-81148a62b7bd
 board(
 	"2024-12-02",
-	md"""
+	cm"""
 	##### `trig functions` `right triangles`
 	!!! note "Summary"
 		Introduced the trigonometric functions: sine ``(\sin\theta)``, cosine ``(\cos\theta)``, and tangent ``(\tan\theta)``
@@ -239,7 +238,7 @@ board(
 # ╔═╡ 59e16f3f-1e37-4cdb-8a21-826f89ebd282
 board(
 	"2024-12-09 [FINAL]",
-	md"""
+	cm"""
 	##### `similar triangles` `proofs` `Pythagorean Theorem`
 	!!! note "Summary"
 		Reviewed prooving different triangle relations using similar triangles.
@@ -250,7 +249,7 @@ board(
 # ╔═╡ 2ef67c72-36bf-4a07-b0bb-87710c254c2c
 board(
 	"2025-01-09",
-	md"""
+	cm"""
 	##### `Pythagorean Theorem` `exponentials`
 	!!! note "Summary"
 		Reviewed proofs using properties of right triangles.
@@ -261,7 +260,7 @@ board(
 # ╔═╡ f8294d92-a96a-46eb-acec-dddee774a0ea
 board(
 	"2025-01-16",
-	md"""
+	cm"""
 	##### `radicals` `exponentials`
 	!!! note "Summary"
 		Reviewed simplifying radical expressions.
@@ -272,7 +271,7 @@ board(
 # ╔═╡ 0b5ae025-8e1a-4db3-9973-7fcf4744be29
 board(
 	"2025-01-23",
-	md"""
+	cm"""
 	##### `45-45-90` `30-60-90`
 	!!! note "Summary"
 		We investigate special triangles and solving for their sides.
@@ -283,7 +282,7 @@ board(
 # ╔═╡ 85b3d00e-357f-49a8-9bb3-d4986b77b493
 board(
 	"2025-01-30",
-	md"""
+	cm"""
 	##### `45-45-90` `30-60-90` `trig functions`
 	!!! note "Summary"
 		Continued review of special triangles and their extension to trig functions.
@@ -294,7 +293,7 @@ board(
 # ╔═╡ 4e446ed3-a377-4c4f-893a-6e755bbb2f7b
 board(
 	"2025-02-06",
-	md"""
+	cm"""
 	##### `trig functions`
 	!!! note "Summary"
 		Reviewed additional trigonometry word problems.
@@ -305,7 +304,7 @@ board(
 # ╔═╡ 2faec220-0632-4d4c-af6c-486f1768454e
 board(
 	"2025-02-13",
-	md"""
+	cm"""
 	##### `line segments`
 	!!! note "Summary"
 		Distance, midpoint, and slope of line segments on the coordinate plane.
@@ -316,7 +315,7 @@ board(
 # ╔═╡ 396ef048-1e3f-4845-9bc4-2a9137eb2c61
 board(
 	"2025-02-27",
-	md"""
+	cm"""
 	##### `trig functions` `radicals`
 	!!! note "Summary"
 		Test correction review on simplifying radicals and solving word problems with trig functions.
@@ -327,7 +326,7 @@ board(
 # ╔═╡ bda7b6e6-8a23-4e30-a4d1-ae62ef0ae8bc
 board(
 	"2025-03-06",
-	md"""
+	cm"""
 	##### `radicals`
 	!!! note "Summary"
 		Continued review on simplifying radicals. Completed hw assignment.
@@ -338,7 +337,7 @@ board(
 # ╔═╡ 7017510e-57b0-4a43-be7a-0bb6bff5da91
 board(
 	"2025-03-13",
-	md"""
+	cm"""
 	##### `lines` `line segments` `triangle proofs`
 	!!! note "Summary"
 		Parallel, perpendicular line equations. Applications of distance and midpoint formulas.
@@ -349,7 +348,7 @@ board(
 # ╔═╡ c9499268-f63d-46d6-a2cd-128e6443aa96
 board(
 	"2025-03-27",
-	md"""
+	cm"""
 	##### `systems of equations`
 	!!! note "Summary"
 		Linear systems of equations with three variables.
@@ -360,7 +359,7 @@ board(
 # ╔═╡ 27594dab-1e4d-4cba-9f2a-041abb433ac7
 board(
 	"2025-04-24",
-	md"""
+	cm"""
 	##### `systems of equations`
 	!!! note "Summary"
 		Just returned from spring break and school travel. Continued review of linear systems of equations with three variables
@@ -371,7 +370,7 @@ board(
 # ╔═╡ 2415789a-71e2-45e1-8709-12c081452340
 board(
 	"2025-05-01",
-	md"""
+	cm"""
 	##### `linear programming`
 	!!! note "Summary"
 		Introduction to the fundamental theorem of linear programming and its applications.
@@ -382,7 +381,7 @@ board(
 # ╔═╡ 467f9592-8798-4398-809a-7498d9473e67
 board(
 	"2025-05-29",
-	md"""
+	cm"""
 	##### `quadratics`
 	!!! note "Summary"
 		Perfect trinomials and completing the square technique.
@@ -495,16 +494,11 @@ iframe("https://link.excalidraw.com/readonly/bhF6ITThmI7bVo2fMSmz?darkMode=true"
 iframe("https://link.excalidraw.com/readonly/VzIdinfjkukQJo3AL9QQ?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title="David's Board 💻", depth=6, indent=false)
+TableOfContents(; title="David's Board 💻", depth = 6, indent = false)
 
 # ╔═╡ 4a70b5f4-5188-44db-a6d5-34edbad0499e
 html"""
 <style>
-main {
-    max-width: 90%;
-    margin-right: 5% !important;
-}
-
 pluto-output.rich_output code {
   background-color: light-dark(wheat, grey);
 }
@@ -514,10 +508,12 @@ pluto-output.rich_output code {
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
+CommonMark = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
 HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
+CommonMark = "~0.10.0"
 HypertextLiteral = "~0.9.5"
 PlutoUI = "~0.7.61"
 """
@@ -526,9 +522,9 @@ PlutoUI = "~0.7.61"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.1"
+julia_version = "1.12.5"
 manifest_format = "2.0"
-project_hash = "15a830fa04d1630dc450c522753bdc586de23cec"
+project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -554,6 +550,16 @@ git-tree-sha1 = "b10d0b65641d57b8b4d5e234446582de5047050d"
 uuid = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 version = "0.11.5"
 
+[[deps.CommonMark]]
+deps = ["PrecompileTools"]
+git-tree-sha1 = "830073a853633d2838c52127624af3e86580a09e"
+uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
+version = "0.10.0"
+weakdeps = ["Markdown"]
+
+    [deps.CommonMark.extensions]
+    CommonMarkMarkdownExt = "Markdown"
+
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
@@ -567,7 +573,7 @@ version = "1.11.0"
 [[deps.Downloads]]
 deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
-version = "1.6.0"
+version = "1.7.0"
 
 [[deps.FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
@@ -621,7 +627,7 @@ version = "0.6.4"
 [[deps.LibCURL_jll]]
 deps = ["Artifacts", "LibSSH2_jll", "Libdl", "OpenSSL_jll", "Zlib_jll", "nghttp2_jll"]
 uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
-version = "8.11.1+1"
+version = "8.15.0+0"
 
 [[deps.LibGit2]]
 deps = ["LibGit2_jll", "NetworkOptions", "Printf", "SHA"]
@@ -667,7 +673,7 @@ version = "1.11.0"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
-version = "2025.5.20"
+version = "2025.11.4"
 
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
@@ -681,7 +687,7 @@ version = "0.3.29+0"
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "3.5.1+0"
+version = "3.5.4+0"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
@@ -692,7 +698,7 @@ version = "2.8.1"
 [[deps.Pkg]]
 deps = ["Artifacts", "Dates", "Downloads", "FileWatching", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "Random", "SHA", "TOML", "Tar", "UUIDs", "p7zip_jll"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-version = "1.12.0"
+version = "1.12.1"
 
     [deps.Pkg.extensions]
     REPLExt = "REPL"
@@ -807,15 +813,14 @@ uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
 version = "1.64.0+1"
 
 [[deps.p7zip_jll]]
-deps = ["Artifacts", "Libdl"]
+deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl"]
 uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
-version = "17.5.0+2"
+version = "17.7.0+0"
 """
 
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
-# ╟─c9ef3aa5-b300-43dd-a4c0-6fee6f35b01f
-# ╟─df52962a-d2a5-42ed-b891-db262fc90a08
+# ╟─75eb55ff-cd84-4b62-aad5-8b3204dccd4b
 # ╟─91332a74-d423-489d-81ea-a1f5e36e23fc
 # ╟─797fb912-0319-4471-be69-5c46721c6ace
 # ╟─31c62bd7-fabf-424c-8d9a-d9fbd3e24170
@@ -843,7 +848,7 @@ version = "17.5.0+2"
 # ╟─1dd0ea52-e5a9-4ab5-961e-73e11a61ef5e
 # ╟─4fd6a558-53b6-4a16-bb03-2035336a3524
 # ╟─055bd687-d9d5-44d7-ace5-a2e28bea9bb2
-# ╟─1169c9cd-27b8-4ce7-ac18-f88b4491438f
+# ╟─6f1c8c88-1710-42ef-94cd-3ad75c2b437c
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 # ╟─502b9fbc-ee9a-456f-b017-e8f88b53fb3a
