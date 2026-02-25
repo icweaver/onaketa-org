@@ -149,7 +149,7 @@ board(
 	"2026-02-24",
 	md"""###### `distributing` `factoring`
 	!!! note "Summary"
-		Practice with solving linear and quadratic equations using the distributive property and factory.
+		Practice with solving linear and quadratic equations using the distributive property and factoring.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/5PzMaeOU8YD",
 )
