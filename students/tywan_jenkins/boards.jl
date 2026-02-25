@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.21
+# v0.20.22
 
 using Markdown
 using InteractiveUtils
@@ -144,6 +144,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/5yYU7Fu3Gj1",
 )
 
+# ╔═╡ 04298579-d428-44fe-bb9b-b654891ca781
+board(
+	"2026-02-24",
+	md"""###### `distributing` `factoring`
+	!!! note "Summary"
+		Practice with solving linear and quadratic equations using the distributive property and factory.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5PzMaeOU8YD",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -184,6 +194,9 @@ iframe("https://link.excalidraw.com/readonly/itIa3UhbMyh8BmfNMutw")
 
 # ╔═╡ e4bbada1-77e0-4c55-a975-51c7c27de21b
 iframe("https://link.excalidraw.com/readonly/vCZx6amlQFD2uWXiCApD")
+
+# ╔═╡ 37b6ce07-bc07-41d6-85d0-089aeedb984f
+iframe("https://link.excalidraw.com/readonly/wtvyQWgUwPBLkSFGpu0K")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth=6, indent=false)
@@ -529,6 +542,8 @@ version = "17.7.0+0"
 # ╟─b2c4f778-8683-4022-b958-a3c3207910c9
 # ╟─85cb57c6-c0e5-4101-98b2-4c8812462807
 # ╟─e4bbada1-77e0-4c55-a975-51c7c27de21b
+# ╟─04298579-d428-44fe-bb9b-b654891ca781
+# ╟─37b6ce07-bc07-41d6-85d0-089aeedb984f
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
