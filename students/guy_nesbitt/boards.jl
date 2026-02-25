@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.21
+# v0.20.22
 
 using Markdown
 using InteractiveUtils
@@ -186,6 +186,16 @@ board(
 		New topic: Graphing and evaluating exponential functions.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/2s8qGPQ2K62",
+)
+
+# ╔═╡ 31cc5626-96a3-420e-b441-7effbb80d4a5
+board(
+	"2026-02-24",
+	md"""###### `exponents` `common base`
+	!!! note "Summary"
+		Common base exponent review for test next week. Completed review sheet worksheet.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5ddA0nX4GLd",
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -492,6 +502,9 @@ iframe("https://link.excalidraw.com/readonly/tNmMyzV080Dz7x4d7GiG?darkMode=true"
 
 # ╔═╡ 89c1e69e-7475-4b13-b0a9-5f3fac9c28f9
 iframe("https://link.excalidraw.com/readonly/THz1qqye6bK6zutTWggr?darkMode=true")
+
+# ╔═╡ 2c8004bc-7226-407e-a4c1-fcb2a45fdeef
+iframe("https://link.excalidraw.com/readonly/PH303KP66blJuivmYaBz?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -919,6 +932,8 @@ version = "17.7.0+0"
 # ╟─883816e5-080b-4a6b-8dc0-86e3cc2724c9
 # ╟─5e954dca-0937-4d9a-a42f-c7fb881bbfbb
 # ╟─89c1e69e-7475-4b13-b0a9-5f3fac9c28f9
+# ╟─31cc5626-96a3-420e-b441-7effbb80d4a5
+# ╟─2c8004bc-7226-407e-a4c1-fcb2a45fdeef
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
