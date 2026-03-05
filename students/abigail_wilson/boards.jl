@@ -12,24 +12,24 @@ begin
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
-cm"""
+md"""
 !!! tip
 	Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share) = cm"""
+board(date, description, url_share) = """
 ## $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-""";
+""" |> Markdown.parse;
 
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
 	"2025-10-08",
-	cm"""###### `polynomials` `long division` `complex numbers` 
+	md"""###### `polynomials` `long division` `complex numbers` 
 	!!! note "Summary"
 		Abigail walked us through two sample problems for her test tomorrow on polynomial long divison and working with complex numbers. We also discussed the following resources to help prepare for the [AMC](https://maa.org/student-programs/amc/):
 
@@ -42,7 +42,7 @@ board(
 # ╔═╡ 6b5fd48c-26ca-42dd-871e-16a2a78afbcc
 board(
 	"2025-10-15",
-	cm"""###### `systems of equations` `Thales' theorem` `fractional shares` 
+	md"""###### `systems of equations` `Thales' theorem` `fractional shares` 
 	!!! note "Summary"
 		Reviewed sample problems from [AMC 10](https://drive.google.com/file/d/1i1DrI7h7TmxQBEhI55LZy0QlcuSckMQ2/view?usp=drive_link). Abigail also shared the [AMC 10/12 Math Club booklet](https://drive.google.com/file/d/14N1NUyVSZsM8mYlSmjb8U1m-Q2ubEnCK/view?usp=drive_link).
 	""",
@@ -52,7 +52,7 @@ board(
 # ╔═╡ ffa86634-a392-47be-879f-6996d765def9
 board(
 	"2025-10-22",
-	cm"""###### `finance` `sequences` 
+	md"""###### `finance` `sequences` 
 	!!! note "Summary"
 		Reviewed more sample problems from [AMC 10](https://drive.google.com/file/d/1i1DrI7h7TmxQBEhI55LZy0QlcuSckMQ2/view?usp=drive_link). Abigail also shared the [AMC 10/12 Math Club booklet](https://drive.google.com/file/d/14N1NUyVSZsM8mYlSmjb8U1m-Q2ubEnCK/view?usp=drive_link).
 
@@ -64,7 +64,7 @@ board(
 # ╔═╡ 286e7ab1-532d-4308-b5bb-b72e5f858d0b
 board(
 	"2025-10-30 🎃",
-	cm"""###### `probability` `sequences` 
+	md"""###### `probability` `sequences` 
 	!!! note "Summary"
 		Continued AMC 10 review.
 	""",
@@ -74,7 +74,7 @@ board(
 # ╔═╡ a02b2d41-63b3-449f-94ec-d8672c056a41
 board(
 	"2025-11-04",
-	cm"""###### `domain` `linear programming` 
+	md"""###### `domain` `linear programming` 
 	!!! note "Summary"
 		Continued AMC 10 review.
 	""",
@@ -84,7 +84,7 @@ board(
 # ╔═╡ d2129e4a-2f58-4a30-b5b9-0e50bbaa405d
 board(
 	"2025-11-13",
-	cm"""###### `logarithms` `properties of logarithms` 
+	md"""###### `logarithms` `properties of logarithms` 
 	!!! note "Summary"
 		Practiced simplifying, expanding, and graphing logarithms using their algebraic properties
 	""",
@@ -94,7 +94,7 @@ board(
 # ╔═╡ 656c4039-39d2-416a-b68d-c8c99f35da16
 board(
 	"2025-11-20",
-	cm"""###### `coterminal angles` `unit circle`
+	md"""###### `coterminal angles` `unit circle`
 	!!! note "Summary"
 		Reviewed using the unit circle to identify coterminal angles.
 	""",
@@ -104,7 +104,7 @@ board(
 # ╔═╡ 28997577-427e-4e82-b227-4afb824107fc
 board(
 	"2025-12-04",
-	cm"""###### `unit circle` 
+	md"""###### `unit circle` 
 	!!! note "Summary"
 		Continued unit circle review.
 	""",
@@ -114,7 +114,7 @@ board(
 # ╔═╡ f7eb82a4-1bf5-4c19-ac0a-d988f54deff6
 board(
 	"2025-12-11",
-	cm"""###### `polynomial` `complex numbers` `log properties` `graphing` 
+	md"""###### `polynomial` `complex numbers` `log properties` `graphing` 
 	!!! note "Summary"
 		End of year review.
 	""",
@@ -124,7 +124,7 @@ board(
 # ╔═╡ a139cbcf-f3fa-4013-a4e4-3411bd3d4c6e
 board(
 	"2026-01-15",
-	cm"""###### `reciprocal trig functions` `graphing` 
+	md"""###### `reciprocal trig functions` `graphing` 
 	!!! note "Summary"
 		Solving and graphing trig functions without a calculator.
 	""",
@@ -134,7 +134,7 @@ board(
 # ╔═╡ 3bf118b2-45e9-4b25-b1db-0087314e6eb8
 board(
 	"2026-01-22",
-	cm"""###### `law of sines`  `law of cosines` 
+	md"""###### `law of sines`  `law of cosines` 
 	!!! note "Summary"
 		Practiced applying the law of sines and cosines.
 	""",
@@ -144,7 +144,7 @@ board(
 # ╔═╡ 5851e6f2-c751-4dc1-be8c-0aceb7256d69
 board(
 	"2026-02-12",
-	cm"""###### `trig identities` `trig equations` 
+	md"""###### `trig identities` `trig equations` 
 	!!! note "Summary"
 		Practiced solving equations using trig identities.
 	""",
@@ -154,7 +154,7 @@ board(
 # ╔═╡ 1c49d15f-8f0d-4513-8884-6ebbb8d95a7d
 board(
 	"2026-02-19",
-	cm"""###### `trig identities` `trig equations` 
+	md"""###### `trig identities` `trig equations` 
 	!!! note "Summary"
 		Caught up in class. Got a headstart on sum and difference, and double angle identities.
 	""",

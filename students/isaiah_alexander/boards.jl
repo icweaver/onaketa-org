@@ -12,23 +12,23 @@ begin
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
-cm"""
+md"""
 Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share) = cm"""
+board(date, description, url_share) = """
 ## $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-""";
+""" |> Markdown.parse;
 
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
 	"2025-10-06",
-	cm"""###### `fractions` `LCD`
+	md"""###### `fractions` `LCD`
 	!!! note "Summary"
 		Reviewed homework on re-writing fractions using their least common denominator (LCD). We then used this to start comparing different fractions with each other.
 	""",
@@ -38,7 +38,7 @@ board(
 # ╔═╡ 288f5b88-ce22-4f5d-9323-67eac543cd86
 board(
 	"2025-10-13",
-	cm"""###### `mixed fractions` `improper fractions`
+	md"""###### `mixed fractions` `improper fractions`
 	!!! note "Summary"
 		Reviewed working with mixed and improper fractions, and how to convert between them.
 	""",
@@ -48,7 +48,7 @@ board(
 # ╔═╡ 24f589dc-6805-4eb8-8c78-8f6ca88f1592
 board(
 	"2025-10-20",
-	cm"""###### `mixed fractions` `improper fractions`
+	md"""###### `mixed fractions` `improper fractions`
 	!!! note "Summary"
 		* Reviewed [1.1 - 1.3 Practice Test](https://docs.google.com/document/d/1Vhi75VGQdi8ZNJsARfC_-S5Lj9NraTXPDSAvZepR5dM/edit?usp=sharing) and [Ch1.6e-2.3 Practice Test](https://docs.google.com/document/d/1zQ4IXt9J_XnsnxidV9QxAQ8g8BX39L0nxqTmGS8JWJ8/edit?usp=sharing) for test tomorrow. 
 	""",
@@ -58,7 +58,7 @@ board(
 # ╔═╡ bbf985d2-3b66-4e1a-8ff0-e4f7fa50d8e9
 board(
 	"2025-10-27 🎃",
-	cm"""###### `mixed fractions` `improper fractions`
+	md"""###### `mixed fractions` `improper fractions`
 	!!! note "Summary"
 		* Reviewed [Math 6: Chapter 2 Fractions Practice Test](https://docs.google.com/document/d/1zQ4IXt9J_XnsnxidV9QxAQ8g8BX39L0nxqTmGS8JWJ8/edit?usp=sharing) for test re-take tomorrow. 
 	""",
@@ -68,7 +68,7 @@ board(
 # ╔═╡ ffc3dfcf-c234-42c5-b919-b98f531bc226
 board(
 	"2025-11-03",
-	cm"""###### `multiplication` `decimals`
+	md"""###### `multiplication` `decimals`
 	!!! note "Summary"
 		* Reviewed multiplying decimals with multiple digits.
 	""",
@@ -78,7 +78,7 @@ board(
 # ╔═╡ d41b6505-73aa-4926-8802-073017885eab
 board(
 	"2025-11-10",
-	cm"""###### `multiplication` `decimals`
+	md"""###### `multiplication` `decimals`
 	!!! note "Summary"
 		* Continued review of multiplying decimals with multiple digits.
 	""",
@@ -88,7 +88,7 @@ board(
 # ╔═╡ d5ba8b72-2860-4bbe-8f55-d874c629334d
 board(
 	"2025-11-17",
-	cm"""###### `ratios` `proportinos`
+	md"""###### `ratios` `proportinos`
 	!!! note "Summary"
 		Reviewed creating and simplifying proportions from word problems.
 	""",
@@ -98,7 +98,7 @@ board(
 # ╔═╡ 483de8d0-2940-4a1e-aecb-76c58e444b3d
 board(
 	"2025-12-01",
-	cm"""###### `ratio tables` `algebra`
+	md"""###### `ratio tables` `algebra`
 	!!! note "Summary"
 		No new material from class. Instead, we reviewed working with ratio tables, and then got a headstart on new content: solving linear equations.
 	""",
@@ -108,7 +108,7 @@ board(
 # ╔═╡ c885bfe0-996c-49ad-9800-6b4e80d2b4d0
 board(
 	"2025-12-08",
-	cm"""###### `unit rates` `equivalent rates`
+	md"""###### `unit rates` `equivalent rates`
 	!!! note "Summary"
 		Reviewed using unit and equivalent rates to solve word problems.
 	""",
@@ -118,7 +118,7 @@ board(
 # ╔═╡ 1154cf55-d77e-4a04-b22f-2d2f25e8705d
 board(
 	"2025-12-15",
-	cm"""###### `unit rates` `equivalent rates`
+	md"""###### `unit rates` `equivalent rates`
 	!!! note "Summary"
 		Final review on unit and equivalent rates to solve word problems.
 	""",
@@ -128,7 +128,7 @@ board(
 # ╔═╡ 77068a72-846f-458c-8086-afd9e429e2f5
 board(
 	"2026-01-05 ✨",
-	cm"""###### `decimals`  `subtraction`
+	md"""###### `decimals`  `subtraction`
 	!!! note "Summary"
 		1st session of the new year. Reviewed subtracting multi-digit decimals.
 	""",
@@ -138,7 +138,7 @@ board(
 # ╔═╡ ca0fdca2-d0c4-46aa-b84e-1a4c69980ddf
 board(
 	"2026-01-26",
-	cm"""###### `perentage` `decimals`
+	md"""###### `perentage` `decimals`
 	!!! note "Summary"
 		Completed 5.5 - 5.6 Practice Test
 	""",
@@ -148,7 +148,7 @@ board(
 # ╔═╡ 22661dcb-f232-4424-bc92-af140fe56edf
 board(
 	"2026-02-23",
-	cm"""###### `distributive property` `expressions`
+	md"""###### `distributive property` `expressions`
 	!!! note "Summary"
 		Simplified expressions using the distributive property. Completed TB p137 #3-11 odd, 17-23 odd.
 	""",
@@ -158,7 +158,7 @@ board(
 # ╔═╡ cf214d7b-da69-4870-be36-3f89cd3e014f
 board(
 	"2026-03-02",
-	cm"""###### `integers` `distributive property`
+	md"""###### `integers` `distributive property`
 	!!! note "Summary"
 		New unit: positive/negative integers. Also reviewed the distributive property again.
 	""",

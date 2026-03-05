@@ -12,7 +12,7 @@ begin
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
-cm"""
+md"""
 !!! tip
 	Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
@@ -28,18 +28,18 @@ cm"""
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share) = cm"""
+board(date, description, url_share) = """
 ## $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-""";
+""" |> Markdown.parse;
 
 # ╔═╡ 2ea5e382-a7f6-4c4c-aa6e-6b84af73aaf0
 board(
 	"2025-10-07",
-	cm"""###### `linear equations` `slope-intercept` `point-slope`
+	md"""###### `linear equations` `slope-intercept` `point-slope`
 	!!! note "Summary"
 		* Solve single variable linear equations.
 		* Identify equations for lines passing through a given point.
@@ -50,7 +50,7 @@ board(
 # ╔═╡ 9d7185b4-c562-4657-be08-ef426b918e86
 board(
 	"2025-10-14",
-	cm"""###### `angle bisector` `perpendicular line segment bisector` `inscribed circle`
+	md"""###### `angle bisector` `perpendicular line segment bisector` `inscribed circle`
 	!!! note "Summary"
 		Practice with constructing bisectors and using them to find the circle inscribed in a triangle. A video of this final construction [can be found here](https://www.mathsisfun.com/geometry/construct-triangleinscribe.html).
 	""",
@@ -60,7 +60,7 @@ board(
 # ╔═╡ e2bc15a6-28a2-46bd-8c0f-2b985107f357
 board(
 	"2025-10-21",
-	cm"""###### `triangle midpoint theorem`
+	md"""###### `triangle midpoint theorem`
 	!!! note "Summary"
 		Reviewed triangle midpoint theorem for test tomorrow. Used the following resources:
 		* [Kuta Software handout](https://cdn.kutasoftware.com/Worksheets/Geo/5-Midsegment%20of%20a%20Triangle.pdf) [from class](https://drive.google.com/drive/folders/1SlVpu75XGFeV75nFoAFi3Sk9KMpHe9ZO?usp=drive_link)
@@ -73,7 +73,7 @@ board(
 # ╔═╡ ba83d0f8-ab61-4127-a22a-64ba4e3f520a
 board(
 	"2025-10-28 🎃",
-	cm"""###### `similar triangles` `triangle inequality` `quadrilaterals`
+	md"""###### `similar triangles` `triangle inequality` `quadrilaterals`
 	!!! note "Summary"
 		Similar triangle, polygons review.
 	""",
@@ -83,7 +83,7 @@ board(
 # ╔═╡ 31bd435b-8be8-488a-b790-e8a8f2cf74f5
 board(
 	"2025-11-04",
-	cm"""###### `geometric mean`
+	md"""###### `geometric mean`
 	!!! note "Summary"
 		Reviewed applications of the geometric mean and its graphical interpretation as the altitude of a triangle.
 	""",
@@ -93,7 +93,7 @@ board(
 # ╔═╡ 477f02d3-cff8-4ca9-a269-652c48cac257
 board(
 	"2025-11-11",
-	cm"""###### `similar triangles`
+	md"""###### `similar triangles`
 	!!! note "Summary"
 		Reviewed past test and quiz on similar triangles, and current study guide for next test this week.
 	""",
@@ -103,7 +103,7 @@ board(
 # ╔═╡ e66d0992-7c94-4c81-887a-96abf13e0563
 board(
 	"2025-11-18",
-	cm"""###### `trig functions`
+	md"""###### `trig functions`
 	!!! note "Summary"
 		Applications of SOH-CAH-TOA. Guy got a 100% on his last test!
 	""",
@@ -113,7 +113,7 @@ board(
 # ╔═╡ 9c3ba310-bbd4-474b-971d-61d16c7b0993
 board(
 	"2025-12-02",
-	cm"""###### `trig functions` `projectile motion`
+	md"""###### `trig functions` `projectile motion`
 	!!! note "Summary"
 		No new work, got a head start on new content instead: Physics applications of trigonometry. Guy got another A on his last test 🎉
 	""",
@@ -123,7 +123,7 @@ board(
 # ╔═╡ 297861ee-d148-44da-92f6-dddb5f6657c0
 board(
 	"2025-12-09",
-	cm"""###### `trig functions` `unit circle`
+	md"""###### `trig functions` `unit circle`
 	!!! note "Summary"
 		Continued review on unit trig functions, got a head start on navigating the unit circle.
 	""",
@@ -133,7 +133,7 @@ board(
 # ╔═╡ a2c4c630-3e26-4a06-9da2-f9037fd61029
 board(
 	"2025-12-16",
-	cm"""###### `trig functions`
+	md"""###### `trig functions`
 	!!! note "Summary"
 		Final review on applying trig functions to word problems.
 	""",
@@ -143,7 +143,7 @@ board(
 # ╔═╡ cee12d32-4ee1-42c8-873c-c3e2eb5db8d3
 board(
 	"2026-01-13",
-	cm"""###### `absolute value` `linear equations`
+	md"""###### `absolute value` `linear equations`
 	!!! note "Summary"
 		Reviewed solving linear equations and inequalities containing absolute values.
 	""",
@@ -153,7 +153,7 @@ board(
 # ╔═╡ cd64dfb1-e0dc-42de-bbf0-7ae29b383f07
 board(
 	"2026-01-20",
-	cm"""###### `absolute value` `graphing`
+	md"""###### `absolute value` `graphing`
 	!!! note "Summary"
 		Practiced solving absolute value inequalties and graphing them on the number line.
 	""",
@@ -163,7 +163,7 @@ board(
 # ╔═╡ 01cd3762-c4dd-4fa1-a0b0-e95f628f534d
 board(
 	"2026-01-27",
-	cm"""###### `absolute value` `graphing`
+	md"""###### `absolute value` `graphing`
 	!!! note "Summary"
 		Reviewed past test (CP Math 2 Bridge Q3 24/37) and study guide on domain and range of absolute value functions.
 	""",
@@ -173,7 +173,7 @@ board(
 # ╔═╡ 855d49ce-67a7-4ba6-b2ad-f97179a1f7e6
 board(
 	"2026-02-03",
-	cm"""###### `absolute value` `graphing` `LEB/REB`
+	md"""###### `absolute value` `graphing` `LEB/REB`
 	!!! note "Summary"
 		Reviewed study guide on left and right end behavior (LEB, REB) of absolute value functions, and how graphing their transformations.
 	""",
@@ -183,7 +183,7 @@ board(
 # ╔═╡ 5e954dca-0937-4d9a-a42f-c7fb881bbfbb
 board(
 	"2026-02-17",
-	cm"""###### `exponential functions` `graphing`
+	md"""###### `exponential functions` `graphing`
 	!!! note "Summary"
 		New topic: Graphing and evaluating exponential functions.
 	""",
@@ -193,7 +193,7 @@ board(
 # ╔═╡ 31cc5626-96a3-420e-b441-7effbb80d4a5
 board(
 	"2026-02-24",
-	cm"""###### `exponents` `common base`
+	md"""###### `exponents` `common base`
 	!!! note "Summary"
 		Common base exponent review for test next week. Completed review sheet worksheet.
 	""",
@@ -203,7 +203,7 @@ board(
 # ╔═╡ 5220b731-6f09-4b14-810f-3abfd35ee6a0
 board(
 	"2026-03-03",
-	cm"""###### `radicals`
+	md"""###### `radicals`
 	!!! note "Summary"
 		Combining and simplifying radical expressions.
 	""",
@@ -213,7 +213,7 @@ board(
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
-	cm"""###### `x-y intercepts` `slope-intercept`
+	md"""###### `x-y intercepts` `slope-intercept`
 	!!! note "Summary"
 		* Identifying x and y intercepts
 		* Applying slope-intercept form: ``y = mx+ b``
@@ -224,7 +224,7 @@ board(
 # ╔═╡ 2943fbc4-ff83-42b0-9dc5-fe2704353b71
 board(
 	"2024-10-16",
-	cm"""###### `point-slope` `slope-intercept`
+	md"""###### `point-slope` `slope-intercept`
 	!!! note "Summary"
 		* Applying point-slope form: ``(y-y_1) = m(x-x_1)``
 		* Applying slope-intercept form: ``y = mx+ b``
@@ -235,7 +235,7 @@ board(
 # ╔═╡ f3d5f539-fc5f-4c9b-ba6b-a09e17678cda
 board(
 	"2024-10-25",
-	cm"""###### `point-slope` `slope-intercept` `standard form` `inequalities`
+	md"""###### `point-slope` `slope-intercept` `standard form` `inequalities`
 	!!! note "Summary"
 		* Re-writing point-slope and slope-intercept form in standard form
 		* Introduction to linear inequalities [sample problems here](https://tutorial.math.lamar.edu/Solutions/Alg/SolveLinearInequalities/Prob4.aspx)
@@ -246,7 +246,7 @@ board(
 # ╔═╡ edf5080a-1c99-469b-a924-d102970d785d
 board(
 	"2024-10-30 🎃",
-	cm"""###### `correlation` `line of best fit`
+	md"""###### `correlation` `line of best fit`
 	!!! note "Summary"
 		* Linear correlation (negative, positive, none)
 		* Graphing lines of best fit
@@ -257,7 +257,7 @@ board(
 # ╔═╡ 96d0a11b-5632-4d91-b30f-dbe6e8291f61
 board(
 	"2024-11-06",
-	cm"""###### `factoring` `quadratics` `inequalities`
+	md"""###### `factoring` `quadratics` `inequalities`
 	!!! note "Summary"
 		* Solving linear and quadratic linear equations
 		* Evaluating inequlities at proposed solutions
@@ -268,7 +268,7 @@ board(
 # ╔═╡ c31b909d-310e-4437-9809-66770e3e4134
 board(
 	"2024-11-13",
-	cm"""###### `system of equations`
+	md"""###### `system of equations`
 	!!! note "Summary"
 		Yesterday was a test day, so we got a headstart on the next module: Solving systems of linear equations
 	""",
@@ -278,7 +278,7 @@ board(
 # ╔═╡ c56348b3-86ca-40aa-8049-94811acf04ce
 board(
 	"2024-11-19",
-	cm"""###### `linear inequalities` `absolute value` `exponential functions`
+	md"""###### `linear inequalities` `absolute value` `exponential functions`
 	!!! note "Summary"
 		We started with a review of [solving linear inequalities](https://tutorial.math.lamar.edu/Classes/Alg/SolveAbsValueIneq.aspx) involving absolute values. We then got a head start on future material involving raising number to positive and negative integer exponents.
 	""",
@@ -288,7 +288,7 @@ board(
 # ╔═╡ d1e93d8e-dae2-4254-ae04-180b4cb29a9a
 board(
 	"2024-12-04",
-	cm"""###### `system of equations` `power functions`
+	md"""###### `system of equations` `power functions`
 	!!! note "Summary"
 		We were still ahead in class, so we got a head start on working with power functions.
 	""",
@@ -298,7 +298,7 @@ board(
 # ╔═╡ a79ca5a6-68bb-427d-8f22-3034b550fdd9
 board(
 	"2024-12-11",
-	cm"""###### `system of equations` `lines`
+	md"""###### `system of equations` `lines`
 	!!! note "Summary"
 		Reviewed systems of equations and graphing lines.
 	""",
@@ -308,7 +308,7 @@ board(
 # ╔═╡ 7d2c5a4e-63ec-4928-aa8d-6f58e1106d97
 board(
 	"2024-12-18 [FINAL]",
-	cm"""###### `system of equations` `lines`
+	md"""###### `system of equations` `lines`
 	!!! note "Summary"
 		Continued review of systems of equations and graphing lines for final tomorrow.
 	""",
@@ -318,7 +318,7 @@ board(
 # ╔═╡ 3b4049bd-585a-4ee5-a9c9-b376f83e74f1
 board(
 	"2025-01-09",
-	cm"""###### `exponentials`
+	md"""###### `exponentials`
 	!!! note "Summary"
 		Reviewed exponentials
 	""",
@@ -328,7 +328,7 @@ board(
 # ╔═╡ eb9e9706-3e13-42a4-808d-24a5902f83e4
 board(
 	"2025-01-16",
-	cm"""###### `arithmetic sequences` `geometric sequences`
+	md"""###### `arithmetic sequences` `geometric sequences`
 	!!! note "Summary"
 		Introduction to arithmetic and geometric sequences
 	""",
@@ -338,7 +338,7 @@ board(
 # ╔═╡ 8fc7cd6a-7389-41ff-a8bd-375b2b58ac17
 board(
 	"2025-01-23",
-	cm"""###### `statistics` `probability`
+	md"""###### `statistics` `probability`
 	!!! note "Summary"
 		Had test today, so no new hw today. Got a head start on next topic instead: statistics. In this intro, we reviewed summary numbers like mean, median, mode, and computing simple probabilities.
 	""",
@@ -348,7 +348,7 @@ board(
 # ╔═╡ fd9053ff-4754-4773-ae27-b075ec841aac
 board(
 	"2025-01-30",
-	cm"""###### `systems of equations`
+	md"""###### `systems of equations`
 	!!! note "Summary"
 		Reviewed systems of equations of two variables using the substitution and elimination method. Ended with a quick review of dot plots.
 	""",
@@ -358,7 +358,7 @@ board(
 # ╔═╡ d3f3a612-5469-40b2-9983-5a6d08717b21
 board(
 	"2025-02-06",
-	cm"""###### `normal distribution` `Z-score` `standard deviation`
+	md"""###### `normal distribution` `Z-score` `standard deviation`
 	!!! note "Summary"
 		Reviewed definition of the standard deviation and applying it to computing sample statistics via the Z-score.
 	""",
@@ -368,7 +368,7 @@ board(
 # ╔═╡ fac84720-43e1-4731-a437-127c5d7f81a9
 board(
 	"2025-02-13",
-	cm"""###### `line segments` `geometry`
+	md"""###### `line segments` `geometry`
 	!!! note "Summary"
 		Got head start on new section: Analyzing linse segment relations.
 	""",
@@ -378,7 +378,7 @@ board(
 # ╔═╡ b1e5752f-34d9-4747-a9ee-1acec8e3e839
 board(
 	"2025-02-20",
-	cm"""###### `angle algebra`
+	md"""###### `angle algebra`
 	!!! note "Summary"
 		Using algebra to solve angle problems. Completed online assignment.
 	""",
@@ -388,7 +388,7 @@ board(
 # ╔═╡ 6bd657e6-6e4a-4ff9-bb96-f231aaf9673c
 board(
 	"2025-03-06",
-	cm"""###### `line segments` `angle algebra`
+	md"""###### `line segments` `angle algebra`
 	!!! note "Summary"
 		Continued review of line segment and angle algebra. Completed online assignment.
 	""",
@@ -398,7 +398,7 @@ board(
 # ╔═╡ 00d93dbd-4ec2-4c3a-9561-2a97f6a43b6e
 board(
 	"2025-03-27",
-	cm"""###### `logic`
+	md"""###### `logic`
 	!!! note "Summary"
 		Started new unit on Module 12: Logical Arguments and Line Relationships.
 	""",
@@ -408,7 +408,7 @@ board(
 # ╔═╡ bda1c38a-3ab0-47ba-95c1-6ee5f5cada46
 board(
 	"2025-04-03",
-	cm"""###### `logic`
+	md"""###### `logic`
 	!!! note "Summary"
 		Continued new unit on Module 12: Logical Arguments and Line Relationships. Introduced symbolic notation for negation and compound operations.
 	""",
@@ -418,7 +418,7 @@ board(
 # ╔═╡ c036d887-c149-45aa-ba08-84ccaf8c717f
 board(
 	"2025-04-10",
-	cm"""###### `transformations` `symmetry`
+	md"""###### `transformations` `symmetry`
 	!!! note "Summary"
 		Ahead in class, so we got a jump start on next module. Intro'd topics in linear translations and even-function symmetry.
 	""",
@@ -428,7 +428,7 @@ board(
 # ╔═╡ f9f4078a-52eb-4937-8e91-03fc14b0d043
 board(
 	"2025-04-24",
-	cm"""###### `transvere lines` `congruent triangles`
+	md"""###### `transvere lines` `congruent triangles`
 	!!! note "Summary"
 		Reviewed corresponding and vertical angles in transverse line problems, got a head start on future content: identifying congruent triangles (SSS, SAS, AAS, etc.)
 	""",
@@ -438,7 +438,7 @@ board(
 # ╔═╡ ebf08764-d1bd-4a63-a607-33c4e4f6a0de
 board(
 	"2025-05-01",
-	cm"""###### `linear transformations` `vector algebra`
+	md"""###### `linear transformations` `vector algebra`
 	!!! note "Summary"
 		Reviewed linear translations, and reflections. Got a head start on new content: vector addition and subtraction in two dimensions.
 	""",
@@ -448,7 +448,7 @@ board(
 # ╔═╡ a8d5bde9-c0f0-4bc9-a963-a13bbf3af53c
 board(
 	"2025-05-08",
-	cm"""###### `systems of equations` `equations of a line`, `exponents`
+	md"""###### `systems of equations` `equations of a line`, `exponents`
 	!!! note "Summary"
 		Reviewed systems of equations, equations of a line, and exponentiation.
 	""",
@@ -458,7 +458,7 @@ board(
 # ╔═╡ c85dc1be-0863-4aaa-bbee-fd72ceda714a
 board(
 	"2025-05-15",
-	cm"""###### `line segments` `line of best fit`
+	md"""###### `line segments` `line of best fit`
 	!!! note "Summary"
 		Reviewed old material on line segment relations and lines of best fit
 	""",

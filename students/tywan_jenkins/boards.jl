@@ -12,23 +12,23 @@ begin
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
-cm"""
+md"""
 Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share) = cm"""
+board(date, description, url_share) = """
 ## $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-""";
+""" |> Markdown.parse;
 
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
 	"2025-10-07",
-	cm"""###### `proportionality`
+	md"""###### `proportionality`
 	!!! note "Summary"
 		Reviewed using proportionality constants to analyze financial word problems.
 	""",
@@ -38,7 +38,7 @@ board(
 # ╔═╡ 8004c1c6-1535-488f-a251-c0aef13f8e1d
 board(
 	"2025-10-14",
-	cm"""###### `proportionality`
+	md"""###### `proportionality`
 	!!! note "Summary"
 		Continued review of proportionalities and their application in word problems.
 	""",
@@ -48,7 +48,7 @@ board(
 # ╔═╡ 584deffe-123b-46b2-a733-7d72ae8270ff
 board(
 	"2025-10-21",
-	cm"""###### `proportionality` `slope-intercept`
+	md"""###### `proportionality` `slope-intercept`
 	!!! note "Summary"
 		Continued review of proportionalities and their application in word problems. Started practice problems with slope-intercept form of equation of a line.
 	""",
@@ -58,7 +58,7 @@ board(
 # ╔═╡ 692b1328-4022-4185-a167-8d88a3c7fd56
 board(
 	"2025-10-28 🎃",
-	cm"""###### `proportionality` `slope-intercept`
+	md"""###### `proportionality` `slope-intercept`
 	!!! note "Summary"
 		Continued review of proportionalities and their application in word problems.
 	""",
@@ -68,7 +68,7 @@ board(
 # ╔═╡ 039ad6cd-4743-4fdd-9b87-680dd2326607
 board(
 	"2025-11-18",
-	cm"""###### `distributive property`
+	md"""###### `distributive property`
 	!!! note "Summary"
 		Practiced the distributive property, went through first two problems on worksheet.
 	""",
@@ -78,7 +78,7 @@ board(
 # ╔═╡ 20640e6f-92d8-4f51-8dc5-96487c8fe9b9
 board(
 	"2025-12-03",
-	cm"""###### `linear equations`
+	md"""###### `linear equations`
 	!!! note "Summary"
 		Introduction to isolating the variable from a linear equation.
 	""",
@@ -88,7 +88,7 @@ board(
 # ╔═╡ ab816e96-e2e8-438d-bf2f-1c3173bf77f0
 board(
 	"2025-12-09",
-	cm"""###### `linear equations` `word problems` `graphing`
+	md"""###### `linear equations` `word problems` `graphing`
 	!!! note "Summary"
 		Contnued linear equations review.
 	""",
@@ -98,7 +98,7 @@ board(
 # ╔═╡ 7736d594-579a-4e28-be45-96136e25baf5
 board(
 	"2025-12-16",
-	cm"""###### `linear equations` `word problems` `graphing`
+	md"""###### `linear equations` `word problems` `graphing`
 	!!! note "Summary"
 		Final review on applying linear equations to word problems.
 	""",
@@ -108,7 +108,7 @@ board(
 # ╔═╡ 043c220e-a3fe-4851-9095-8edd086bc7ba
 board(
 	"2026-01-13",
-	cm"""###### `linear equations`
+	md"""###### `linear equations`
 	!!! note "Summary"
 		Continued review of solving linear equations.
 	""",
@@ -118,7 +118,7 @@ board(
 # ╔═╡ 2d8e0106-790c-402a-871b-c9c8416a9fef
 board(
 	"2026-01-20",
-	cm"""###### `linear equations`
+	md"""###### `linear equations`
 	!!! note "Summary"
 		Continued review of solving linear equations in Lesson 9 Practice Problems workbook.
 	""",
@@ -128,7 +128,7 @@ board(
 # ╔═╡ 44619ca9-3a86-4e61-b4dc-0a229e20a925
 board(
 	"2026-01-27",
-	cm"""###### `linear equations`
+	md"""###### `linear equations`
 	!!! note "Summary"
 		Continued review of solving linear equations.
 	""",
@@ -138,7 +138,7 @@ board(
 # ╔═╡ 85cb57c6-c0e5-4101-98b2-4c8812462807
 board(
 	"2026-02-03",
-	cm"""###### `linear equations`
+	md"""###### `linear equations`
 	!!! note "Summary"
 		Continued review of solving and graphing linear equations.
 	""",
@@ -148,7 +148,7 @@ board(
 # ╔═╡ 04298579-d428-44fe-bb9b-b654891ca781
 board(
 	"2026-02-24",
-	cm"""###### `distributing` `factoring`
+	md"""###### `distributing` `factoring`
 	!!! note "Summary"
 		Practice with solving linear and quadratic equations using the distributive property and factoring.
 	""",
@@ -158,7 +158,7 @@ board(
 # ╔═╡ 48261301-5202-42c6-bf2d-c017efe2d263
 board(
 	"2026-03-03",
-	cm"""###### `distributing`
+	md"""###### `distributing`
 	!!! note "Summary"
 		Continued practicing with the distributive property.
 	""",
