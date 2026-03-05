@@ -161,6 +161,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4leLAT55yMn",
 )
 
+# ╔═╡ f98a858d-cd0b-47e9-9539-b8468eb97bc8
+board(
+	"2026-02-26",
+	md"""###### `trig identities` `sum and difference identity` 
+	!!! note "Summary"
+		Independent review. We occasionally checked in during session to go over answers.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/cPMTUTnZJK",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -204,6 +214,9 @@ iframe("https://link.excalidraw.com/readonly/eLo5Bt6MbWqKVtVk3kyd")
 
 # ╔═╡ a71a481a-2f2b-4947-8762-f0946b5485b3
 iframe("https://link.excalidraw.com/readonly/Rqvd3jHy2yIMSHhqZ5v4")
+
+# ╔═╡ c452d699-71a6-4fb1-b7fb-a53eb1ec1de7
+iframe("https://link.excalidraw.com/readonly/lHBv8pwDJRDmDXiEDyA4")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Abigail's Board 🥰", depth = 6, indent = false)
@@ -558,6 +571,8 @@ version = "17.7.0+0"
 # ╟─f0e915e4-c26e-4232-ab57-682f279ef9ae
 # ╟─1c49d15f-8f0d-4513-8884-6ebbb8d95a7d
 # ╟─a71a481a-2f2b-4947-8762-f0946b5485b3
+# ╟─f98a858d-cd0b-47e9-9539-b8468eb97bc8
+# ╟─c452d699-71a6-4fb1-b7fb-a53eb1ec1de7
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
