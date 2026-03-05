@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.22
+# v0.20.23
 
 using Markdown
 using InteractiveUtils
@@ -155,6 +155,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/5PzMaeOU8YD",
 )
 
+# ╔═╡ 48261301-5202-42c6-bf2d-c017efe2d263
+board(
+	"2026-03-03",
+	cm"""###### `distributing`
+	!!! note "Summary"
+		Continued practicing with the distributive property.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9xsgJy3xmx",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -198,6 +208,9 @@ iframe("https://link.excalidraw.com/readonly/vCZx6amlQFD2uWXiCApD")
 
 # ╔═╡ 37b6ce07-bc07-41d6-85d0-089aeedb984f
 iframe("https://link.excalidraw.com/readonly/wtvyQWgUwPBLkSFGpu0K")
+
+# ╔═╡ 52831890-990b-40cb-9b78-335a0d9d9696
+iframe("https://link.excalidraw.com/readonly/lEPzaPhQrDN9eOZtrAtG")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth = 6, indent = false)
@@ -552,6 +565,8 @@ version = "17.7.0+0"
 # ╟─e4bbada1-77e0-4c55-a975-51c7c27de21b
 # ╟─04298579-d428-44fe-bb9b-b654891ca781
 # ╟─37b6ce07-bc07-41d6-85d0-089aeedb984f
+# ╟─48261301-5202-42c6-bf2d-c017efe2d263
+# ╟─52831890-990b-40cb-9b78-335a0d9d9696
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

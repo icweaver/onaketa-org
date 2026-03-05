@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.22
+# v0.20.23
 
 using Markdown
 using InteractiveUtils
@@ -155,6 +155,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/5oXy7STjFan",
 )
 
+# ╔═╡ cf214d7b-da69-4870-be36-3f89cd3e014f
+board(
+	"2026-03-02",
+	cm"""###### `integers` `distributive property`
+	!!! note "Summary"
+		New unit: positive/negative integers. Also reviewed the distributive property again.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/6mu51mbnrtJ",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -198,6 +208,9 @@ iframe("https://link.excalidraw.com/readonly/WrCdT3gabvUIjC15h3o6?darkMode=true"
 
 # ╔═╡ b7f8796f-49dd-4f1b-9c0b-ab952ea533cf
 iframe("https://link.excalidraw.com/readonly/yLcQxJ1Hjl3NV27tZZjY?darkMode=true")
+
+# ╔═╡ e3b6f034-6646-4e57-8c64-39ae639ccd75
+iframe("https://link.excalidraw.com/readonly/DuTrULdBhcCiye9xeQxS?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Isaiah's board 🏀", depth = 6, indent = false)
@@ -552,6 +565,8 @@ version = "17.7.0+0"
 # ╟─101232d1-f9b8-4efe-9d5f-2fe86cb6494d
 # ╟─22661dcb-f232-4424-bc92-af140fe56edf
 # ╟─b7f8796f-49dd-4f1b-9c0b-ab952ea533cf
+# ╟─cf214d7b-da69-4870-be36-3f89cd3e014f
+# ╟─e3b6f034-6646-4e57-8c64-39ae639ccd75
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
