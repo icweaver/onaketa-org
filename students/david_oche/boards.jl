@@ -12,7 +12,7 @@ begin
 end
 
 # ╔═╡ d0bd18f5-f50f-47cf-b39c-ec3ee9183304
-cm"""
+md"""
 !!! tip
 	Below are the boards from our sessions. Hover over the table of contents icon to show/hide it. Click and drag to move around, and hold control while scrolling to zoom. Tap-and-drag, and pinch-and-zoom if on mobile 🚀
 
@@ -21,28 +21,28 @@ cm"""
 """
 
 # ╔═╡ 75eb55ff-cd84-4b62-aad5-8b3204dccd4b
-cm"""
+md"""
 # _**--- 2025 -- 2026 ---**_
 """
 
 # ╔═╡ 6f1c8c88-1710-42ef-94cd-3ad75c2b437c
-cm"""
+md"""
 # _**--- 2024 -- 2025 ---**_
 """
 
 # ╔═╡ 45d0f413-6543-48b6-a269-3292c27261a6
-board(date, description, url_share) = cm"""
+board(date, description, url_share) = """
 ## $(date)
 
 $(description)
 
 👉🏾 [Link to board]($(url_share))
-""";
+""" |> Markdown.parse;
 
 # ╔═╡ 91332a74-d423-489d-81ea-a1f5e36e23fc
 board(
 	"2025-10-06",
-	cm"""##### `radicals`
+	md"""##### `radicals`
 	!!! note "Summary"
 		Reviewed application of inscribed circle theorems.
 	""",
@@ -52,7 +52,7 @@ board(
 # ╔═╡ 31c62bd7-fabf-424c-8d9a-d9fbd3e24170
 board(
 	"2025-10-13",
-	cm"""##### `tangent-secant` `intersecting chords` `intersecting secants`
+	md"""##### `tangent-secant` `intersecting chords` `intersecting secants`
 	!!! note "Summary"
 		Reviewed applications of tangent-secant, intersecting chords, and intersecting secants theorems.
 	""",
@@ -62,7 +62,7 @@ board(
 # ╔═╡ f6a3d3d6-b285-4a99-b7a2-e6d6ab00be1a
 board(
 	"2025-10-20",
-	cm"""##### `chords` `sectors`
+	md"""##### `chords` `sectors`
 	!!! note "Summary"
 		Geometry review.
 	""",
@@ -72,7 +72,7 @@ board(
 # ╔═╡ 01a3b979-7746-4f98-90e5-6a3faea1b1a0
 board(
 	"2025-10-23",
-	cm"""##### `chords` `sectors`
+	md"""##### `chords` `sectors`
 	!!! note "Summary"
 		Geometry review.
 	""",
@@ -82,7 +82,7 @@ board(
 # ╔═╡ 8b7d94e1-dacc-41ff-b72f-d72632c7006e
 board(
 	"2025-11-03",
-	cm"""##### `trig functions` `polar coordinates`
+	md"""##### `trig functions` `polar coordinates`
 	!!! note "Summary"
 		Caught up in class, got a headstart on working in the polar coordinate plane.
 	""",
@@ -92,7 +92,7 @@ board(
 # ╔═╡ e0185f7e-f02c-4b0f-b0d2-657e132a6ee6
 board(
 	"2025-11-10",
-	cm"""##### `lateral surface area` `total surface area`
+	md"""##### `lateral surface area` `total surface area`
 	!!! note "Summary"
 		LSA and TSA for cones, portions of a sphere, cylinders, and truncated cones.
 	""",
@@ -102,7 +102,7 @@ board(
 # ╔═╡ d0bdaa1f-9eae-45ee-b9d4-c4acc2dec858
 board(
 	"2025-11-17",
-	cm"""##### `volumes of revolution`
+	md"""##### `volumes of revolution`
 	!!! note "Summary"
 		Reviewed volumes of revolution about the x and y axis.
 	""",
@@ -112,7 +112,7 @@ board(
 # ╔═╡ ff9e2c30-ba4e-4e5c-a27a-d67982ef42b8
 board(
 	"2025-12-01",
-	cm"""##### `volume`
+	md"""##### `volume`
 	!!! note "Summary"
 		Re-derived the volume formula for a regular tetrahedron.
 	""",
@@ -122,7 +122,7 @@ board(
 # ╔═╡ 515c3bba-5ba2-476a-90b5-c304af54279c
 board(
 	"2026-01-12",
-	cm"""##### `dynamics` `vectors`
+	md"""##### `dynamics` `vectors`
 	!!! note "Summary"
 		Physics: vector decomposition and addition review. Used resources from [The Physics Classroom](https://www.physicsclassroom.com/)
 	""",
@@ -132,7 +132,7 @@ board(
 # ╔═╡ 679dbbd2-0867-4b01-a53f-c7c59011dba5
 board(
 	"2026-01-26",
-	cm"""##### `unit circle` `projectile motion`
+	md"""##### `unit circle` `projectile motion`
 	!!! note "Summary"
 		Unit circle and projectile motion review for horizontal launches.
 	""",
@@ -142,7 +142,7 @@ board(
 # ╔═╡ b50b43d3-33b0-4892-93b4-be0008938bd0
 board(
 	"2026-02-02",
-	cm"""##### `reciprocal trig functions` `unit circle` `sum and difference identitites`
+	md"""##### `reciprocal trig functions` `unit circle` `sum and difference identitites`
 	!!! note "Summary"
 		Practiced evaluating the `sec` and `csc` of different angles using the sum and difference trig identities.
 	""",
@@ -152,7 +152,7 @@ board(
 # ╔═╡ e7ec81cb-b4a1-4fac-bb64-f25b1d2b4e04
 board(
 	"2026-02-16",
-	cm"""##### `law of sines`
+	md"""##### `law of sines`
 	!!! note "Summary"
 		Law of sines practice with word problems.
 	""",
@@ -162,7 +162,7 @@ board(
 # ╔═╡ 4fd6a558-53b6-4a16-bb03-2035336a3524
 board(
 	"2026-02-23",
-	cm"""##### `dynamics` `Newton's 2nd Law`
+	md"""##### `dynamics` `Newton's 2nd Law`
 	!!! note "Summary"
 		Practice problems + conceptual checks on Newton's 2nd Law.
 	""",
@@ -172,7 +172,7 @@ board(
 # ╔═╡ 5d169a68-45f9-48d0-994e-158b26362776
 board(
 	"2026-03-09",
-	cm"""##### `inclined plane` `circular motion`
+	md"""##### `inclined plane` `circular motion`
 	!!! note "Summary"
 		Reviewed applications of Newton's 2nd Law to dynamics in inclined plane and circular motion problems. [OpenStax link](https://openstax.org/books/college-physics-2e/pages/6-problems-exercises#import-auto-id2682310)
 	""",
@@ -182,7 +182,7 @@ board(
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-04-25",
-	cm"""##### `radicals`
+	md"""##### `radicals`
 	!!! note "Summary"
 		Simplifying radicals.
 	""",
@@ -192,7 +192,7 @@ board(
 # ╔═╡ 502b9fbc-ee9a-456f-b017-e8f88b53fb3a
 board(
 	"2024-05-02",
-	cm"""##### `radicals`
+	md"""##### `radicals`
 	!!! note "Summary"
 		Simplifying radicals, continued.
 	""",
@@ -202,7 +202,7 @@ board(
 # ╔═╡ 863b624d-df61-4127-95d7-eb28c8bd377e
 board(
 	"2024-05-09",
-	cm"""##### `polynomials`
+	md"""##### `polynomials`
 	!!! note "Summary"
 		Simplifying polynomials.
 	""",
@@ -212,7 +212,7 @@ board(
 # ╔═╡ e2c8db5a-3612-4311-ac92-34b38b5afe48
 board(
 	"2024-11-04",
-	cm"""
+	md"""
 	##### `Avogadro's number` `molar mass`
 	!!! note "Summary"
 		We explore some different ways to count things in Chemistry.
@@ -223,7 +223,7 @@ board(
 # ╔═╡ 803e5ba3-0e75-4030-abd9-a7178a54de16
 board(
 	"2024-11-14",
-	cm"""
+	md"""
 	##### `proofs` `similar triangles` `line segments` `transvere lines`
 	!!! note "Summary"
 		Proving line segment and angle congruency for different configurations
@@ -234,7 +234,7 @@ board(
 # ╔═╡ ba1d2c0d-1a77-4fd4-bb16-81148a62b7bd
 board(
 	"2024-12-02",
-	cm"""
+	md"""
 	##### `trig functions` `right triangles`
 	!!! note "Summary"
 		Introduced the trigonometric functions: sine ``(\sin\theta)``, cosine ``(\cos\theta)``, and tangent ``(\tan\theta)``
@@ -245,7 +245,7 @@ board(
 # ╔═╡ 59e16f3f-1e37-4cdb-8a21-826f89ebd282
 board(
 	"2024-12-09 [FINAL]",
-	cm"""
+	md"""
 	##### `similar triangles` `proofs` `Pythagorean Theorem`
 	!!! note "Summary"
 		Reviewed prooving different triangle relations using similar triangles.
@@ -256,7 +256,7 @@ board(
 # ╔═╡ 2ef67c72-36bf-4a07-b0bb-87710c254c2c
 board(
 	"2025-01-09",
-	cm"""
+	md"""
 	##### `Pythagorean Theorem` `exponentials`
 	!!! note "Summary"
 		Reviewed proofs using properties of right triangles.
@@ -267,7 +267,7 @@ board(
 # ╔═╡ f8294d92-a96a-46eb-acec-dddee774a0ea
 board(
 	"2025-01-16",
-	cm"""
+	md"""
 	##### `radicals` `exponentials`
 	!!! note "Summary"
 		Reviewed simplifying radical expressions.
@@ -278,7 +278,7 @@ board(
 # ╔═╡ 0b5ae025-8e1a-4db3-9973-7fcf4744be29
 board(
 	"2025-01-23",
-	cm"""
+	md"""
 	##### `45-45-90` `30-60-90`
 	!!! note "Summary"
 		We investigate special triangles and solving for their sides.
@@ -289,7 +289,7 @@ board(
 # ╔═╡ 85b3d00e-357f-49a8-9bb3-d4986b77b493
 board(
 	"2025-01-30",
-	cm"""
+	md"""
 	##### `45-45-90` `30-60-90` `trig functions`
 	!!! note "Summary"
 		Continued review of special triangles and their extension to trig functions.
@@ -300,7 +300,7 @@ board(
 # ╔═╡ 4e446ed3-a377-4c4f-893a-6e755bbb2f7b
 board(
 	"2025-02-06",
-	cm"""
+	md"""
 	##### `trig functions`
 	!!! note "Summary"
 		Reviewed additional trigonometry word problems.
@@ -311,7 +311,7 @@ board(
 # ╔═╡ 2faec220-0632-4d4c-af6c-486f1768454e
 board(
 	"2025-02-13",
-	cm"""
+	md"""
 	##### `line segments`
 	!!! note "Summary"
 		Distance, midpoint, and slope of line segments on the coordinate plane.
@@ -322,7 +322,7 @@ board(
 # ╔═╡ 396ef048-1e3f-4845-9bc4-2a9137eb2c61
 board(
 	"2025-02-27",
-	cm"""
+	md"""
 	##### `trig functions` `radicals`
 	!!! note "Summary"
 		Test correction review on simplifying radicals and solving word problems with trig functions.
@@ -333,7 +333,7 @@ board(
 # ╔═╡ bda7b6e6-8a23-4e30-a4d1-ae62ef0ae8bc
 board(
 	"2025-03-06",
-	cm"""
+	md"""
 	##### `radicals`
 	!!! note "Summary"
 		Continued review on simplifying radicals. Completed hw assignment.
@@ -344,7 +344,7 @@ board(
 # ╔═╡ 7017510e-57b0-4a43-be7a-0bb6bff5da91
 board(
 	"2025-03-13",
-	cm"""
+	md"""
 	##### `lines` `line segments` `triangle proofs`
 	!!! note "Summary"
 		Parallel, perpendicular line equations. Applications of distance and midpoint formulas.
@@ -355,7 +355,7 @@ board(
 # ╔═╡ c9499268-f63d-46d6-a2cd-128e6443aa96
 board(
 	"2025-03-27",
-	cm"""
+	md"""
 	##### `systems of equations`
 	!!! note "Summary"
 		Linear systems of equations with three variables.
@@ -366,7 +366,7 @@ board(
 # ╔═╡ 27594dab-1e4d-4cba-9f2a-041abb433ac7
 board(
 	"2025-04-24",
-	cm"""
+	md"""
 	##### `systems of equations`
 	!!! note "Summary"
 		Just returned from spring break and school travel. Continued review of linear systems of equations with three variables
@@ -377,7 +377,7 @@ board(
 # ╔═╡ 2415789a-71e2-45e1-8709-12c081452340
 board(
 	"2025-05-01",
-	cm"""
+	md"""
 	##### `linear programming`
 	!!! note "Summary"
 		Introduction to the fundamental theorem of linear programming and its applications.
@@ -388,7 +388,7 @@ board(
 # ╔═╡ 467f9592-8798-4398-809a-7498d9473e67
 board(
 	"2025-05-29",
-	cm"""
+	md"""
 	##### `quadratics`
 	!!! note "Summary"
 		Perfect trinomials and completing the square technique.
