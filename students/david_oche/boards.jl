@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.22
+# v0.20.23
 
 using Markdown
 using InteractiveUtils
@@ -170,6 +170,16 @@ board(
 		Practice problems + conceptual checks on Newton's 2nd Law.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/6XXhjje89cX"
+)
+
+# ╔═╡ 5d169a68-45f9-48d0-994e-158b26362776
+board(
+	"2026-03-09",
+	cm"""##### `inclined plane` `circular motion`
+	!!! note "Summary"
+		Reviewed applications of Newton's 2nd Law to dynamics in inclined plane and circular motion problems. [OpenStax link](https://openstax.org/books/college-physics-2e/pages/6-problems-exercises#import-auto-id2682310)
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/QJCRVRV8CL"
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -432,6 +442,9 @@ iframe("https://link.excalidraw.com/readonly/kna8hAqgPTYEiQshJVs4?darkMode=true"
 
 # ╔═╡ 055bd687-d9d5-44d7-ace5-a2e28bea9bb2
 iframe("https://link.excalidraw.com/readonly/OnosVqZ8gDwuHVhUxSH5?darkMode=true")
+
+# ╔═╡ d1510910-d89d-412c-8fed-801c132284cf
+iframe("https://link.excalidraw.com/readonly/xstO35vHSpZb32ABc5sx?darkMode=true")
 
 # ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
@@ -848,6 +861,8 @@ version = "17.7.0+0"
 # ╟─1dd0ea52-e5a9-4ab5-961e-73e11a61ef5e
 # ╟─4fd6a558-53b6-4a16-bb03-2035336a3524
 # ╟─055bd687-d9d5-44d7-ace5-a2e28bea9bb2
+# ╟─5d169a68-45f9-48d0-994e-158b26362776
+# ╟─d1510910-d89d-412c-8fed-801c132284cf
 # ╟─6f1c8c88-1710-42ef-94cd-3ad75c2b437c
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
