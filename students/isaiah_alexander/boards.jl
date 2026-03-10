@@ -165,6 +165,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/6mu51mbnrtJ",
 )
 
+# ╔═╡ 988f3a40-01dd-4a2e-a306-39249d82caeb
+board(
+	"2026-03-09",
+	md"""###### `algebraic properties` `distributive` `commutative` `associative`
+	!!! note "Summary"
+	Reviewed applying the distributive, commutative, and associative property to algebraic equations for re-take test tomorrow.	
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8JiGdsPI7R6",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -211,6 +221,9 @@ iframe("https://link.excalidraw.com/readonly/yLcQxJ1Hjl3NV27tZZjY?darkMode=true"
 
 # ╔═╡ e3b6f034-6646-4e57-8c64-39ae639ccd75
 iframe("https://link.excalidraw.com/readonly/DuTrULdBhcCiye9xeQxS?darkMode=true")
+
+# ╔═╡ 43f7ed81-298a-4585-bf8e-0f09f5456dff
+iframe("https://link.excalidraw.com/readonly/s8cNwUKClNwlWzAhpzhI?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Isaiah's board 🏀", depth = 6, indent = false)
@@ -567,6 +580,8 @@ version = "17.7.0+0"
 # ╟─b7f8796f-49dd-4f1b-9c0b-ab952ea533cf
 # ╟─cf214d7b-da69-4870-be36-3f89cd3e014f
 # ╟─e3b6f034-6646-4e57-8c64-39ae639ccd75
+# ╟─988f3a40-01dd-4a2e-a306-39249d82caeb
+# ╟─43f7ed81-298a-4585-bf8e-0f09f5456dff
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
