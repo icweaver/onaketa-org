@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.23
+# v0.20.24
 
 using Markdown
 using InteractiveUtils
@@ -181,6 +181,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/6VP5Tbuaj6x",
 )
 
+# ╔═╡ 4620d080-c76d-478c-a7e7-a3a98d652468
+board(
+	"2026-03-12",
+	md"""###### `law of sines`
+	!!! note "Summary"
+		Law of sines review in [Rusczyk](https://drive.google.com/file/d/1l5OLGq1pSTH8jHaDwLMveUWl8MZA2DPG/view).
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/82q96wSiHB3",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -230,6 +240,9 @@ iframe("https://link.excalidraw.com/readonly/lHBv8pwDJRDmDXiEDyA4")
 
 # ╔═╡ e545becf-d076-4492-a0a2-915f7269c88c
 iframe("https://link.excalidraw.com/readonly/MhZbEwVoK2sGSGJSvBDW")
+
+# ╔═╡ b999b3dc-4fb6-412f-b0d9-bdebb29f2d3d
+iframe("https://link.excalidraw.com/readonly/9zLxwHqva5Hq3JlJPukn")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Abigail's Board 🥰", depth = 6, indent = false)
@@ -588,6 +601,8 @@ version = "17.7.0+0"
 # ╟─c452d699-71a6-4fb1-b7fb-a53eb1ec1de7
 # ╟─5b69576f-f9fb-4610-a102-fb1675ee4599
 # ╟─e545becf-d076-4492-a0a2-915f7269c88c
+# ╟─4620d080-c76d-478c-a7e7-a3a98d652468
+# ╟─b999b3dc-4fb6-412f-b0d9-bdebb29f2d3d
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
