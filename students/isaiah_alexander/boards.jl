@@ -170,9 +170,19 @@ board(
 	"2026-03-09",
 	md"""###### `algebraic properties` `distributive` `commutative` `associative`
 	!!! note "Summary"
-	Reviewed applying the distributive, commutative, and associative property to algebraic equations for re-take test tomorrow.	
+		Reviewed applying the distributive, commutative, and associative property to algebraic equations for re-take test tomorrow.	
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/8JiGdsPI7R6",
+)
+
+# ╔═╡ e0c37637-e204-4e33-b63c-6d1ce27ce262
+board(
+	"2026-03-16",
+	md"""###### `fractions` `multiplication` `number line`
+	!!! note "Summary"
+		Fraction/decimal, multiplication, number line review.	
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8zQeTQYLp8Y",
 )
 
 # ╔═╡ c39ae90f-994b-4392-a314-7cf1d293fd24
@@ -180,7 +190,7 @@ board(
 	"2026-03-23",
 	md"""###### `absolute value` `number line`
 	!!! note "Summary"
-	Completed hw introducing the absolute value function and visualizing it on the number line.	
+		Completed hw introducing the absolute value function and visualizing it on the number line.	
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/68zgdczxkO2",
 )
@@ -234,6 +244,9 @@ iframe("https://link.excalidraw.com/readonly/DuTrULdBhcCiye9xeQxS?darkMode=true"
 
 # ╔═╡ 43f7ed81-298a-4585-bf8e-0f09f5456dff
 iframe("https://link.excalidraw.com/readonly/s8cNwUKClNwlWzAhpzhI?darkMode=true")
+
+# ╔═╡ c64d5a65-9af2-43b4-b632-8285712e8a14
+iframe("https://link.excalidraw.com/readonly/C7nTnGj7t8pH7wpieTsn?darkMode=true")
 
 # ╔═╡ 8d30d8ec-25a1-45b4-b39a-a609ff677a0c
 iframe("https://link.excalidraw.com/readonly/Q8NeQyJUxGErox0Ce0XL?darkMode=true")
@@ -595,6 +608,8 @@ version = "17.7.0+0"
 # ╟─e3b6f034-6646-4e57-8c64-39ae639ccd75
 # ╟─988f3a40-01dd-4a2e-a306-39249d82caeb
 # ╟─43f7ed81-298a-4585-bf8e-0f09f5456dff
+# ╟─e0c37637-e204-4e33-b63c-6d1ce27ce262
+# ╟─c64d5a65-9af2-43b4-b632-8285712e8a14
 # ╟─c39ae90f-994b-4392-a314-7cf1d293fd24
 # ╟─8d30d8ec-25a1-45b4-b39a-a609ff677a0c
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
