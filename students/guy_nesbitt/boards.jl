@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.23
+# v0.20.24
 
 using Markdown
 using InteractiveUtils
@@ -208,6 +208,26 @@ board(
 		Combining and simplifying radical expressions.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/7eOwOgJespu",
+)
+
+# ╔═╡ 4f17edc5-2a6f-4886-bd58-f5fc43c8034a
+board(
+	"2026-03-10",
+	md"""###### `radicals`
+	!!! note "Summary"
+		Continued radicals expression.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1dNyCI3nu4o",
+)
+
+# ╔═╡ 84f68c10-2491-441b-a538-d429ecf819c3
+board(
+	"2026-03-17",
+	md"""###### `factoring`
+	!!! note "Summary"
+		Started new topic on factoring quadratic equations. Completed hw packet.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2LnmmXRAcxu",
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -520,6 +540,12 @@ iframe("https://link.excalidraw.com/readonly/PH303KP66blJuivmYaBz?darkMode=true"
 
 # ╔═╡ bd697560-559c-4666-83ad-ade967f27d0d
 iframe("https://link.excalidraw.com/readonly/XDGg37qY5dAeGjpqT8AU?darkMode=true")
+
+# ╔═╡ a01f2b21-f972-4d22-a0ab-af740a4c5d26
+iframe("https://link.excalidraw.com/readonly/X9Kx6nTEfdGN0qxrzeKL?darkMode=true")
+
+# ╔═╡ f3a71a63-55a2-4c7e-9774-d49b874263d0
+iframe("https://link.excalidraw.com/readonly/fltI45uwAeQHTJ1rRF4G?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -958,6 +984,10 @@ version = "17.7.0+0"
 # ╟─2c8004bc-7226-407e-a4c1-fcb2a45fdeef
 # ╟─5220b731-6f09-4b14-810f-3abfd35ee6a0
 # ╟─bd697560-559c-4666-83ad-ade967f27d0d
+# ╟─4f17edc5-2a6f-4886-bd58-f5fc43c8034a
+# ╟─a01f2b21-f972-4d22-a0ab-af740a4c5d26
+# ╟─84f68c10-2491-441b-a538-d429ecf819c3
+# ╟─f3a71a63-55a2-4c7e-9774-d49b874263d0
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
