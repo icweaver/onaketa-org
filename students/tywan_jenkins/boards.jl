@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.23
+# v0.20.24
 
 using Markdown
 using InteractiveUtils
@@ -165,6 +165,26 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/9xsgJy3xmx",
 )
 
+# ╔═╡ 02ef401f-c1aa-4a55-ad0d-8360aa32e055
+board(
+	"2026-03-10",
+	md"""###### `graphing` `lines`
+	!!! note "Summary"
+		Graphing and analyzing linear equations practice.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/AMVkkFkbbHC",
+)
+
+# ╔═╡ 8d364ffe-08b0-483d-986f-f0be5f63db4d
+board(
+	"2026-03-17",
+	md"""###### `graphing` `lines`
+	!!! note "Summary"
+		Continued graphing and analyzing linear equations practice.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4ykxRugAVbJ",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -211,6 +231,12 @@ iframe("https://link.excalidraw.com/readonly/wtvyQWgUwPBLkSFGpu0K")
 
 # ╔═╡ 52831890-990b-40cb-9b78-335a0d9d9696
 iframe("https://link.excalidraw.com/readonly/lEPzaPhQrDN9eOZtrAtG")
+
+# ╔═╡ d3d9eec2-919f-4a33-9d94-6e8e5cc77cdc
+iframe("https://link.excalidraw.com/readonly/Rzjv8Wat6VUErkCTbE3G")
+
+# ╔═╡ 438a12fa-6bb3-49eb-ac15-9bfb0b66510d
+iframe("https://link.excalidraw.com/readonly/PBmdCiw8ugt6wIZxX9W0")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth = 6, indent = false)
@@ -567,6 +593,10 @@ version = "17.7.0+0"
 # ╟─37b6ce07-bc07-41d6-85d0-089aeedb984f
 # ╟─48261301-5202-42c6-bf2d-c017efe2d263
 # ╟─52831890-990b-40cb-9b78-335a0d9d9696
+# ╟─02ef401f-c1aa-4a55-ad0d-8360aa32e055
+# ╟─d3d9eec2-919f-4a33-9d94-6e8e5cc77cdc
+# ╟─8d364ffe-08b0-483d-986f-f0be5f63db4d
+# ╟─438a12fa-6bb3-49eb-ac15-9bfb0b66510d
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
