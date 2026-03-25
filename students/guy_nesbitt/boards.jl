@@ -222,7 +222,7 @@ board(
 
 # ╔═╡ 84f68c10-2491-441b-a538-d429ecf819c3
 board(
-	"2026-03-17",
+	"2026-03-24",
 	md"""###### `factoring`
 	!!! note "Summary"
 		Started new topic on factoring quadratic equations. Completed hw packet.
