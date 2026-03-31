@@ -189,6 +189,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/5Hj6X5pqLMA"
 )
 
+# ╔═╡ 85a7c406-57bc-4acc-96fd-1aa0be0c93ae
+board(
+	"2026-03-30",
+	md"""##### `quadratics` `vertex/standard form` `system of equations`
+	!!! note "Summary"
+		Quadratic eqn. review, vertex form and standard form. Also system of equations incorporation to find coefficients in standard form given three points it must pass through.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1mWISk6ErIF"
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-04-25",
@@ -455,6 +465,9 @@ iframe("https://link.excalidraw.com/readonly/xstO35vHSpZb32ABc5sx?darkMode=true"
 
 # ╔═╡ 6d39aa68-f510-4af6-b215-aa2d74aac8cf
 iframe("https://link.excalidraw.com/readonly/df1bTddKooKgDR9XQyzJ?darkMode=true")
+
+# ╔═╡ 130b2c33-e4d9-4058-8f62-ef990549cee2
+iframe("https://link.excalidraw.com/readonly/G6NZOoFNF9muAdwKBWx9?darkMode=true")
 
 # ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
@@ -874,6 +887,8 @@ version = "17.7.0+0"
 # ╟─d1510910-d89d-412c-8fed-801c132284cf
 # ╟─7a5dbb84-6025-45c3-ac12-36d9aeb141f0
 # ╟─6d39aa68-f510-4af6-b215-aa2d74aac8cf
+# ╟─85a7c406-57bc-4acc-96fd-1aa0be0c93ae
+# ╟─130b2c33-e4d9-4058-8f62-ef990549cee2
 # ╟─6f1c8c88-1710-42ef-94cd-3ad75c2b437c
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
