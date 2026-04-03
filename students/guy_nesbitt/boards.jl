@@ -233,7 +233,7 @@ board(
 # ╔═╡ 9e15f0f5-b437-4838-b546-2a254580668e
 board(
 	"2026-04-02",
-	md"""###### `vertex form` `factoring` graphing`
+	md"""###### `vertex form` `factoring` `graphing`
 	!!! note "Summary"
 		Practiced identfying the vertex of quadratic equations and graphing them. Completed hw packet.
 	""",
