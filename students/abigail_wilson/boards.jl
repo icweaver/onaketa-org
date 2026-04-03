@@ -201,6 +201,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4df6fhZ8VE9",
 )
 
+# ╔═╡ 57d1e376-23b8-4549-bb09-b90db753e840
+board(
+	"2026-04-02",
+	md"""###### `matrices` `systems of equations`
+	!!! note "Summary"
+		Intro'd solving systems of equations using matrices.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1CUDLJZXTAE",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -256,6 +266,9 @@ iframe("https://link.excalidraw.com/readonly/9zLxwHqva5Hq3JlJPukn")
 
 # ╔═╡ b7f6a181-f72c-4930-915e-1dda9d5794f8
 iframe("https://link.excalidraw.com/readonly/FGbS5MDTPeWV51JwksqZ")
+
+# ╔═╡ dbf62ebd-7c1b-45e1-83ae-4450bf7a52f9
+iframe("https://link.excalidraw.com/readonly/AnJP9kHFrRFgMT5sCWMY")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Abigail's Board 🥰", depth = 6, indent = false)
@@ -618,6 +631,8 @@ version = "17.7.0+0"
 # ╟─b999b3dc-4fb6-412f-b0d9-bdebb29f2d3d
 # ╟─cfe79332-465d-4bff-bc53-eb9e37ee01e6
 # ╟─b7f6a181-f72c-4930-915e-1dda9d5794f8
+# ╟─57d1e376-23b8-4549-bb09-b90db753e840
+# ╟─dbf62ebd-7c1b-45e1-83ae-4450bf7a52f9
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
