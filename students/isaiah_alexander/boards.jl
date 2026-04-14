@@ -195,6 +195,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/68zgdczxkO2",
 )
 
+# ╔═╡ 7a51fedb-509f-48c9-bebb-0be96b33d2bc
+board(
+	"2026-04-13",
+	md"""###### `area` `perimeter` `polygons`
+	!!! note "Summary"
+		Practiced finding the area of different parallelograms.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/1JcrmuOo3DL",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -251,6 +261,9 @@ iframe("https://link.excalidraw.com/readonly/C7nTnGj7t8pH7wpieTsn?darkMode=true"
 # ╔═╡ 8d30d8ec-25a1-45b4-b39a-a609ff677a0c
 iframe("https://link.excalidraw.com/readonly/Q8NeQyJUxGErox0Ce0XL?darkMode=true")
 
+# ╔═╡ a31efb45-e2d4-4b43-857e-51cf98e71cdb
+iframe("https://link.excalidraw.com/readonly/37C9RV2m53BmJeyd9lLH?darkMode=true")
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Isaiah's board 🏀", depth = 6, indent = false)
 
@@ -280,7 +293,7 @@ PlutoUI = "~0.7.61"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.5"
+julia_version = "1.12.6"
 manifest_format = "2.0"
 project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
@@ -612,6 +625,8 @@ version = "17.7.0+0"
 # ╟─c64d5a65-9af2-43b4-b632-8285712e8a14
 # ╟─c39ae90f-994b-4392-a314-7cf1d293fd24
 # ╟─8d30d8ec-25a1-45b4-b39a-a609ff677a0c
+# ╟─7a51fedb-509f-48c9-bebb-0be96b33d2bc
+# ╟─a31efb45-e2d4-4b43-857e-51cf98e71cdb
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
