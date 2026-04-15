@@ -240,6 +240,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4ZKUhThyzgn",
 )
 
+# ╔═╡ 9c7801ce-5db8-4233-ac88-ff49867e9547
+board(
+	"2026-04-07",
+	md"""###### `vertex form` `factoring` `graphing`
+	!!! note "Summary"
+		Practiced identfying the vertex of quadratic equations and graphing them. Completed hw packet.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4ePRT0TSZnB",
+)
+
 # ╔═╡ 38455be5-31db-483b-af47-c2e67985dbaf
 board(
 	"2026-04-14",
@@ -569,6 +579,9 @@ iframe("https://link.excalidraw.com/readonly/fltI45uwAeQHTJ1rRF4G?darkMode=true"
 
 # ╔═╡ f7ac7ef9-e700-4379-8eaa-cc52cd1b1e85
 iframe("https://link.excalidraw.com/readonly/7clIeS3pyx460E7AeopJ?darkMode=true")
+
+# ╔═╡ 642bd1a9-1493-4dd2-b37a-03a0025b6c6d
+iframe("https://link.excalidraw.com/readonly/wfcECpTcUDv2HniNvrWz?darkMode=true")
 
 # ╔═╡ 93b7771a-514d-413c-8db9-6be7511fdd9e
 iframe("https://link.excalidraw.com/readonly/vbPiFuch4WJmZnsmhSeR?darkMode=true")
@@ -1016,6 +1029,8 @@ version = "17.7.0+0"
 # ╟─f3a71a63-55a2-4c7e-9774-d49b874263d0
 # ╟─9e15f0f5-b437-4838-b546-2a254580668e
 # ╟─f7ac7ef9-e700-4379-8eaa-cc52cd1b1e85
+# ╟─9c7801ce-5db8-4233-ac88-ff49867e9547
+# ╟─642bd1a9-1493-4dd2-b37a-03a0025b6c6d
 # ╟─38455be5-31db-483b-af47-c2e67985dbaf
 # ╟─93b7771a-514d-413c-8db9-6be7511fdd9e
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
