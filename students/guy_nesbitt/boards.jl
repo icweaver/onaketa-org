@@ -240,6 +240,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4ZKUhThyzgn",
 )
 
+# ╔═╡ 38455be5-31db-483b-af47-c2e67985dbaf
+board(
+	"2026-04-14",
+	md"""###### `quadratics` `discriminant`
+	!!! note "Summary"
+		Reviewed analyzing quadratics via their discriminant and x/y intercepts.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8IU5FHD4WBO",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -560,6 +570,9 @@ iframe("https://link.excalidraw.com/readonly/fltI45uwAeQHTJ1rRF4G?darkMode=true"
 # ╔═╡ f7ac7ef9-e700-4379-8eaa-cc52cd1b1e85
 iframe("https://link.excalidraw.com/readonly/7clIeS3pyx460E7AeopJ?darkMode=true")
 
+# ╔═╡ 93b7771a-514d-413c-8db9-6be7511fdd9e
+iframe("https://link.excalidraw.com/readonly/vbPiFuch4WJmZnsmhSeR?darkMode=true")
+
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
 
@@ -664,7 +677,7 @@ PlutoUI = "~0.7.61"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.5"
+julia_version = "1.12.6"
 manifest_format = "2.0"
 project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
@@ -1003,6 +1016,8 @@ version = "17.7.0+0"
 # ╟─f3a71a63-55a2-4c7e-9774-d49b874263d0
 # ╟─9e15f0f5-b437-4838-b546-2a254580668e
 # ╟─f7ac7ef9-e700-4379-8eaa-cc52cd1b1e85
+# ╟─38455be5-31db-483b-af47-c2e67985dbaf
+# ╟─93b7771a-514d-413c-8db9-6be7511fdd9e
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44

@@ -185,6 +185,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4ykxRugAVbJ",
 )
 
+# ╔═╡ aae11347-c4e6-4439-a28a-8fc46597ad3e
+board(
+	"2026-04-14",
+	md"""###### `power functions`
+	!!! note "Summary"
+		Reviewed properties of power functions (similar to exponentials).
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/84b24vURYJu",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -238,6 +248,9 @@ iframe("https://link.excalidraw.com/readonly/Rzjv8Wat6VUErkCTbE3G")
 # ╔═╡ 438a12fa-6bb3-49eb-ac15-9bfb0b66510d
 iframe("https://link.excalidraw.com/readonly/PBmdCiw8ugt6wIZxX9W0")
 
+# ╔═╡ e43216a3-39ba-4910-b05c-b49958c3ed3a
+iframe("https://link.excalidraw.com/readonly/ZOavF2MCKWRyKV7gzaUw")
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth = 6, indent = false)
 
@@ -267,7 +280,7 @@ PlutoUI = "~0.7.61"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.5"
+julia_version = "1.12.6"
 manifest_format = "2.0"
 project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
@@ -597,6 +610,8 @@ version = "17.7.0+0"
 # ╟─d3d9eec2-919f-4a33-9d94-6e8e5cc77cdc
 # ╟─8d364ffe-08b0-483d-986f-f0be5f63db4d
 # ╟─438a12fa-6bb3-49eb-ac15-9bfb0b66510d
+# ╟─aae11347-c4e6-4439-a28a-8fc46597ad3e
+# ╟─e43216a3-39ba-4910-b05c-b49958c3ed3a
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
