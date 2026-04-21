@@ -205,6 +205,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/1JcrmuOo3DL",
 )
 
+# ╔═╡ dfbde38d-fb91-450d-b0ba-5be229fd408a
+board(
+	"2026-04-20",
+	md"""###### `area` `polygons`
+	!!! note "Summary"
+		Practiced computing area of rectangles, parallelograms, and trapezoids for retake and test this week.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/19Qp2gA8sAd",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -263,6 +273,9 @@ iframe("https://link.excalidraw.com/readonly/Q8NeQyJUxGErox0Ce0XL?darkMode=true"
 
 # ╔═╡ a31efb45-e2d4-4b43-857e-51cf98e71cdb
 iframe("https://link.excalidraw.com/readonly/37C9RV2m53BmJeyd9lLH?darkMode=true")
+
+# ╔═╡ cdb7bf7f-d53f-4a35-be65-3c28a72d99f7
+iframe("https://link.excalidraw.com/readonly/dEDJto4R1RTNZC6bhGNG?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Isaiah's board 🏀", depth = 6, indent = false)
@@ -627,6 +640,8 @@ version = "17.7.0+0"
 # ╟─8d30d8ec-25a1-45b4-b39a-a609ff677a0c
 # ╟─7a51fedb-509f-48c9-bebb-0be96b33d2bc
 # ╟─a31efb45-e2d4-4b43-857e-51cf98e71cdb
+# ╟─dfbde38d-fb91-450d-b0ba-5be229fd408a
+# ╟─cdb7bf7f-d53f-4a35-be65-3c28a72d99f7
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
