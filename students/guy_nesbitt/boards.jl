@@ -260,6 +260,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/8IU5FHD4WBO",
 )
 
+# ╔═╡ a06f681d-c8dc-4234-aedf-a71067df7b0c
+board(
+	"2026-04-21",
+	md"""###### `quadratics` `discriminant`
+	!!! note "Summary"
+		Continued quadratics review.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2f3NOIcyZ2R",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -585,6 +595,9 @@ iframe("https://link.excalidraw.com/readonly/wfcECpTcUDv2HniNvrWz?darkMode=true"
 
 # ╔═╡ 93b7771a-514d-413c-8db9-6be7511fdd9e
 iframe("https://link.excalidraw.com/readonly/vbPiFuch4WJmZnsmhSeR?darkMode=true")
+
+# ╔═╡ dccd9fec-324e-4123-bcb0-9dc5064b8071
+iframe("https://link.excalidraw.com/readonly/N80cPf6qTZsYal3oduvJ?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -1033,6 +1046,8 @@ version = "17.7.0+0"
 # ╟─642bd1a9-1493-4dd2-b37a-03a0025b6c6d
 # ╟─38455be5-31db-483b-af47-c2e67985dbaf
 # ╟─93b7771a-514d-413c-8db9-6be7511fdd9e
+# ╟─a06f681d-c8dc-4234-aedf-a71067df7b0c
+# ╟─dccd9fec-324e-4123-bcb0-9dc5064b8071
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
