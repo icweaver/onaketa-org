@@ -195,6 +195,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/84b24vURYJu",
 )
 
+# ╔═╡ 9fe21687-69d9-473e-97ca-13bf305ae7c5
+board(
+	"2026-04-21",
+	md"""###### `slope` `lines`
+	!!! note "Summary"
+		Reviewed graphing lines with slope-intercept form for SBAC tomorrow.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3OriR3s5J54",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -250,6 +260,9 @@ iframe("https://link.excalidraw.com/readonly/PBmdCiw8ugt6wIZxX9W0")
 
 # ╔═╡ e43216a3-39ba-4910-b05c-b49958c3ed3a
 iframe("https://link.excalidraw.com/readonly/ZOavF2MCKWRyKV7gzaUw")
+
+# ╔═╡ fd90345a-e1a7-4069-9bd3-34c830f94c61
+iframe("https://link.excalidraw.com/readonly/pwjBaVuKyvVSxquYztcp")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth = 6, indent = false)
@@ -612,6 +625,8 @@ version = "17.7.0+0"
 # ╟─438a12fa-6bb3-49eb-ac15-9bfb0b66510d
 # ╟─aae11347-c4e6-4439-a28a-8fc46597ad3e
 # ╟─e43216a3-39ba-4910-b05c-b49958c3ed3a
+# ╟─9fe21687-69d9-473e-97ca-13bf305ae7c5
+# ╟─fd90345a-e1a7-4069-9bd3-34c830f94c61
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
