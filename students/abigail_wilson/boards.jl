@@ -221,6 +221,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/9nX5xt9oMrr",
 )
 
+# ╔═╡ e6c8c4df-a830-4599-b46c-a7c62648d2b5
+board(
+	"2026-04-23",
+	md"""###### `partial fractions`
+	!!! note "Summary"
+		Continued partial fractions review.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/6I3xD2xshgv",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -283,6 +293,9 @@ iframe("https://link.excalidraw.com/readonly/AnJP9kHFrRFgMT5sCWMY")
 # ╔═╡ 58739fb0-1575-40f2-9620-5ae6a43e1890
 iframe("https://link.excalidraw.com/readonly/iEZIJxpcAI9MTpwAgl1b")
 
+# ╔═╡ 45cbe005-6aac-4986-bf5d-e1d62b78d44a
+iframe("https://link.excalidraw.com/readonly/Foz2qOto7DYqZtWaJKWK")
+
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Abigail's Board 🥰", depth = 6, indent = false)
 
@@ -312,7 +325,7 @@ PlutoUI = "~0.7.61"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.5"
+julia_version = "1.12.6"
 manifest_format = "2.0"
 project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
@@ -648,6 +661,8 @@ version = "17.7.0+0"
 # ╟─dbf62ebd-7c1b-45e1-83ae-4450bf7a52f9
 # ╟─a3c5bd4a-3281-4282-961e-89c3237b25b2
 # ╟─58739fb0-1575-40f2-9620-5ae6a43e1890
+# ╟─e6c8c4df-a830-4599-b46c-a7c62648d2b5
+# ╟─45cbe005-6aac-4986-bf5d-e1d62b78d44a
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
