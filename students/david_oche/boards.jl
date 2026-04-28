@@ -201,7 +201,7 @@ board(
 
 # ╔═╡ d61799ee-6522-4343-89d7-bf6db0abd96d
 board(
-	"2026-04-28",
+	"2026-04-27",
 	md"""##### `conservation of lienar momentum` `impulse`
 	!!! note "Summary"
 		Reviews conservation of lienar momentum and impulse for test this Thursday.
