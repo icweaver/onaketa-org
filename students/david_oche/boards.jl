@@ -199,6 +199,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/1mWISk6ErIF"
 )
 
+# ╔═╡ d61799ee-6522-4343-89d7-bf6db0abd96d
+board(
+	"2026-04-28",
+	md"""##### `conservation of lienar momentum` `impulse`
+	!!! note "Summary"
+		Reviews conservation of lienar momentum and impulse for test this Thursday.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/A11CYmgb9ke"
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-04-25",
@@ -469,6 +479,9 @@ iframe("https://link.excalidraw.com/readonly/df1bTddKooKgDR9XQyzJ?darkMode=true"
 # ╔═╡ 130b2c33-e4d9-4058-8f62-ef990549cee2
 iframe("https://link.excalidraw.com/readonly/G6NZOoFNF9muAdwKBWx9?darkMode=true")
 
+# ╔═╡ f8abfe95-9d1a-46e1-9e0a-78ebe3e6a725
+iframe("https://link.excalidraw.com/readonly/1DL26dIWJi22NGODzC6k?darkMode=true")
+
 # ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
 
@@ -558,7 +571,7 @@ PlutoUI = "~0.7.61"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.12.5"
+julia_version = "1.12.6"
 manifest_format = "2.0"
 project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
@@ -889,6 +902,8 @@ version = "17.7.0+0"
 # ╟─6d39aa68-f510-4af6-b215-aa2d74aac8cf
 # ╟─85a7c406-57bc-4acc-96fd-1aa0be0c93ae
 # ╟─130b2c33-e4d9-4058-8f62-ef990549cee2
+# ╟─d61799ee-6522-4343-89d7-bf6db0abd96d
+# ╟─f8abfe95-9d1a-46e1-9e0a-78ebe3e6a725
 # ╟─6f1c8c88-1710-42ef-94cd-3ad75c2b437c
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
