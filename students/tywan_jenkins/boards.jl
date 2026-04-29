@@ -205,6 +205,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/3OriR3s5J54",
 )
 
+# ╔═╡ 4018b26d-32eb-45bb-8515-560adb91e84a
+board(
+	"2026-04-28",
+	md"""###### `momentum` `impulse`
+	!!! note "Summary"
+		No new math, so intro'd momentum-impulse theorem in science class instead. 
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2g3KvWLFiEa",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -263,6 +273,9 @@ iframe("https://link.excalidraw.com/readonly/ZOavF2MCKWRyKV7gzaUw")
 
 # ╔═╡ fd90345a-e1a7-4069-9bd3-34c830f94c61
 iframe("https://link.excalidraw.com/readonly/pwjBaVuKyvVSxquYztcp")
+
+# ╔═╡ 8a8745e2-b69a-469d-b4f8-1f077ade8384
+iframe("https://link.excalidraw.com/readonly/b5zmyDrUabpoUga5HAhF")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth = 6, indent = false)
@@ -627,6 +640,8 @@ version = "17.7.0+0"
 # ╟─e43216a3-39ba-4910-b05c-b49958c3ed3a
 # ╟─9fe21687-69d9-473e-97ca-13bf305ae7c5
 # ╟─fd90345a-e1a7-4069-9bd3-34c830f94c61
+# ╟─4018b26d-32eb-45bb-8515-560adb91e84a
+# ╟─8a8745e2-b69a-469d-b4f8-1f077ade8384
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
