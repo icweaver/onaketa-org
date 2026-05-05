@@ -215,6 +215,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/19Qp2gA8sAd",
 )
 
+# ╔═╡ 390f6bd9-16cf-481b-b255-d09313071ca1
+board(
+	"2026-05-04",
+	md"""###### `equations`
+	!!! note "Summary"
+		Completed hw practicing solving equations by isolating the variable.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/64wkhywmH3h",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -276,6 +286,9 @@ iframe("https://link.excalidraw.com/readonly/37C9RV2m53BmJeyd9lLH?darkMode=true"
 
 # ╔═╡ cdb7bf7f-d53f-4a35-be65-3c28a72d99f7
 iframe("https://link.excalidraw.com/readonly/dEDJto4R1RTNZC6bhGNG?darkMode=true")
+
+# ╔═╡ 112f4518-c64b-4e18-baad-fb3084f9ca91
+iframe("https://link.excalidraw.com/readonly/6APdpw7dC1BvXKlB0TtP?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Isaiah's board 🏀", depth = 6, indent = false)
@@ -642,6 +655,8 @@ version = "17.7.0+0"
 # ╟─a31efb45-e2d4-4b43-857e-51cf98e71cdb
 # ╟─dfbde38d-fb91-450d-b0ba-5be229fd408a
 # ╟─cdb7bf7f-d53f-4a35-be65-3c28a72d99f7
+# ╟─390f6bd9-16cf-481b-b255-d09313071ca1
+# ╟─112f4518-c64b-4e18-baad-fb3084f9ca91
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
