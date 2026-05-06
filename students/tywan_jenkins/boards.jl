@@ -215,6 +215,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/2g3KvWLFiEa",
 )
 
+# ╔═╡ 63ed6025-6d8d-4726-86a3-e007914790f5
+board(
+	"2026-05-05",
+	md"""###### `momentum` `impulse`
+	!!! note "Summary"
+		Continued momentum-impulse practice in science class.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/GSSVaEtVRq",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -276,6 +286,9 @@ iframe("https://link.excalidraw.com/readonly/pwjBaVuKyvVSxquYztcp")
 
 # ╔═╡ 8a8745e2-b69a-469d-b4f8-1f077ade8384
 iframe("https://link.excalidraw.com/readonly/b5zmyDrUabpoUga5HAhF")
+
+# ╔═╡ a0160bc0-009e-43fc-9137-2d61eca62d52
+iframe("https://link.excalidraw.com/readonly/b1y8jg6qdImjeRZczN53")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth = 6, indent = false)
@@ -642,6 +655,8 @@ version = "17.7.0+0"
 # ╟─fd90345a-e1a7-4069-9bd3-34c830f94c61
 # ╟─4018b26d-32eb-45bb-8515-560adb91e84a
 # ╟─8a8745e2-b69a-469d-b4f8-1f077ade8384
+# ╟─63ed6025-6d8d-4726-86a3-e007914790f5
+# ╟─a0160bc0-009e-43fc-9137-2d61eca62d52
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

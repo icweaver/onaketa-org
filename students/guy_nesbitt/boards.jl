@@ -280,6 +280,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4EKiNTim06i",
 )
 
+# ╔═╡ e28b0d92-4b60-48cd-8a42-c6f53e6ae3ce
+board(
+	"2026-05-05",
+	md"""###### `quadratics`
+	!!! note "Summary"
+		Quadratics practice..
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2E4TbfI3sMj",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -611,6 +621,9 @@ iframe("https://link.excalidraw.com/readonly/N80cPf6qTZsYal3oduvJ?darkMode=true"
 
 # ╔═╡ 5bc7f852-ace7-43b9-a68d-e1ce342e7fa4
 iframe("https://link.excalidraw.com/readonly/kZUTgamvWB0bR7GzY9Xx?darkMode=true")
+
+# ╔═╡ 91879022-1c7c-48fc-bd5e-af306ae004ca
+iframe("https://link.excalidraw.com/readonly/0fAuCxpLpIeigYizDLud?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -1063,6 +1076,8 @@ version = "17.7.0+0"
 # ╟─dccd9fec-324e-4123-bcb0-9dc5064b8071
 # ╟─38509606-c772-4eb9-b9bf-0d62844ba92c
 # ╟─5bc7f852-ace7-43b9-a68d-e1ce342e7fa4
+# ╟─e28b0d92-4b60-48cd-8a42-c6f53e6ae3ce
+# ╟─91879022-1c7c-48fc-bd5e-af306ae004ca
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
