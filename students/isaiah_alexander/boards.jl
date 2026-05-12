@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.24
+# v0.20.25
 
 using Markdown
 using InteractiveUtils
@@ -225,6 +225,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/64wkhywmH3h",
 )
 
+# ╔═╡ faf82e40-ec8b-4f57-ac1a-fd8f7c58cd9a
+board(
+	"2026-05-11",
+	md"""###### `equations`
+	!!! note "Summary"
+		Final review for solving single variable equations.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9DPSxuidzc1",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -289,6 +299,9 @@ iframe("https://link.excalidraw.com/readonly/dEDJto4R1RTNZC6bhGNG?darkMode=true"
 
 # ╔═╡ 112f4518-c64b-4e18-baad-fb3084f9ca91
 iframe("https://link.excalidraw.com/readonly/6APdpw7dC1BvXKlB0TtP?darkMode=true")
+
+# ╔═╡ dbf1a2e6-b2cd-4134-bff7-76749e819190
+iframe("https://link.excalidraw.com/readonly/mMH1NzXOo5fWuIuUA7LS?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title = "Isaiah's board 🏀", depth = 6, indent = false)
@@ -657,6 +670,8 @@ version = "17.7.0+0"
 # ╟─cdb7bf7f-d53f-4a35-be65-3c28a72d99f7
 # ╟─390f6bd9-16cf-481b-b255-d09313071ca1
 # ╟─112f4518-c64b-4e18-baad-fb3084f9ca91
+# ╟─faf82e40-ec8b-4f57-ac1a-fd8f7c58cd9a
+# ╟─dbf1a2e6-b2cd-4134-bff7-76749e819190
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d

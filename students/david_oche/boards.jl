@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.24
+# v0.20.25
 
 using Markdown
 using InteractiveUtils
@@ -217,6 +217,16 @@ board(
 		Reviewed visualizing polynomials by analyzing end-behavior and polynomial long division.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/4gDeePKLmQJ"
+)
+
+# ╔═╡ f12e21eb-dda9-4b75-8867-a2bbee8d3ebd
+board(
+	"2026-05-11",
+	md"""##### `exponential growth`
+	!!! note "Summary"
+	Reviewed solving word problems about exponential growth.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8DaWaNblmOE"
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -494,6 +504,9 @@ iframe("https://link.excalidraw.com/readonly/1DL26dIWJi22NGODzC6k?darkMode=true"
 
 # ╔═╡ 86889e02-c76e-4053-b485-107f0bf45d1f
 iframe("https://link.excalidraw.com/readonly/eY9AIT1KsbwaJxOunWe7?darkMode=true")
+
+# ╔═╡ f41620bb-304b-4c67-bf51-fd2a9f01d2c7
+iframe("https://link.excalidraw.com/readonly/6WJs0IHVbaI5lNYkkavN?darkMode=true")
 
 # ╔═╡ e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
 iframe("https://link.excalidraw.com/readonly/lp2hxSG0TjLhJshzsbY9?darkMode=true")
@@ -919,6 +932,8 @@ version = "17.7.0+0"
 # ╟─f8abfe95-9d1a-46e1-9e0a-78ebe3e6a725
 # ╟─78fd176c-767c-459d-b158-e1e0fd0e3f73
 # ╟─86889e02-c76e-4053-b485-107f0bf45d1f
+# ╟─f12e21eb-dda9-4b75-8867-a2bbee8d3ebd
+# ╟─f41620bb-304b-4c67-bf51-fd2a9f01d2c7
 # ╟─6f1c8c88-1710-42ef-94cd-3ad75c2b437c
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e6bd8c9d-7758-4f58-810a-f4eefdd18a8b
