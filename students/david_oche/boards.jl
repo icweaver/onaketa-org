@@ -224,7 +224,7 @@ board(
 	"2026-05-11",
 	md"""##### `exponential growth`
 	!!! note "Summary"
-	Reviewed solving word problems about exponential growth.
+		Reviewed solving word problems about exponential growth.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/8DaWaNblmOE"
 )
