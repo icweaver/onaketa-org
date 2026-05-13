@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.24
+# v0.20.25
 
 using Markdown
 using InteractiveUtils
@@ -288,6 +288,16 @@ board(
 		Quadratics practice..
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/2E4TbfI3sMj",
+)
+
+# ╔═╡ 118c3a4c-e4df-46f7-a4b2-08ef59f3556f
+board(
+	"2026-05-12",
+	md"""###### `quadratics`
+	!!! note "Summary"
+		Practiced applying quadratics to physics problems.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/81ZeH7PU2bh",
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -624,6 +634,9 @@ iframe("https://link.excalidraw.com/readonly/kZUTgamvWB0bR7GzY9Xx?darkMode=true"
 
 # ╔═╡ 91879022-1c7c-48fc-bd5e-af306ae004ca
 iframe("https://link.excalidraw.com/readonly/0fAuCxpLpIeigYizDLud?darkMode=true")
+
+# ╔═╡ 1410c1ae-f55a-4399-b867-b9fcd9f048b3
+iframe("https://link.excalidraw.com/readonly/ejKtrW2RuLhmjH2kCgi3?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -1078,6 +1091,8 @@ version = "17.7.0+0"
 # ╟─5bc7f852-ace7-43b9-a68d-e1ce342e7fa4
 # ╟─e28b0d92-4b60-48cd-8a42-c6f53e6ae3ce
 # ╟─91879022-1c7c-48fc-bd5e-af306ae004ca
+# ╟─118c3a4c-e4df-46f7-a4b2-08ef59f3556f
+# ╟─1410c1ae-f55a-4399-b867-b9fcd9f048b3
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44

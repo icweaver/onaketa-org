@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.24
+# v0.20.25
 
 using Markdown
 using InteractiveUtils
@@ -225,6 +225,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/GSSVaEtVRq",
 )
 
+# ╔═╡ 523fcd42-aab7-4154-98da-c80bd197f083
+board(
+	"2026-05-12",
+	md"""###### `slope` `y-intercept` `lins`
+	!!! note "Summary"
+		Final session. Reviewed classic ``y = mx + b`` problems.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9EgwsB0GQoO",
+)
+
 # ╔═╡ cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
@@ -289,6 +299,9 @@ iframe("https://link.excalidraw.com/readonly/b5zmyDrUabpoUga5HAhF")
 
 # ╔═╡ a0160bc0-009e-43fc-9137-2d61eca62d52
 iframe("https://link.excalidraw.com/readonly/b1y8jg6qdImjeRZczN53")
+
+# ╔═╡ 9189852e-8cec-44d6-bb62-b6361000d295
+iframe("https://link.excalidraw.com/readonly/zODUKh9IGcL4KbygqNHC")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
 TableOfContents(; title="Tywan's Board 💀", depth = 6, indent = false)
@@ -657,6 +670,8 @@ version = "17.7.0+0"
 # ╟─8a8745e2-b69a-469d-b4f8-1f077ade8384
 # ╟─63ed6025-6d8d-4726-86a3-e007914790f5
 # ╟─a0160bc0-009e-43fc-9137-2d61eca62d52
+# ╟─523fcd42-aab7-4154-98da-c80bd197f083
+# ╟─9189852e-8cec-44d6-bb62-b6361000d295
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
 # ╟─cc17e1bf-acbf-4e95-b28b-3b77e5ae4e69
 # ╟─f2c740f5-c472-43e5-93a1-10f8a8964e5d
