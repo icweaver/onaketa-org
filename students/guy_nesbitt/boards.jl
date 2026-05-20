@@ -300,6 +300,16 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/81ZeH7PU2bh",
 )
 
+# ╔═╡ 363c30ab-9d5f-4ac5-8189-e13c9cef9f27
+board(
+	"2026-05-19",
+	md"""###### `quadratics`
+	!!! note "Summary"
+		Reviewed word problems using quadratics for final test next Thursday.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/2RT7TI1B15e",
+)
+
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
 board(
 	"2024-10-09",
@@ -637,6 +647,9 @@ iframe("https://link.excalidraw.com/readonly/0fAuCxpLpIeigYizDLud?darkMode=true"
 
 # ╔═╡ 1410c1ae-f55a-4399-b867-b9fcd9f048b3
 iframe("https://link.excalidraw.com/readonly/ejKtrW2RuLhmjH2kCgi3?darkMode=true")
+
+# ╔═╡ 4583874f-fb09-4f50-bb90-28f53ea7a534
+iframe("https://link.excalidraw.com/readonly/GeixeFnDHiJsiJdO5Uf6?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -1093,6 +1106,8 @@ version = "17.7.0+0"
 # ╟─91879022-1c7c-48fc-bd5e-af306ae004ca
 # ╟─118c3a4c-e4df-46f7-a4b2-08ef59f3556f
 # ╟─1410c1ae-f55a-4399-b867-b9fcd9f048b3
+# ╟─363c30ab-9d5f-4ac5-8189-e13c9cef9f27
+# ╟─4583874f-fb09-4f50-bb90-28f53ea7a534
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
