@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.25
+# v1.0.0
 
 using Markdown
 using InteractiveUtils
@@ -308,6 +308,16 @@ board(
 		Reviewed word problems using quadratics for final test next Thursday.
 	""",
 	"https://link.excalidraw.com/l/570Ui7jcPf6/2RT7TI1B15e",
+)
+
+# ╔═╡ 1417bda9-ae00-4463-b4d2-4f26f53500ad
+board(
+	"2026-05-26",
+	md"""###### `quadratics`
+	!!! note "Summary"
+		Final session. Reviewed quadratics for final test this week.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/6Alv4zI43eq",
 )
 
 # ╔═╡ 1144202e-0363-11ef-3e0d-03ce94bf2bb3
@@ -650,6 +660,9 @@ iframe("https://link.excalidraw.com/readonly/ejKtrW2RuLhmjH2kCgi3?darkMode=true"
 
 # ╔═╡ 4583874f-fb09-4f50-bb90-28f53ea7a534
 iframe("https://link.excalidraw.com/readonly/GeixeFnDHiJsiJdO5Uf6?darkMode=true")
+
+# ╔═╡ f6a05779-3c2a-4ca2-9ba1-b1eb95bad8ea
+iframe("https://link.excalidraw.com/readonly/6TpHUGM7lKkjdxSOdH3C?darkMode=true")
 
 # ╔═╡ e8a51fd7-1c7f-43e6-b76f-773833650b44
 iframe("https://link.excalidraw.com/readonly/7vxnmW7Th7BTkVIf4tOY?darkMode=true")
@@ -1108,6 +1121,8 @@ version = "17.7.0+0"
 # ╟─1410c1ae-f55a-4399-b867-b9fcd9f048b3
 # ╟─363c30ab-9d5f-4ac5-8189-e13c9cef9f27
 # ╟─4583874f-fb09-4f50-bb90-28f53ea7a534
+# ╟─1417bda9-ae00-4463-b4d2-4f26f53500ad
+# ╟─f6a05779-3c2a-4ca2-9ba1-b1eb95bad8ea
 # ╟─69621754-6647-4056-a2e6-ccf81af3f0d3
 # ╟─1144202e-0363-11ef-3e0d-03ce94bf2bb3
 # ╟─e8a51fd7-1c7f-43e6-b76f-773833650b44
