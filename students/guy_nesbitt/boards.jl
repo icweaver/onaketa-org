@@ -41,6 +41,18 @@ $(description)
 👉🏾 [Link to board]($(url_share))
 """ |> Markdown.parse;
 
+# ╔═╡ abc92a8e-5050-4585-9899-58ebef738d51
+board(
+	"2026-10-08",
+	md"""###### `momentum` `impulse`
+	!!! note "Summary"
+		* Finals prep for Physics
+		* Conservation of momentum in elastic and inelastic collisions
+		* Applications of the impulse equation
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/3KCDtUHdErC"
+)
+
 # ╔═╡ b097f484-8169-4312-b0f5-87006937d193
 board(
 	"2026-10-07",
@@ -598,6 +610,9 @@ iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
 """;
 
+# ╔═╡ f5f24107-b1b7-45a8-9396-e3eff623d3a2
+iframe("https://link.excalidraw.com/readonly/0JqxPQcyhz6zV6bftNmv?darkMode=true")
+
 # ╔═╡ 8c138e16-41a3-4bc5-b495-a731522acd31
 iframe("https://link.excalidraw.com/readonly/LJlo0f0l4IPUNUo8oo0S?darkMode=true")
 
@@ -1119,6 +1134,8 @@ uuid = "23338594-aafe-5451-b93e-139f81909106"
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─9083ee98-ed90-4bcd-bb8a-2b51a254c6b8
+# ╟─abc92a8e-5050-4585-9899-58ebef738d51
+# ╟─f5f24107-b1b7-45a8-9396-e3eff623d3a2
 # ╟─b097f484-8169-4312-b0f5-87006937d193
 # ╟─8c138e16-41a3-4bc5-b495-a731522acd31
 # ╟─a1663be4-3593-4880-8f42-e5dcc9c75609
