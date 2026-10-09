@@ -26,6 +26,16 @@ $(description)
 👉🏾 [Link to board]($(url_share))
 """ |> Markdown.parse;
 
+# ╔═╡ bb97ebdb-d04f-4d26-9df3-da4a23747c32
+board(
+	"2026-10-08",
+	md"""###### `domain` `range` 
+	!!! note "Summary"
+		Reviews domain and range of continuous and discrete functions for math final.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/9N94bG34KHD",
+)
+
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
 	"2026-10-05",
@@ -40,6 +50,9 @@ board(
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=400 style="border: none;"></iframe>
 """;
+
+# ╔═╡ 29b06d13-d846-4dce-b74c-ad0156010428
+iframe("https://link.excalidraw.com/readonly/S5Ydeps7Ulnc1lKjdlyg?darkMode=true")
 
 # ╔═╡ ed69e148-d2b7-4ba0-b01c-2ba48e34ce9e
 iframe("https://link.excalidraw.com/readonly/05D22oNIjdseoEN9N8gP?darkMode=true")
@@ -402,6 +415,8 @@ uuid = "23338594-aafe-5451-b93e-139f81909106"
 
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
+# ╟─bb97ebdb-d04f-4d26-9df3-da4a23747c32
+# ╟─29b06d13-d846-4dce-b74c-ad0156010428
 # ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
 # ╟─ed69e148-d2b7-4ba0-b01c-2ba48e34ce9e
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
