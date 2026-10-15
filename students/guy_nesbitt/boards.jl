@@ -41,6 +41,17 @@ $(description)
 👉🏾 [Link to board]($(url_share))
 """ |> Markdown.parse;
 
+# ╔═╡ be63f5a0-5e44-46a7-aa4d-60970e96f9aa
+board(
+	"2026-10-14",
+	md"""###### `exponentials`
+	!!! note "Summary"
+		* Introduced exponential functions
+		* Previewed logarithmic functions
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5ToXMdLZaVf"
+)
+
 # ╔═╡ abc92a8e-5050-4585-9899-58ebef738d51
 board(
 	"2026-10-08",
@@ -610,6 +621,9 @@ iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
 """;
 
+# ╔═╡ 4d45dc8b-da13-4cd0-96e7-4709dadf881f
+iframe("https://link.excalidraw.com/readonly/b10UfHoP5g1sMxcT553X?darkMode=true")
+
 # ╔═╡ f5f24107-b1b7-45a8-9396-e3eff623d3a2
 iframe("https://link.excalidraw.com/readonly/0JqxPQcyhz6zV6bftNmv?darkMode=true")
 
@@ -1134,6 +1148,8 @@ uuid = "23338594-aafe-5451-b93e-139f81909106"
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─9083ee98-ed90-4bcd-bb8a-2b51a254c6b8
+# ╟─be63f5a0-5e44-46a7-aa4d-60970e96f9aa
+# ╟─4d45dc8b-da13-4cd0-96e7-4709dadf881f
 # ╟─abc92a8e-5050-4585-9899-58ebef738d51
 # ╟─f5f24107-b1b7-45a8-9396-e3eff623d3a2
 # ╟─b097f484-8169-4312-b0f5-87006937d193
