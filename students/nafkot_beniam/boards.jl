@@ -28,7 +28,7 @@ $(description)
 
 # ╔═╡ 9da05930-e538-4f1e-bb4c-d0e1644169aa
 board(
-	"2026-10-04",
+	"2026-10-14",
 	md"""###### `slope` 
 	!!! note "Summary"
 		- Continued slope, y-intercept review.
