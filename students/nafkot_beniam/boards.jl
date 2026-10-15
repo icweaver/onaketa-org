@@ -60,7 +60,7 @@ iframe("https://link.excalidraw.com/readonly/bUSuMky3WUiIdkHAE6qS?darkMode=true"
 iframe("https://link.excalidraw.com/readonly/dOYofleSo1uAlxoclMn9?darkMode=true")
 
 # ╔═╡ f2c740f5-c472-43e5-93a1-10f8a8964e5d
-TableOfContents(; title = "Carter's Board 🏀", depth = 6, indent = false)
+TableOfContents(; title = "Nafkot's Board 🏀", depth = 6, indent = false)
 
 # ╔═╡ cabd7532-3705-4caf-82a5-12f9fd5a47f2
 @htl """
