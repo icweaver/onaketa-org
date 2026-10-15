@@ -26,6 +26,17 @@ $(description)
 👉🏾 [Link to board]($(url_share))
 """ |> Markdown.parse;
 
+# ╔═╡ 9da05930-e538-4f1e-bb4c-d0e1644169aa
+board(
+	"2026-10-04",
+	md"""###### `slope` 
+	!!! note "Summary"
+		- Continued slope, y-intercept review.
+		- Completed homework.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4kjtF5MrwGl",
+)
+
 # ╔═╡ d8843210-9c3c-43c3-bcb2-70171899d9d1
 board(
 	"2026-10-09",
@@ -41,6 +52,9 @@ board(
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=400 style="border: none;"></iframe>
 """;
+
+# ╔═╡ a4cfb475-210d-4a01-bc6c-69f9d06b4122
+iframe("https://link.excalidraw.com/readonly/bUSuMky3WUiIdkHAE6qS?darkMode=true")
 
 # ╔═╡ ed69e148-d2b7-4ba0-b01c-2ba48e34ce9e
 iframe("https://link.excalidraw.com/readonly/dOYofleSo1uAlxoclMn9?darkMode=true")
@@ -403,6 +417,8 @@ uuid = "23338594-aafe-5451-b93e-139f81909106"
 
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
+# ╟─9da05930-e538-4f1e-bb4c-d0e1644169aa
+# ╟─a4cfb475-210d-4a01-bc6c-69f9d06b4122
 # ╟─d8843210-9c3c-43c3-bcb2-70171899d9d1
 # ╟─ed69e148-d2b7-4ba0-b01c-2ba48e34ce9e
 # ╟─45d0f413-6543-48b6-a269-3292c27261a6
