@@ -41,15 +41,17 @@ $(description)
 👉🏾 [Link to board]($(url_share))
 """ |> Markdown.parse;
 
-# ╔═╡ be63f5a0-5e44-46a7-aa4d-60970e96f9aa
+# ╔═╡ b097f484-8169-4312-b0f5-87006937d193
 board(
-	"2026-10-14",
-	md"""###### `exponentials`
+	"2026-10-07",
+	md"""###### `factoring` `polynomials` `inverse`
 	!!! note "Summary"
-		* Introduced exponential functions
-		* Previewed logarithmic functions
+		* Finals prep for Honors Math 3
+		* Factoring quadratics and cubics
+		* Graphing
+		* Inverse functions
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/5ToXMdLZaVf"
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5LWQuyQ1tyL"
 )
 
 # ╔═╡ abc92a8e-5050-4585-9899-58ebef738d51
@@ -64,17 +66,25 @@ board(
 	"https://link.excalidraw.com/l/570Ui7jcPf6/3KCDtUHdErC"
 )
 
-# ╔═╡ b097f484-8169-4312-b0f5-87006937d193
+# ╔═╡ be63f5a0-5e44-46a7-aa4d-60970e96f9aa
 board(
-	"2026-10-07",
-	md"""###### `factoring` `polynomials` `inverse`
+	"2026-10-14",
+	md"""###### `exponentials`
 	!!! note "Summary"
-		* Finals prep for Honors Math 3
-		* Factoring quadratics and cubics
-		* Graphing
-		* Inverse functions
+		* Introduced exponential functions
+		* Previewed logarithmic functions
 	""",
-	"https://link.excalidraw.com/l/570Ui7jcPf6/5LWQuyQ1tyL"
+	"https://link.excalidraw.com/l/570Ui7jcPf6/5ToXMdLZaVf"
+)
+
+# ╔═╡ 6b6229d9-372e-40f8-b63a-c46535a451b7
+board(
+	"2026-10-21",
+	md"""###### `exponentials`
+	!!! note "Summary"
+		* Intro'd exponential growth equation
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/4RhSpuoVg8X"
 )
 
 # ╔═╡ 2ea5e382-a7f6-4c4c-aa6e-6b84af73aaf0
@@ -621,14 +631,17 @@ iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=800 style="border: none;"></iframe>
 """;
 
-# ╔═╡ 4d45dc8b-da13-4cd0-96e7-4709dadf881f
-iframe("https://link.excalidraw.com/readonly/b10UfHoP5g1sMxcT553X?darkMode=true")
+# ╔═╡ 8c138e16-41a3-4bc5-b495-a731522acd31
+iframe("https://link.excalidraw.com/readonly/LJlo0f0l4IPUNUo8oo0S?darkMode=true")
 
 # ╔═╡ f5f24107-b1b7-45a8-9396-e3eff623d3a2
 iframe("https://link.excalidraw.com/readonly/0JqxPQcyhz6zV6bftNmv?darkMode=true")
 
-# ╔═╡ 8c138e16-41a3-4bc5-b495-a731522acd31
-iframe("https://link.excalidraw.com/readonly/LJlo0f0l4IPUNUo8oo0S?darkMode=true")
+# ╔═╡ 4d45dc8b-da13-4cd0-96e7-4709dadf881f
+iframe("https://link.excalidraw.com/readonly/b10UfHoP5g1sMxcT553X?darkMode=true")
+
+# ╔═╡ 88cf5b0e-614b-4310-974e-e678faa7a2b6
+iframe("https://link.excalidraw.com/readonly/ttq6ITeWfPa1JXFTDkcW?darkMode=true")
 
 # ╔═╡ a5ec58c7-e5a8-482f-8f36-654e981ee0bc
 iframe("https://link.excalidraw.com/readonly/T2108fqUFXayRECXoL31?darkMode=true")
@@ -818,7 +831,7 @@ PlutoUI = "~0.7.61"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.13.1"
+julia_version = "1.13.2"
 manifest_format = "2.1"
 project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
@@ -931,7 +944,7 @@ version = "1.0.0"
 [[deps.LibCURL_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "LibSSH2_jll", "Libdl", "OpenSSL_jll", "Zlib_jll", "Zstd_jll", "nghttp2_jll"]
 uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
-version = "8.18.0+1"
+version = "8.22.0+0"
 
 [[deps.LibGit2]]
 deps = ["LibGit2_jll", "NetworkOptions", "Printf", "SHA"]
@@ -941,7 +954,7 @@ version = "1.11.0"
 [[deps.LibGit2_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "LibSSH2_jll", "Libdl", "OpenSSL_jll", "PCRE2_jll", "Zlib_jll"]
 uuid = "e37daf67-58a4-590a-8e99-b0245dd2ffc5"
-version = "1.9.1+0"
+version = "1.9.7+0"
 
 [[deps.LibSSH2_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl", "OpenSSL_jll", "Zlib_jll"]
@@ -992,7 +1005,7 @@ version = "0.3.30+0"
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "3.5.6+0"
+version = "3.5.8+0"
 
 [[deps.PCRE2_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -1118,7 +1131,7 @@ version = "1.11.0"
 [[deps.Zlib_jll]]
 deps = ["Libdl"]
 uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
-version = "1.3.1+2"
+version = "1.3.2+0"
 
 [[deps.Zstd_jll]]
 deps = ["CompilerSupportLibraries_jll", "Libdl"]
@@ -1133,12 +1146,12 @@ version = "5.15.0+0"
 [[deps.nghttp2_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl"]
 uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
-version = "1.67.1+0"
+version = "1.70.0+0"
 
 [[deps.p7zip_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl"]
 uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
-version = "17.8.2+0"
+version = "17.8.3+0"
 
 [registries.General]
 url = "https://github.com/JuliaRegistries/General.git"
@@ -1148,12 +1161,14 @@ uuid = "23338594-aafe-5451-b93e-139f81909106"
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
 # ╟─9083ee98-ed90-4bcd-bb8a-2b51a254c6b8
-# ╟─be63f5a0-5e44-46a7-aa4d-60970e96f9aa
-# ╟─4d45dc8b-da13-4cd0-96e7-4709dadf881f
-# ╟─abc92a8e-5050-4585-9899-58ebef738d51
-# ╟─f5f24107-b1b7-45a8-9396-e3eff623d3a2
 # ╟─b097f484-8169-4312-b0f5-87006937d193
 # ╟─8c138e16-41a3-4bc5-b495-a731522acd31
+# ╟─abc92a8e-5050-4585-9899-58ebef738d51
+# ╟─f5f24107-b1b7-45a8-9396-e3eff623d3a2
+# ╟─be63f5a0-5e44-46a7-aa4d-60970e96f9aa
+# ╟─4d45dc8b-da13-4cd0-96e7-4709dadf881f
+# ╟─6b6229d9-372e-40f8-b63a-c46535a451b7
+# ╟─88cf5b0e-614b-4310-974e-e678faa7a2b6
 # ╟─a1663be4-3593-4880-8f42-e5dcc9c75609
 # ╟─2ea5e382-a7f6-4c4c-aa6e-6b84af73aaf0
 # ╟─a5ec58c7-e5a8-482f-8f36-654e981ee0bc
