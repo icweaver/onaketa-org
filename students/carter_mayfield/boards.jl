@@ -26,6 +26,16 @@ $(description)
 👉🏾 [Link to board]($(url_share))
 """ |> Markdown.parse;
 
+# ╔═╡ f40dfba4-88fa-46d8-a3e9-771f3a5f144c
+board(
+	"2026-10-26",
+	md"""###### `absolute value` `cross multiplying` 
+	!!! note "Summary"
+		Reviewed functions using absolute values and cross multiplication for test coming up.
+	""",
+	"https://link.excalidraw.com/l/570Ui7jcPf6/8Lco2tVPMco",
+)
+
 # ╔═╡ ed2aff9f-584d-487d-9009-b652c8a390e1
 board(
 	"2026-10-19",
@@ -60,6 +70,9 @@ board(
 iframe(url) = @htl """
 <iframe src="$(url)" width="100%" height=400 style="border: none;"></iframe>
 """;
+
+# ╔═╡ 47b24ce6-3cfc-422b-937e-eeb2083757a9
+iframe("https://link.excalidraw.com/readonly/1T6i1fRNsvuEg7EELy2e?darkMode=true")
 
 # ╔═╡ c535cdbf-f3cb-4c5d-9832-5ddd3af6da59
 iframe("https://link.excalidraw.com/readonly/5ZZWBLOrlkAZMPTQAuvm?darkMode=true")
@@ -99,7 +112,7 @@ PlutoUI = "~0.7.61"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.13.2"
+julia_version = "1.13.3"
 manifest_format = "2.1"
 project_hash = "6aa5e710625d54478f144a029b5704df9b7d712a"
 
@@ -259,7 +272,7 @@ version = "1.11.0"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
-version = "2026.8.13"
+version = "2026.10.20"
 
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
@@ -278,7 +291,7 @@ version = "3.5.8+0"
 [[deps.PCRE2_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "efcefdf7-47ab-520b-bdef-62a2eaa19f15"
-version = "10.46.0+0"
+version = "10.47.0+0"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
@@ -428,6 +441,8 @@ uuid = "23338594-aafe-5451-b93e-139f81909106"
 
 # ╔═╡ Cell order:
 # ╟─d0bd18f5-f50f-47cf-b39c-ec3ee9183304
+# ╟─f40dfba4-88fa-46d8-a3e9-771f3a5f144c
+# ╟─47b24ce6-3cfc-422b-937e-eeb2083757a9
 # ╟─ed2aff9f-584d-487d-9009-b652c8a390e1
 # ╟─c535cdbf-f3cb-4c5d-9832-5ddd3af6da59
 # ╟─bb97ebdb-d04f-4d26-9df3-da4a23747c32
